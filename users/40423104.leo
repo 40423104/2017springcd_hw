@@ -56,9 +56,8 @@
 </v>
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
-<v t="yen.20170123225841.1"><vh>@edit 20170223.md</vh></v>
-<v t="leo.20170307083132.1"><vh>@edit 20170108.md</vh></v>
-<v t="yen.20170207091131.1" a="E"><vh>@clean 20170207.md</vh>
+<v t="leo.20170307212225.1"><vh>@edit 20170223.md</vh></v>
+<v t="yen.20170207091131.1"><vh>@clean 20170207.md</vh>
 <v t="yen.20170207091131.2"><vh>ex1 - for 迴圈</vh></v>
 <v t="yen.20170207091131.3"><vh>ex2 - input 與單位換算</vh></v>
 <v t="yen.20170207091131.4"><vh>filereader</vh></v>
