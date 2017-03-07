@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-02-23T15:00:00+08:00</updated><entry><title>2017Spring 協同設計資料與連桿實習</title><link href="./2017spring-cd.html" rel="alternate"></link><published>2017-02-23T15:00:00+08:00</published><updated>2017-02-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-02-23:./2017spring-cd.html</id><summary type="html">&lt;p&gt;solvespace與Onshape實習
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-02T15:00:00+08:00</updated><entry><title>solvespace四連桿v-rep應用</title><link href="./solvespace%E8%88%87v-rep.html" rel="alternate"></link><published>2017-03-02T15:00:00+08:00</published><updated>2017-03-02T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-02:./solvespace與v-rep.html</id><summary type="html">&lt;h4&gt;Solvespace四連桿系統繪圖模擬&lt;/h4&gt;
+&lt;h4&gt;v-rep應用模擬&lt;/h4&gt;
+
+
+&lt;h2&gt;利用Solvespace組合四連桿機構&lt;/h2&gt;
+&lt;h3&gt;四連桿機構&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/206347595" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/206347595"&gt;W1 and W2四連桿-20170302&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;長度30連桿&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/207312630" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/207312630"&gt;W2-30桿件&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="./../data/Week2/30桿件.html" width="640" height="360"&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;長度50連桿&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/207314989" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/207314989"&gt;W2-50桿件&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="./../data/Week2/50桿件.html" width="640" height="360"&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;長度60連桿&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/207315011" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/207315011"&gt;W2-60桿件&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="./../data/Week2/60桿件.html" width="640" height="360"&gt;&lt;/iframe&gt;
+
+&lt;h3&gt;四連桿組合&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/207315023" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/207315023"&gt;W2-組合&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="./../data/Week2/組合.html" width="640" height="360"&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;v-rep應用&lt;/h2&gt;
+&lt;h4&gt;還在整理&lt;/h4&gt;
+&lt;h2&gt;心得&lt;/h2&gt;
+&lt;p&gt;&lt;p&gt; 1.學習v-rep應用模擬四連桿 &lt;/p&gt;
+&lt;p&gt; 2.熟悉v-rep操作 &lt;/p&gt;
+&lt;p&gt; 3.隨著多次練習畫圖模擬，更了解上課內容 &lt;/p&gt;&lt;/p&gt;</summary><category term="solvespace與v-rep-W2"></category></entry><entry><title>2017Spring 協同設計資料與連桿實習</title><link href="./2017spring-cd.html" rel="alternate"></link><published>2017-02-23T15:00:00+08:00</published><updated>2017-02-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-02-23:./2017spring-cd.html</id><summary type="html">&lt;p&gt;solvespace與Onshape實習
 &lt;/p&gt;
 &lt;h2&gt;協同設計資料&lt;/h2&gt;
 &lt;h3&gt;1.利用 GitHub 建立 2017springcd_hw作業倉儲&lt;/h3&gt;
@@ -42,26 +85,26 @@
 &lt;h3&gt;四連桿機構&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/206347595" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/206347595"&gt;w2四連桿-20170302&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/206347595"&gt;W1 and W2四連桿-20170302&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3&gt;長度30連桿&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/206344876" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/206344876"&gt;W2-30桿件-20170302&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/206344876"&gt;W1-30桿件-20170223&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;iframe src="./../data/Week1/30桿.html" width="640" height="360"&gt;&lt;/iframe&gt;
 
 &lt;h3&gt;長度50連桿&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/206346002" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/206346002"&gt;W2-50桿件-20170302&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/206346002"&gt;W1-50桿件-20170223&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;iframe src="./../data/Week1/50桿.html" width="640" height="360"&gt;&lt;/iframe&gt;
 
 &lt;h3&gt;長度60連桿&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/206347142" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/206347142"&gt;W2-60桿件-20170302&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/206347142"&gt;W1-60桿件-20170223&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;iframe src="./../data/Week1/60桿.html" width="640" height="360"&gt;&lt;/iframe&gt;
 
