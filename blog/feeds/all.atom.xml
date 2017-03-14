@@ -1,5 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-02T15:00:00+08:00</updated><entry><title>solvespace四連桿v-rep應用-W2</title><link href="./solvespace%E8%88%87v-rep.html" rel="alternate"></link><published>2017-03-02T15:00:00+08:00</published><updated>2017-03-02T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-02:./solvespace與v-rep.html</id><summary type="html">&lt;h4&gt;Solvespace四連桿系統繪圖模擬&lt;/h4&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-09T15:00:00+08:00</updated><entry><title>Fossil 與 Stunnel 啟動-W3</title><link href="./Fossil%20%E8%88%87%20Stunnel.html" rel="alternate"></link><published>2017-03-09T15:00:00+08:00</published><updated>2017-03-09T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-09:./Fossil 與 Stunnel.html</id><summary type="html">&lt;h4&gt;Fossil SCM&lt;/h4&gt;
+&lt;h4&gt;Stunnel 啟動&lt;/h4&gt;
+&lt;h4&gt;hyperworks翻譯&lt;/h4&gt;
+
+
+&lt;h2&gt;Fossil SCM與Stunnel 啟動&lt;/h2&gt;
+&lt;h4&gt;步驟1. 執行fossil_repo目錄執行指令&lt;/h4&gt;
+&lt;p&gt;&lt;pre&gt;fossil init 組別.fpssil&lt;/pre&gt;
+&lt;a href="http://imgur.com/lxR6Cpe"&gt;&lt;img src="http://i.imgur.com/lxR6Cpe.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;a href="http://imgur.com/nxL7g4L"&gt;&lt;img src="http://i.imgur.com/nxL7g4L.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;p&gt;*帳號密碼記得儲存&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;步驟2. 更改Start.bat內容(在SciTE下更改)&lt;/h4&gt;
+&lt;p&gt;&lt;pre class="brush: python"&gt;
+REM tiny2017 主要針對初學 Python3 與 C 學員所建立
+REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
+@echo off
+REM 設定 y 硬碟代號與 data 目錄對應
+set Disk=y
+subst %Disk%: "data"
+REM 設定 leo 相關對應 Home 位置
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+REM 將後續的指令執行, 以 %Disk% 為主
+%Disk%:
+REM 設定 PYTHONPATH
+set PYTHONPATH=%Disk%:\python-3.5.3-embed-amd64
+REM 設定 Leo 所用的編輯器
+set LEO_EDITOR=%Disk%:\wscite\SciTE.exe
+REM for fossil https 連線設定
+set HTTPS=on
+REM 指令搜尋路徑設定
+set path1=%PATH%;%Disk%:;%Disk%:\python-3.5.3-embed-amd64;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\python-3.5.3-embed-amd64\Scripts;%Disk%:\portablegit\bin;
+set path2=c:\Windows\Microsoft.NET\Framework\v3.5;%Disk%:\python-3.5.3-embed-amd64\Lib\site-packages;
+path=%path%;%path1%;%path2%
+start /MIN %Disk%:\wscite\SciTE.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+REM 啟動 Leo 編輯器
+REM %Disk%:\Miniconda3\python.exe %Disk%:\apps\launchLeo.py
+REM 啟動 stunnel
+start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo\2017springcd_hw.fpssil
+REM 取得電腦 IP, 然後設定 %Disk%:/stunnel/config/stunnel.conf
+for /f "delims=[] tokens=2" %%a in ('ping -4 -n 1 %ComputerName% ^| findstr [') do set NetworkIP=%%a
+REM echo Network IP: %NetworkIP%
+REM Saved in %Disk%:\stunnel\config\stunnel.conf
+@echo off
+REM 建立 stunnel.conf
+@echo [https] &amp;gt; %Disk%:\stunnel\config\stunnel.conf
+REM 附加資料
+@echo accept = %NetworkIP%:443 &amp;gt;&amp;gt; %Disk%:\stunnel\config\stunnel.conf
+@echo connect = 127.0.0.1:8080 &amp;gt;&amp;gt; %Disk%:\stunnel\config\stunnel.conf
+@echo TIMEOUTclose = 0 &amp;gt;&amp;gt; %Disk%:\stunnel\config\stunnel.conf
+@echo cert = %Disk%:\stunnel\config\localhost.crt &amp;gt;&amp;gt; %Disk%:\stunnel\config\stunnel.conf
+@echo key = %Disk%:\stunnel\config\localhost.key &amp;gt;&amp;gt; %Disk%:\stunnel\config\stunnel.conf
+REM 啟動 stunnel
+start /MIN stunnel.exe
+Exit
+&lt;/pre&gt;
+&lt;p&gt;*記得要儲存&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;步驟3. 執行查詢IP指令(如有使用proxy，記得先關閉)&lt;/h4&gt;
+&lt;p&gt;&lt;pre&gt;ipconfig /all&lt;/pre&gt;
+&lt;a href="http://imgur.com/uKh1Dq3"&gt;&lt;img src="http://i.imgur.com/uKh1Dq3.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;步驟4. 將查詢到的IPv4&lt;/h4&gt;
+&lt;p&gt;&lt;pre&gt;在網頁上輸入 https://IP位址 &lt;/pre&gt;&lt;/p&gt;
+&lt;h4&gt;完成&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/k7r1XRG"&gt;&lt;img src="http://i.imgur.com/k7r1XRG.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;可在網頁中進入設定更改成自己小組的名字&lt;/h4&gt;
+&lt;h2&gt;hyperworks翻譯&lt;/h2&gt;
+&lt;h3&gt;hyperworks1&lt;/h3&gt;
+&lt;p&gt;In the 2017 release, we followed our vision and implement a lot more features, delivering more technology for your HyperWorks units investment.
+In our continuous development, we focused, as always, on simulation-driven innovation, adding more optimization technology. 
+We added more physics simulation to the software, and we improved our parallel performance on high performance computers. 
+OptiStruct, which is our implicit code, adds a lot of development in the nonlinear implicit area, but also in the optimization technology. 
+RADIOSS, we see a lot of development in new materials and material modeling. 
+You probably know that we did the acquisition of MDS a couple of years back, and we have now MDS integrated with RSDIOSS, and are doing application there. MotionSolve is based on a very unique formulation that this different from other multibody dynamics code, and the MotionSolve formulation lends itself very well to optimization implementation. So the team has worked really hard on contact formulations, got very robust. It's very cool which kind of problems can solve with contact modelling.
+So this is along the structural solvers side on AcuSolve side we actually added the complete portfolio of turbulence and transition models that really helps us to solve problems in wind turbines and automotive industry much more accurately, and it’s a big asset of physics simulation.
+And then our electromagnetic suite has actually grown last year through the acquisition of Flux, from the CEDRAT company.
+As well as the acquisition of WinProp, from AWE.
+So now we have a complete frequency spectrum from low frequency electromagnetics the high frequency electromagnetics which is powered by FEKO.
+We now have a complete portfolio of physics modeling available for our customers, and it’s all linked through optimization.&lt;/p&gt;
+&lt;h3&gt;hyperworks3&lt;/h3&gt;
+&lt;p&gt;In OptiStruct, one of our focus areas is nonlinear large deformation analysis 
+And in 2017 we added nonlinear transient analysis
+The main purpose was to couple AcuSolve to do fluid-structure interaction
+But also one development that happened during the last year
+Came out piece-wise in different point releases
+And is now really mature
+And 2017 is our contact analysis
+So we have different ways of defining large sliding contact and things like that
+The fast contact analysis for small deformation is blazing fast
+It’s a very simple idea that makes the solution very fast, and that adds OptiStruct as really a leading nonlinear 
+Our two major optimization packages are OptiStruct for structural optimization, there’s a huge multidisciplinary component, too
+And Hyperstudy for general optimization wrap around multidisciplinary optimization
+[For] OptiStruct we spend a lot of time continuing the development for optimization
+And we have now Failsafe topology optimization
+We kept on working on the manufacturing solution to do lattice optimization
+For the multi-model optimization it’s really maturing and we find more and more applications where that helps 
+Our goal is actually to include all the physics in the optimizations
+So the team right now is working on optimization for nonlinear problems and so on
+And then Hyperstudy, on the other hand, is going through a new transformation of the user the user experience was changed a few years back, but we are now trying to  make it much more easy to use by hiding a lot of the advanced functionalities to the regular users
+And depending on the level of expertise or depending on the job that the user has to do, they can customize the userience
+We adds a few new connections
+One of them is a Flux connection
+Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that&lt;/p&gt;
+&lt;h2&gt;心得&lt;/h2&gt;
+&lt;p&gt;&lt;p&gt; 1.學習如何使用Fossil SCM &lt;/p&gt;
+&lt;p&gt; 2.目前Stunnel 啟動不能再proxy下進入網頁 &lt;/p&gt;
+&lt;p&gt; 3.英文翻譯學習 &lt;/p&gt;&lt;/p&gt;</summary><category term="Fossil 與 Stunnel-W3"></category></entry><entry><title>solvespace四連桿v-rep應用-W2</title><link href="./solvespace%E8%88%87v-rep.html" rel="alternate"></link><published>2017-03-02T15:00:00+08:00</published><updated>2017-03-02T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-02:./solvespace與v-rep.html</id><summary type="html">&lt;h4&gt;Solvespace四連桿系統繪圖模擬&lt;/h4&gt;
 &lt;h4&gt;v-rep應用模擬&lt;/h4&gt;
 
 
@@ -47,19 +158,28 @@
 
 
 &lt;h2&gt;協同設計資料&lt;/h2&gt;
-&lt;h3&gt;1.利用 GitHub 建立 2017springcd_hw作業倉儲&lt;/h3&gt;
-&lt;h3&gt;2.利用 GitHub 建立 2017springcd_ag2小組倉儲&lt;/h3&gt;
-&lt;h3&gt;3.使用 git submodule指令，將組員增加在同一個子目錄&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt; &lt;/p&gt;
+&lt;h4&gt;1.利用 GitHub 建立 2017springcd_hw作業倉儲&lt;/h4&gt;
+&lt;h4&gt;2.利用 GitHub 建立 2017springcd_ag2小組倉儲&lt;/h4&gt;
+&lt;h4&gt;3.使用 git submodule指令，將組員增加在同一個子目錄&lt;/h4&gt;
+&lt;/pre&gt;
+
 &lt;h3&gt;增加子目錄指令:&lt;/h3&gt;
+&lt;pre&gt;
+
 &lt;h4&gt;A.→git clone 小組倉儲&lt;/h4&gt;
 &lt;h4&gt;B.→cd 倉儲資料夾&lt;/h4&gt;
 &lt;h4&gt;C.→git submodule add 子目錄倉儲網址 子目錄名稱&lt;/h4&gt;
+&lt;/pre&gt;
+
 &lt;h3&gt;更新子目錄指令:&lt;/h3&gt;
+&lt;pre&gt;
+
 &lt;h4&gt;A.git submodule update --init --recursive→抓取原倉儲的子目錄資料&lt;/h4&gt;
-&lt;h4&gt;B.git submodule foreach --recursive git pull origin gh-pages→更新所有的子目錄的版本(所有組員都更新)&lt;/h4&gt;
+&lt;h4&gt;B.git submodule foreach --recursive git pull origin gh-pages→更新所有的子目錄的版本(所有組員都更新) &lt;/pre&gt;&lt;/h4&gt;
 &lt;h2&gt;W1任務&lt;/h2&gt;
-&lt;h3&gt;1.使用隨身硬碟下載可攜系統，下載&lt;a href="http://service.mde.tw/public/tiny2017_50MB.7z"&gt;tiny2017_50MB.7z&lt;/a&gt;, 以及 &lt;a href="http://service.mde.tw/public/tiny2017_1GB.7z"&gt;tiny2017_1GB.7z&lt;/a&gt;&lt;/h3&gt;
-&lt;h3&gt;2.如何在 tiny2017_1GB.7z 下開起LEO&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt; &lt;p&gt;1.使用隨身硬碟下載可攜系統，下載&lt;a href="http://service.mde.tw/public/tiny2017_50MB.7z"&gt;tiny2017_50MB.7z&lt;/a&gt;, 以及 &lt;a href="http://service.mde.tw/public/tiny2017_1GB.7z"&gt;tiny2017_1GB.7z&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2.如何在 tiny2017_1GB.7z 下開起LEO&lt;/p&gt; &lt;/pre&gt;&lt;/p&gt;
 &lt;h4&gt;步驟1&lt;/h4&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/kFn7kpR"&gt;&lt;img src="http://i.imgur.com/kFn7kpR.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;步驟2&lt;/h4&gt;
