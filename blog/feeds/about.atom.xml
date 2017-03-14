@@ -2,6 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/about.atom.xml" rel="self"></link><id>./</id><updated>2017-03-09T15:00:00+08:00</updated><entry><title>Fossil 與 Stunnel 啟動-W3</title><link href="./Fossil%20%E8%88%87%20Stunnel.html" rel="alternate"></link><published>2017-03-09T15:00:00+08:00</published><updated>2017-03-09T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-09:./Fossil 與 Stunnel.html</id><summary type="html">&lt;h4&gt;Fossil SCM&lt;/h4&gt;
 &lt;h4&gt;Stunnel 啟動&lt;/h4&gt;
 &lt;h4&gt;hyperworks翻譯&lt;/h4&gt;
+&lt;h4&gt;solvespace四連桿三角形頂點運動軌跡&lt;/h4&gt;
 
 
 &lt;h2&gt;Fossil SCM與Stunnel 啟動&lt;/h2&gt;
@@ -70,6 +71,9 @@ Exit
 &lt;h4&gt;完成&lt;/h4&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/k7r1XRG"&gt;&lt;img src="http://i.imgur.com/k7r1XRG.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;可在網頁中進入設定更改成自己小組的名字&lt;/h4&gt;
+&lt;h2&gt;操作影片&lt;/h2&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207569135" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/207569135"&gt;2017-03-09 11-13-46&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h2&gt;hyperworks翻譯&lt;/h2&gt;
 &lt;h3&gt;hyperworks1&lt;/h3&gt;
 &lt;p&gt;In the 2017 release, we followed our vision and implement a lot more features, delivering more technology for your HyperWorks units investment.
@@ -107,6 +111,15 @@ And depending on the level of expertise or depending on the job that the user ha
 We adds a few new connections
 One of them is a Flux connection
 Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that&lt;/p&gt;
+&lt;h2&gt;solvespace四連桿三角形頂點運動軌跡&lt;/h2&gt;
+&lt;h3&gt;桿件加入三角形顯示路徑與過程&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/9HN7TK8"&gt;&lt;img src="http://i.imgur.com/9HN7TK8.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;iframe src="https://player.vimeo.com/video/208360660" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/208360660"&gt;Untitled&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;利用excel查看路徑是否與在solvespace操作下相同&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/ZraAYID"&gt;&lt;img src="http://i.imgur.com/ZraAYID.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+&lt;iframe src="https://player.vimeo.com/video/208361060" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/208361060"&gt;excel路徑&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h2&gt;心得&lt;/h2&gt;
 &lt;p&gt;&lt;p&gt; 1.學習如何使用Fossil SCM &lt;/p&gt;
 &lt;p&gt; 2.目前Stunnel 啟動不能再proxy下進入網頁 &lt;/p&gt;
