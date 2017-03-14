@@ -5,34 +5,34 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-03-15T01:59:18-00:00</lastmod>
+<lastmod>2017-03-15T02:10:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-03-15T01:59:18-00:00</lastmod>
+<lastmod>2017-03-15T02:10:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-03-15T01:59:18-00:00</lastmod>
+<lastmod>2017-03-15T02:10:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-03-15T01:59:18-00:00</lastmod>
+<lastmod>2017-03-15T02:10:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./pages/syuan-40423104/</loc>
+<loc>./pages/40423104/</loc>
 <lastmod>2017-03-08T01:36:18+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -109,14 +109,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/fossil-scm.html</loc>
-<lastmod>2017-02-17T11:00:00+08:06</lastmod>
+<loc>./tag/fossil-yu-stunnel-w3.html</loc>
+<lastmod>2017-03-09T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/w1.html</loc>
+<lastmod>2017-02-22T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/brython.html</loc>
 <lastmod>2017-02-22T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -130,22 +137,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/brython.html</loc>
-<lastmod>2017-02-22T11:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/fossil-yu-stunnel-w3.html</loc>
-<lastmod>2017-03-09T15:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/solvespaceyu-onshape-w1.html</loc>
-<lastmod>2017-02-23T15:00:00+08:06</lastmod>
+<loc>./tag/fossil-scm.html</loc>
+<lastmod>2017-02-17T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -153,6 +146,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./tag/w2.html</loc>
 <lastmod>2017-02-17T11:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/solvespaceyu-onshape-w1.html</loc>
+<lastmod>2017-02-23T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
