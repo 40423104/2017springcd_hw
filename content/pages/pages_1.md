@@ -1,21 +1,8 @@
-Title: Syuan-40423104
+Title: About
 
-##2017Spring 機械設計工程系協同產品設計實習
-
-課程倉儲: <a href="https://github.com/40423104/2017springcd_hw </a>
-
-課程投影片: <a href="https://40423104.github.io/2017springcd_hw </a>
-
-課程網誌: <a href="https://40423104.github.io/2017springcd_hw/blog/index.html </a>
-
-課程影片: 
-Vimeo: <a href="https://vimeo.com/user44900188 </a>
-Youtube: <a href="https://www.youtube.com/channel/UCNGRmPgOMhGJmZw_ygnC5UA </a>
-
-
-
-
-
-
-
-
+<h3>2017springcd_40423104_Yan Syuan</h3>
+<p>倉儲: <a href="https://github.com/40423104/2017springcd_hw">https://github.com/40423104/2017springcd_hw</a></p>
+<p>簡報: <a href="https://40423104.github.io/2017springcd_hw">https://40423104.github.io/2017springcd_hw</a></p>
+<p>網誌: <a href="https://40423104.github.io/2017springcd_hw/blog/">https://40423104.github.io/2017springcd_hw/blog/</a></p>
+<p>Vimeo: <a href="https://vimeo.com/user44900188">https://vimeo.com/user44900188</a></p>
+<p>Youtube: <a href="https://www.youtube.com/channel/UCNGRmPgOMhGJmZw_ygnC5UA">https://www.youtube.com/channel/UCNGRmPgOMhGJmZw_ygnC5UA</a></p>

@@ -67,8 +67,8 @@
 <v t="yen.20170221100209.1"><vh>@edit 20170222.md</vh></v>
 <v t="yen.20170217105706.1"><vh>@edit 20170217.md</vh></v>
 <v t="yen.20170209092319.1"><vh>@edit 20170209.md</vh></v>
-<v t="yen.20170108171733.81" a="E"><vh>@path pages</vh>
-<v t="yen.20170108171733.82"><vh>@edit pages_1.md</vh></v>
+<v t="leo.20170315020443.1" a="E"><vh>@path pages</vh>
+<v t="leo.20170315020443.2"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
 <v t="yen.20170108171733.83"><vh>產生 .key 與 .crt</vh></v>
@@ -95,6 +95,7 @@
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
 </vnodes>
 <tnodes>
+<t tx="leo.20170315020443.1"></t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -189,7 +190,6 @@ g.es("admin pelican 近端執行完畢")
 </t>
 <t tx="yen.20170108171733.5"></t>
 <t tx="yen.20170108171733.71"></t>
-<t tx="yen.20170108171733.81"></t>
 <t tx="yen.20170108171733.83">sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt
 
 </t>
