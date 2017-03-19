@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Fossil 與 Stunnel 啟動-W3 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
+    <title>solvespace四連桿v-rep應用-W2 - 2017Spring 協同產品設計實習 (虎尾科大MDE)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,20 +10,20 @@
 
 
 
-<link rel="canonical" href="./Fossil 與 Stunnel.html">
+<link rel="canonical" href="./solvespace與v-rep.html">
 
         <meta name="author" content="40423104-YanSyuan" />
-        <meta name="keywords" content="Fossil 與 Stunnel-W3" />
-        <meta name="description" content="Fossil SCM Stunnel 啟動 hyperworks翻譯 solvespace四連桿三角形頂點運動軌跡" />
+        <meta name="keywords" content="solvespace與v-rep-W2" />
+        <meta name="description" content="Solvespace四連桿系統繪圖模擬 v-rep應用模擬" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (虎尾科大MDE)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Fossil 與 Stunnel 啟動-W3"/>
-        <meta property="og:url" content="./Fossil 與 Stunnel.html"/>
-        <meta property="og:description" content="Fossil SCM Stunnel 啟動 hyperworks翻譯 solvespace四連桿三角形頂點運動軌跡"/>
-        <meta property="article:published_time" content="2017-03-09" />
+        <meta property="og:title" content="solvespace四連桿v-rep應用-W2"/>
+        <meta property="og:url" content="./solvespace與v-rep.html"/>
+        <meta property="og:description" content="Solvespace四連桿系統繪圖模擬 v-rep應用模擬"/>
+        <meta property="article:published_time" content="2017-03-02" />
             <meta property="article:section" content="About" />
-            <meta property="article:tag" content="Fossil 與 Stunnel-W3" />
+            <meta property="article:tag" content="solvespace與v-rep-W2" />
             <meta property="article:author" content="40423104-YanSyuan" />
 
 
@@ -134,10 +134,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./Fossil 與 Stunnel.html"
+                    <a href="./solvespace與v-rep.html"
                        rel="bookmark"
-                       title="Permalink to Fossil 與 Stunnel 啟動-W3">
-                        Fossil 與 Stunnel 啟動-W3
+                       title="Permalink to solvespace四連桿v-rep應用-W2">
+                        solvespace四連桿v-rep應用-W2
                     </a>
                 </h1>
             </header>
@@ -147,7 +147,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-03-09T15:00:00+08:00"> 週四 09 三月 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-03-02T15:00:00+08:00"> 週四 02 三月 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423104-yansyuan.html"><i class="fa fa-user"></i> 40423104-YanSyuan</a>
@@ -155,142 +155,54 @@
 
 
 <span class="label label-default">Tags</span>
-	<a href="./tag/fossil-yu-stunnel-w3.html">Fossil 與 Stunnel-W3</a>
+	<a href="./tag/solvespaceyu-v-rep-w2.html">solvespace與v-rep-W2</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <h4>Fossil SCM</h4>
-<h4>Stunnel 啟動</h4>
-<h4>hyperworks翻譯</h4>
-<h4>solvespace四連桿三角形頂點運動軌跡</h4>
+                <h4>Solvespace四連桿系統繪圖模擬</h4>
+<h4>v-rep應用模擬</h4>
 
 
-<h2>Fossil SCM與Stunnel 啟動</h2>
-<h4>步驟1. 執行fossil_repo目錄執行指令</h4>
-<p><pre>fossil init 組別.fpssil</pre>
-<a href="http://imgur.com/lxR6Cpe"><img src="http://i.imgur.com/lxR6Cpe.jpg" title="source: imgur.com" /></a>
-<a href="http://imgur.com/nxL7g4L"><img src="http://i.imgur.com/nxL7g4L.jpg" title="source: imgur.com" /></a>
-<p>*帳號密碼記得儲存</p></p>
-<h4>步驟2. 更改Start.bat內容(在SciTE下更改)</h4>
-<p><pre class="brush: python">
-REM tiny2017 主要針對初學 Python3 與 C 學員所建立
-REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
-@echo off
-REM 設定 y 硬碟代號與 data 目錄對應
-set Disk=y
-subst %Disk%: "data"
-REM 設定 leo 相關對應 Home 位置
-set HomePath=%Disk%:\home
-set HomeDrive=%Disk%:\home
-set Home=%Disk%:\home
-REM 將系統 Python 程式的 io 設為 utf-8
-set PYTHONIOENCODING="utf-8"
-REM 將後續的指令執行, 以 %Disk% 為主
-%Disk%:
-REM 設定 PYTHONPATH
-set PYTHONPATH=%Disk%:\python-3.5.3-embed-amd64
-REM 設定 Leo 所用的編輯器
-set LEO_EDITOR=%Disk%:\wscite\SciTE.exe
-REM for fossil https 連線設定
-set HTTPS=on
-REM 指令搜尋路徑設定
-set path1=%PATH%;%Disk%:;%Disk%:\python-3.5.3-embed-amd64;%Disk%:\git\bin;%Disk%:\stunnel\bin;%Disk%:\sqlite-tools;%Disk%:\python-3.5.3-embed-amd64\Scripts;%Disk%:\portablegit\bin;
-set path2=c:\Windows\Microsoft.NET\Framework\v3.5;%Disk%:\python-3.5.3-embed-amd64\Lib\site-packages;
-path=%path%;%path1%;%path2%
-start /MIN %Disk%:\wscite\SciTE.exe
-start /MIN cmd.exe
-start /MIN cmd.exe
-start /MIN cmd.exe
-REM 啟動 Leo 編輯器
-REM %Disk%:\Miniconda3\python.exe %Disk%:\apps\launchLeo.py
-REM 啟動 stunnel
-start /MIN fossil.exe server -P 127.0.0.1:8080 %Disk%:\tmp\fossil_repo\2017springcd_hw.fpssil
-REM 取得電腦 IP, 然後設定 %Disk%:/stunnel/config/stunnel.conf
-for /f "delims=[] tokens=2" %%a in ('ping -4 -n 1 %ComputerName% ^| findstr [') do set NetworkIP=%%a
-REM echo Network IP: %NetworkIP%
-REM Saved in %Disk%:\stunnel\config\stunnel.conf
-@echo off
-REM 建立 stunnel.conf
-@echo [https] &gt; %Disk%:\stunnel\config\stunnel.conf
-REM 附加資料
-@echo accept = %NetworkIP%:443 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
-@echo connect = 127.0.0.1:8080 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
-@echo TIMEOUTclose = 0 &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
-@echo cert = %Disk%:\stunnel\config\localhost.crt &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
-@echo key = %Disk%:\stunnel\config\localhost.key &gt;&gt; %Disk%:\stunnel\config\stunnel.conf
-REM 啟動 stunnel
-start /MIN stunnel.exe
-Exit
-</pre>
-<p>*記得要儲存</p></p>
-<h4>步驟3. 執行查詢IP指令(如有使用proxy，記得先關閉)</h4>
-<p><pre>ipconfig /all</pre>
-<a href="http://imgur.com/uKh1Dq3"><img src="http://i.imgur.com/uKh1Dq3.png" title="source: imgur.com" /></a></p>
-<h4>步驟4. 將查詢到的IPv4</h4>
-<p><pre>在網頁上輸入 https://IP位址 </pre></p>
-<h4>完成</h4>
-<p><a href="http://imgur.com/k7r1XRG"><img src="http://i.imgur.com/k7r1XRG.png" title="source: imgur.com" /></a></p>
-<h4>可在網頁中進入設定更改成自己小組的名字</h4>
-<h2>操作影片</h2>
-<p><iframe src="https://player.vimeo.com/video/207569135" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/207569135">2017-03-09 11-13-46</a> from <a href="https://vimeo.com/user44900188">Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
-<h2>hyperworks翻譯</h2>
-<h3>hyperworks1</h3>
-<p>In the 2017 release, we followed our vision and implement a lot more features, delivering more technology for your HyperWorks units investment.
-In our continuous development, we focused, as always, on simulation-driven innovation, adding more optimization technology. 
-We added more physics simulation to the software, and we improved our parallel performance on high performance computers. 
-OptiStruct, which is our implicit code, adds a lot of development in the nonlinear implicit area, but also in the optimization technology. 
-RADIOSS, we see a lot of development in new materials and material modeling. 
-You probably know that we did the acquisition of MDS a couple of years back, and we have now MDS integrated with RSDIOSS, and are doing application there. MotionSolve is based on a very unique formulation that this different from other multibody dynamics code, and the MotionSolve formulation lends itself very well to optimization implementation. So the team has worked really hard on contact formulations, got very robust. It's very cool which kind of problems can solve with contact modelling.
-So this is along the structural solvers side on AcuSolve side we actually added the complete portfolio of turbulence and transition models that really helps us to solve problems in wind turbines and automotive industry much more accurately, and it’s a big asset of physics simulation.
-And then our electromagnetic suite has actually grown last year through the acquisition of Flux, from the CEDRAT company.
-As well as the acquisition of WinProp, from AWE.
-So now we have a complete frequency spectrum from low frequency electromagnetics the high frequency electromagnetics which is powered by FEKO.
-We now have a complete portfolio of physics modeling available for our customers, and it’s all linked through optimization.</p>
-<h3>hyperworks3</h3>
-<p>In OptiStruct, one of our focus areas is nonlinear large deformation analysis 
-And in 2017 we added nonlinear transient analysis
-The main purpose was to couple AcuSolve to do fluid-structure interaction
-But also one development that happened during the last year
-Came out piece-wise in different point releases
-And is now really mature
-And 2017 is our contact analysis
-So we have different ways of defining large sliding contact and things like that
-The fast contact analysis for small deformation is blazing fast
-It’s a very simple idea that makes the solution very fast, and that adds OptiStruct as really a leading nonlinear 
-Our two major optimization packages are OptiStruct for structural optimization, there’s a huge multidisciplinary component, too
-And Hyperstudy for general optimization wrap around multidisciplinary optimization
-[For] OptiStruct we spend a lot of time continuing the development for optimization
-And we have now Failsafe topology optimization
-We kept on working on the manufacturing solution to do lattice optimization
-For the multi-model optimization it’s really maturing and we find more and more applications where that helps 
-Our goal is actually to include all the physics in the optimizations
-So the team right now is working on optimization for nonlinear problems and so on
-And then Hyperstudy, on the other hand, is going through a new transformation of the user the user experience was changed a few years back, but we are now trying to  make it much more easy to use by hiding a lot of the advanced functionalities to the regular users
-And depending on the level of expertise or depending on the job that the user has to do, they can customize the userience
-We adds a few new connections
-One of them is a Flux connection
-Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that</p>
-<h2>solvespace四連桿三角形頂點運動軌跡</h2>
-<h3>桿件加入三角形顯示路徑與過程</h3>
-<p><a href="http://imgur.com/9HN7TK8"><img src="http://i.imgur.com/9HN7TK8.png" title="source: imgur.com" /></a>
-<iframe src="https://player.vimeo.com/video/208360660" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/208360660">Untitled</a> from <a href="https://vimeo.com/user44900188">Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
-<h3>利用excel查看路徑是否與在solvespace操作下相同(驗證路徑)</h3>
-<p><a href="http://imgur.com/ZraAYID"><img src="http://i.imgur.com/ZraAYID.png" title="source: imgur.com" /></a>
-<iframe src="https://player.vimeo.com/video/208361060" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/208361060">excel路徑</a> from <a href="https://vimeo.com/user44900188">Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
-<h2>V-rep</h2>
-<h3>完成 Solvespace 30-50-60 cm 比例的四連桿組立, 並轉出 stl 檔案, 以 import 方式轉入 V-rep</h3>
-<p><iframe src="https://player.vimeo.com/video/209081797" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/209081797">v-rep(solvespace)</a> from <a href="https://vimeo.com/user44900188">Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
-<h3>利用 Onshape 上述相同尺寸之四連桿機構, 以 stl 轉出 (或其他格式) 後, 再轉入 V-rep</h3>
-<p><iframe src="https://player.vimeo.com/video/209085492" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/209085492">v-rep(on-shape)</a> from <a href="https://vimeo.com/user44900188">Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<h2>利用Solvespace組合四連桿機構</h2>
+<h3>四連桿機構</h3>
+<iframe src="https://player.vimeo.com/video/206347595" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/206347595">W1 and W2四連桿-20170302</a> from <a href="https://vimeo.com/user44900188">Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<h3>長度30連桿</h3>
+<iframe src="https://player.vimeo.com/video/207312630" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/207312630">W2-30桿件</a> from <a href="https://vimeo.com/user44900188">Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<iframe src="./../data/Week2/30桿件.html" width="640" height="360"></iframe>
+
+<h3>長度50連桿</h3>
+<iframe src="https://player.vimeo.com/video/207314989" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/207314989">W2-50桿件</a> from <a href="https://vimeo.com/user44900188">Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<iframe src="./../data/Week2/50桿件.html" width="640" height="360"></iframe>
+
+<h3>長度60連桿</h3>
+<iframe src="https://player.vimeo.com/video/207315011" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/207315011">W2-60桿件</a> from <a href="https://vimeo.com/user44900188">Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<iframe src="./../data/Week2/60桿件.html" width="640" height="360"></iframe>
+
+<h3>四連桿組合</h3>
+<iframe src="https://player.vimeo.com/video/207315023" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/207315023">W2-組合</a> from <a href="https://vimeo.com/user44900188">Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<iframe src="./../data/Week2/組合.html" width="640" height="360"></iframe>
+
+<h2>v-rep應用</h2>
+<h4>還在整理</h4>
 <h2>心得</h2>
-<p><p> 1.學習如何使用Fossil SCM </p>
-<p> 2.目前Stunnel 啟動不能再proxy下進入網頁 </p>
-<p> 3.英文翻譯學習 </p></p>
+<p><p> 1.學習v-rep應用模擬四連桿 </p>
+<p> 2.熟悉v-rep操作 </p>
+<p> 3.隨著多次練習畫圖模擬，更了解上課內容 </p></p>
             </div>
             <!-- /.entry-content -->
         </article>
