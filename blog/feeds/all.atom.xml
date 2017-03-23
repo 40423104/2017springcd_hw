@@ -14,6 +14,22 @@
 &lt;h3&gt;PLLP 方程式推導&lt;/h3&gt;
 &lt;h3&gt;四連桿網際 2D 繪圖&lt;/h3&gt;
 &lt;h3&gt;網際動態模擬&lt;/h3&gt;
+&lt;h3&gt;單連桿及導入V-rep&lt;/h3&gt;
+&lt;h4&gt;尺寸&lt;/h4&gt;
+&lt;p&gt;[url=http://imgur.com/pQ7GYmG][img]http://i.imgur.com/pQ7GYmG.jpg[/img][/url]&lt;/p&gt;
+&lt;h4&gt;長度30連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355096" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209355096"&gt;base&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;長度50連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209354247" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209354247"&gt;link1&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;直徑5的連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355724" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209355724"&gt;shaft&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;導入V-rep&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209373893" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209373893"&gt;v-rep  0316&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;模擬&lt;/h4&gt;
 &lt;h2&gt;Fossil SCM 倉儲(網路)&lt;/h2&gt;</summary><category term="Hyperworks 與 2D 繪圖-W4"></category></entry><entry><title>Fossil 與 Stunnel 啟動-W3</title><link href="./Fossil%20%E8%88%87%20Stunnel.html" rel="alternate"></link><published>2017-03-09T15:00:00+08:00</published><updated>2017-03-09T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-09:./Fossil 與 Stunnel.html</id><summary type="html">&lt;h4&gt;Fossil SCM&lt;/h4&gt;
 &lt;h4&gt;Stunnel 啟動&lt;/h4&gt;
 &lt;h4&gt;hyperworks翻譯&lt;/h4&gt;
@@ -126,6 +142,7 @@ And depending on the level of expertise or depending on the job that the user ha
 We adds a few new connections
 One of them is a Flux connection
 Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that&lt;/p&gt;
+&lt;h3&gt;影片心得&lt;/h3&gt;
 &lt;h2&gt;solvespace四連桿三角形頂點運動軌跡&lt;/h2&gt;
 &lt;h3&gt;桿件加入三角形顯示路徑與過程&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/9HN7TK8"&gt;&lt;img src="http://i.imgur.com/9HN7TK8.png" title="source: imgur.com" /&gt;&lt;/a&gt;
