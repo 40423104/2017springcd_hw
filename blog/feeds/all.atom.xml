@@ -220,6 +220,669 @@ cgo.playAnimation()
 &lt;h4&gt;心得&lt;/h4&gt;
 &lt;h2&gt;Solidthinking安裝&lt;/h2&gt;
 &lt;h2&gt;Feko安裝&lt;/h2&gt;
+&lt;h2&gt;Fossil SCM 倉儲(網路)&lt;/h2&gt;</summary><category term="Hyperworks 與 2D 繪圖-W4"></category></entry><entry><title>Hyperworks 與 2D 繪圖-W4</title><link href="./Fossil.html" rel="alternate"></link><published>2017-03-16T15:00:00+08:00</published><updated>2017-03-16T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-16:./Fossil.html</id><summary type="html">&lt;h4&gt;網際平面四連桿機構動態模擬&lt;/h4&gt;
+&lt;h4&gt;單連桿繪製與導入V-rep&lt;/h4&gt;
+&lt;h4&gt;Hyperworks&lt;/h4&gt;
+
+
+&lt;h3&gt;網際平面四連桿機構動態模擬&lt;/h3&gt;
+&lt;h4&gt;四連桿平面機構&lt;/h4&gt;
+&lt;p&gt;&lt;!-- 以下執行 Brython 程式 --&gt;
+&lt;canvas id="plotarea2" width="600" height="600"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from browser import window&lt;/p&gt;
+&lt;p&gt;cango = window.Cango2D.new
+shapedefs = window.shapeDefs
+obj2d = window.Obj2D.new
+group2d = window.Group2D.new
+cgo = cango("plotarea2")&lt;/p&gt;
+&lt;p&gt;x1, y1 = 40, 20
+cx1, cy1 = 90, 120
+x2, y2 = 120, 100
+cx2, cy2 = 130, 20
+cx3, cy3 = 150, 120
+x3, y3 = 180, 60&lt;/p&gt;
+&lt;p&gt;def dragC1(mousePos):
+    global cx1, cy1
+    cx1 = mousePos.x
+    cy1 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def dragC2(mousePos):
+    global cx2, cy2
+    cx2 = mousePos.x
+    cy2 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def dragC3(mousePos):
+    global cx3, cy3
+    cx3 = mousePos.x
+    cy3 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def dragX1(mousePos):
+    global x1, y1
+    x1 = mousePos.x
+    y1 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def drawCurve():
+    # curve change shape so it must be re-draw each time
+    # draw a quadratic bezier from x1,y2 to x2,y2
+    qbez = obj2d(['M', x1, y1, 'Q', cx1, cy1, x2, y2], "PATH",  {
+          "strokeColor":'blue'})
+    cbez = obj2d(['M', x2, y2, 'C', cx2, cy2, cx3, cy3, x3, y3], "PATH",  {
+          "strokeColor":'green'})
+    # show lines to control point
+    '''
+    L1 = obj2d(['M', x1, y1, 'L', cx1, cy1, x2, y2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})  # semi-transparent gray
+    L2 = obj2d(['M', x2, y2, 'L', cx2, cy2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})
+    L3 = obj2d(['M', x3, y3, 'L', cx3, cy3], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})
+    '''
+    L1 = obj2d(['M', x1, y1, 'L', cx1, cy1], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})  # semi-transparent gray
+    L2 = obj2d(['M', cx1, cy1, 'L', cx2, cy2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})
+    L3 = obj2d(['M', cx2, cy2, 'L', cx3, cy3], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})
+    #c1.transform.reset()
+    c1.transform.translate(cx1, cy1)
+    #c2.transform.reset()
+    c2.transform.translate(cx2, cy2)
+    #c3.transform.reset()
+    c3.transform.translate(cx3, cy3)
+    #mx1.transform.reset()
+    mx1.transform.translate(x1, y1)
+    #grp = group2d(qbez, cbez, L1, L2, L3, c1, c2, c3)
+    grp = group2d(L1, L2, L3, c1, c2, c3, mx1)
+    cgo.clearCanvas()
+    cgo.render(grp)&lt;/p&gt;
+&lt;p&gt;cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(0, 0, 200)&lt;/p&gt;
+&lt;h1&gt;draggable control points&lt;/h1&gt;
+&lt;p&gt;c1 = obj2d(shapedefs.circle(4), "SHAPE", {"fillColor":'red'})
+c1.enableDrag(None, dragC1, None)
+c2 = c1.dup()
+c2.enableDrag(None, dragC2, None)
+c3 = c1.dup()
+c3.enableDrag(None, dragC3, None)
+mx1 = c1.dup()
+mx1.enableDrag(None, dragX1, None)
+drawCurve();
+&lt;/script&gt;&lt;/p&gt;
+&lt;h4&gt;四連桿動態模擬&lt;/h4&gt;
+&lt;p&gt;&lt;canvas id='robot' width='800' height='400'&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from browser import window&lt;/p&gt;
+&lt;p&gt;cango2d = window.Cango2D.new
+shapedefs = window.shapeDefs
+obj2d = window.Obj2D.new
+tweener = window.Tweener.new&lt;/p&gt;
+&lt;p&gt;cgo = cango2d("robot")&lt;/p&gt;
+&lt;h1&gt;清除畫面&lt;/h1&gt;
+&lt;p&gt;cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(-50, -50, 300)&lt;/p&gt;
+&lt;h1&gt;加上基軸與第一桿&lt;/h1&gt;
+&lt;h1&gt;畫筆移到 -20, -10, 畫直線到 -10,-10 以及 -10,0&lt;/h1&gt;
+&lt;p&gt;standData = ['M', -20,-10, 'L', -10,-10, -10,0, 'A', 10,10,0,0,0,10,0, 'L',10,-10, 20,-10, 20,-40, -20,-40,'z']
+stand = obj2d(standData, "SHAPE", {
+        "fillColor":'darkgray',
+        "border": True,
+        "strokeColor": "#222222" })
+axle0 = obj2d(shapedefs.circle(10), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222" })
+armGrp = cgo.createGroup2D(stand, axle0)&lt;/p&gt;
+&lt;p&gt;segData = ['M',0,-8, 'A',8,8,0,0,0,0,8, 'L',50,8, 'A',8,8,0,0,0,50,-8, 'Z']
+seg1 = obj2d(segData, "SHAPE", {
+        "fillColor":'darkGray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": -1 })&lt;/p&gt;
+&lt;h1&gt;利用 zIndex 決定疊層的先後次序&lt;/h1&gt;
+&lt;p&gt;axle1 = obj2d(shapedefs.circle(8), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": 1 })
+axle1.translate(50, 0)
+seg1Grp = cgo.createGroup2D(seg1, axle1)
+armGrp.addObj(seg1Grp)&lt;/p&gt;
+&lt;h1&gt;加上第二軸&lt;/h1&gt;
+&lt;p&gt;seg2 = obj2d(segData, "SHAPE", {
+        "fillColor":'darkGray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": -1 })
+axle2 = obj2d(shapedefs.circle(8), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": 1 })
+axle2.translate(50, 0)
+seg2Grp = cgo.createGroup2D(seg2, axle2)
+cgo.render(seg2Grp)&lt;/p&gt;
+&lt;h1&gt;請注意 seg2Grp 加上 seg1Grp 物件上&lt;/h1&gt;
+&lt;p&gt;seg1Grp.addObj(seg2Grp)&lt;/p&gt;
+&lt;p&gt;seg3 = obj2d(segData, "SHAPE", {
+        'fillColor':'darkGray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': -1 })
+axle3 = obj2d(shapedefs.circle(6), "SHAPE", {
+        'fillColor':'gray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': 1 })
+axle3.translate(50, 0)
+seg3Grp = cgo.createGroup2D(seg3, axle3)
+seg2Grp.addObj(seg3Grp)&lt;/p&gt;
+&lt;p&gt;seg4Data = ['M',0,-6, 'A',6,6,0,0,0,0,6, 'L',40,6, 40,12, 50,12, 50,-12, 40,-12, 40,-6, 'Z']
+seg4 = obj2d(seg4Data, "SHAPE", {
+        'fillColor':'darkGray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': -1 })
+seg3Grp.addObj(seg4)&lt;/p&gt;
+&lt;h1&gt;setup animation&lt;/h1&gt;
+&lt;p&gt;animData = {'s1': [0, 80, 45, 0],
+                  's2': [0, -60, -60, 0],
+                  's3': [0, -90, 0, 90, 0],
+                  's4': [0, 30, -90, 0]}&lt;/p&gt;
+&lt;p&gt;armTwnr = tweener(0, 3500, 'loop')&lt;/p&gt;
+&lt;p&gt;def initArm(opts):
+    seg2Grp.transform.translate(50,0)
+    seg3Grp.transform.translate(50,0)
+    seg4.transform.translate(50,0)&lt;/p&gt;
+&lt;p&gt;def armPathFn(time, opts):
+    seg1Rot = armTwnr.getVal(time, opts.s1)
+    seg2Rot = armTwnr.getVal(time, opts.s2)
+    seg3Rot = armTwnr.getVal(time, opts.s3)
+    seg4Rot = armTwnr.getVal(time, opts.s4)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;seg1Grp.transform.rotate(seg1Rot)
+seg2Grp.transform.rotate(seg2Rot)
+seg2Grp.transform.translate(50,0)
+seg3Grp.transform.rotate(seg3Rot)
+seg3Grp.transform.translate(50,0)
+seg4.transform.rotate(seg4Rot)
+seg4.transform.translate(50,0)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;cgo.animate(armGrp, initArm, armPathFn, animData)
+cgo.playAnimation()
+&lt;/script&gt;&lt;/p&gt;
+&lt;h3&gt;單連桿繪製與導入V-rep&lt;/h3&gt;
+&lt;p&gt;&lt;p&gt; 利用Solvespace繪製以下尺寸及組裝連桿&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;尺寸&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/pQ7GYmG"&gt;&lt;img src="http://i.imgur.com/pQ7GYmG.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;長度30連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355096" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209355096"&gt;base&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;長度50連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209354247" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209354247"&gt;link1&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;直徑5的連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355724" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209355724"&gt;shaft&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;導入V-rep&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209373893" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209373893"&gt;v-rep  0316&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;V-rep模擬&lt;/h4&gt;
+&lt;h2&gt;Hyperworks安裝與心得&lt;/h2&gt;
+&lt;h3&gt;各組利用網誌與簡報說明安裝或使用 Hyperworks 套件過程與心得 - 課程結束前, 希望能夠使用 Hyperworks 進行連桿機構零件的應力分析與機構運動模擬&lt;/h3&gt;
+&lt;h4&gt;Hyperworks安裝&lt;/h4&gt;
+&lt;h4&gt;心得&lt;/h4&gt;
+&lt;h2&gt;Solidthinking安裝&lt;/h2&gt;
+&lt;h2&gt;Feko安裝&lt;/h2&gt;
+&lt;h2&gt;Fossil SCM 倉儲(網路)&lt;/h2&gt;</summary><category term="Hyperworks 與 2D 繪圖-W4"></category></entry><entry><title>Hyperworks 與 2D 繪圖-W4</title><link href="./Fossil.html" rel="alternate"></link><published>2017-03-16T15:00:00+08:00</published><updated>2017-03-16T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-16:./Fossil.html</id><summary type="html">&lt;h4&gt;網際平面四連桿機構動態模擬&lt;/h4&gt;
+&lt;h4&gt;單連桿繪製與導入V-rep&lt;/h4&gt;
+&lt;h4&gt;Hyperworks&lt;/h4&gt;
+
+
+&lt;h3&gt;網際平面四連桿機構動態模擬&lt;/h3&gt;
+&lt;h4&gt;四連桿平面機構&lt;/h4&gt;
+&lt;p&gt;&lt;!-- 以下執行 Brython 程式 --&gt;
+&lt;canvas id="plotarea2" width="600" height="600"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from browser import window&lt;/p&gt;
+&lt;p&gt;cango = window.Cango2D.new
+shapedefs = window.shapeDefs
+obj2d = window.Obj2D.new
+group2d = window.Group2D.new
+cgo = cango("plotarea2")&lt;/p&gt;
+&lt;p&gt;x1, y1 = 40, 20
+cx1, cy1 = 90, 120
+x2, y2 = 120, 100
+cx2, cy2 = 130, 20
+cx3, cy3 = 150, 120
+x3, y3 = 180, 60&lt;/p&gt;
+&lt;p&gt;def dragC1(mousePos):
+    global cx1, cy1
+    cx1 = mousePos.x
+    cy1 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def dragC2(mousePos):
+    global cx2, cy2
+    cx2 = mousePos.x
+    cy2 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def dragC3(mousePos):
+    global cx3, cy3
+    cx3 = mousePos.x
+    cy3 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def dragX1(mousePos):
+    global x1, y1
+    x1 = mousePos.x
+    y1 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def drawCurve():
+    # curve change shape so it must be re-draw each time
+    # draw a quadratic bezier from x1,y2 to x2,y2
+    qbez = obj2d(['M', x1, y1, 'Q', cx1, cy1, x2, y2], "PATH",  {
+          "strokeColor":'blue'})
+    cbez = obj2d(['M', x2, y2, 'C', cx2, cy2, cx3, cy3, x3, y3], "PATH",  {
+          "strokeColor":'green'})
+    # show lines to control point
+    '''
+    L1 = obj2d(['M', x1, y1, 'L', cx1, cy1, x2, y2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})  # semi-transparent gray
+    L2 = obj2d(['M', x2, y2, 'L', cx2, cy2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})
+    L3 = obj2d(['M', x3, y3, 'L', cx3, cy3], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})
+    '''
+    L1 = obj2d(['M', x1, y1, 'L', cx1, cy1], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})  # semi-transparent gray
+    L2 = obj2d(['M', cx1, cy1, 'L', cx2, cy2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})
+    L3 = obj2d(['M', cx2, cy2, 'L', cx3, cy3], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})
+    #c1.transform.reset()
+    c1.transform.translate(cx1, cy1)
+    #c2.transform.reset()
+    c2.transform.translate(cx2, cy2)
+    #c3.transform.reset()
+    c3.transform.translate(cx3, cy3)
+    #mx1.transform.reset()
+    mx1.transform.translate(x1, y1)
+    #grp = group2d(qbez, cbez, L1, L2, L3, c1, c2, c3)
+    grp = group2d(L1, L2, L3, c1, c2, c3, mx1)
+    cgo.clearCanvas()
+    cgo.render(grp)&lt;/p&gt;
+&lt;p&gt;cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(0, 0, 200)&lt;/p&gt;
+&lt;h1&gt;draggable control points&lt;/h1&gt;
+&lt;p&gt;c1 = obj2d(shapedefs.circle(4), "SHAPE", {"fillColor":'red'})
+c1.enableDrag(None, dragC1, None)
+c2 = c1.dup()
+c2.enableDrag(None, dragC2, None)
+c3 = c1.dup()
+c3.enableDrag(None, dragC3, None)
+mx1 = c1.dup()
+mx1.enableDrag(None, dragX1, None)
+drawCurve();
+&lt;/script&gt;&lt;/p&gt;
+&lt;h4&gt;四連桿動態模擬&lt;/h4&gt;
+&lt;p&gt;&lt;canvas id='robot' width='800' height='400'&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from browser import window&lt;/p&gt;
+&lt;p&gt;cango2d = window.Cango2D.new
+shapedefs = window.shapeDefs
+obj2d = window.Obj2D.new
+tweener = window.Tweener.new&lt;/p&gt;
+&lt;p&gt;cgo = cango2d("robot")&lt;/p&gt;
+&lt;h1&gt;清除畫面&lt;/h1&gt;
+&lt;p&gt;cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(-50, -50, 300)&lt;/p&gt;
+&lt;h1&gt;加上基軸與第一桿&lt;/h1&gt;
+&lt;h1&gt;畫筆移到 -20, -10, 畫直線到 -10,-10 以及 -10,0&lt;/h1&gt;
+&lt;p&gt;standData = ['M', -20,-10, 'L', -10,-10, -10,0, 'A', 10,10,0,0,0,10,0, 'L',10,-10, 20,-10, 20,-40, -20,-40,'z']
+stand = obj2d(standData, "SHAPE", {
+        "fillColor":'darkgray',
+        "border": True,
+        "strokeColor": "#222222" })
+axle0 = obj2d(shapedefs.circle(10), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222" })
+armGrp = cgo.createGroup2D(stand, axle0)&lt;/p&gt;
+&lt;p&gt;segData = ['M',0,-8, 'A',8,8,0,0,0,0,8, 'L',50,8, 'A',8,8,0,0,0,50,-8, 'Z']
+seg1 = obj2d(segData, "SHAPE", {
+        "fillColor":'darkGray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": -1 })&lt;/p&gt;
+&lt;h1&gt;利用 zIndex 決定疊層的先後次序&lt;/h1&gt;
+&lt;p&gt;axle1 = obj2d(shapedefs.circle(8), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": 1 })
+axle1.translate(50, 0)
+seg1Grp = cgo.createGroup2D(seg1, axle1)
+armGrp.addObj(seg1Grp)&lt;/p&gt;
+&lt;h1&gt;加上第二軸&lt;/h1&gt;
+&lt;p&gt;seg2 = obj2d(segData, "SHAPE", {
+        "fillColor":'darkGray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": -1 })
+axle2 = obj2d(shapedefs.circle(8), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": 1 })
+axle2.translate(50, 0)
+seg2Grp = cgo.createGroup2D(seg2, axle2)
+cgo.render(seg2Grp)&lt;/p&gt;
+&lt;h1&gt;請注意 seg2Grp 加上 seg1Grp 物件上&lt;/h1&gt;
+&lt;p&gt;seg1Grp.addObj(seg2Grp)&lt;/p&gt;
+&lt;p&gt;seg3 = obj2d(segData, "SHAPE", {
+        'fillColor':'darkGray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': -1 })
+axle3 = obj2d(shapedefs.circle(6), "SHAPE", {
+        'fillColor':'gray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': 1 })
+axle3.translate(50, 0)
+seg3Grp = cgo.createGroup2D(seg3, axle3)
+seg2Grp.addObj(seg3Grp)&lt;/p&gt;
+&lt;p&gt;seg4Data = ['M',0,-6, 'A',6,6,0,0,0,0,6, 'L',40,6, 40,12, 50,12, 50,-12, 40,-12, 40,-6, 'Z']
+seg4 = obj2d(seg4Data, "SHAPE", {
+        'fillColor':'darkGray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': -1 })
+seg3Grp.addObj(seg4)&lt;/p&gt;
+&lt;h1&gt;setup animation&lt;/h1&gt;
+&lt;p&gt;animData = {'s1': [0, 80, 45, 0],
+                  's2': [0, -60, -60, 0],
+                  's3': [0, -90, 0, 90, 0],
+                  's4': [0, 30, -90, 0]}&lt;/p&gt;
+&lt;p&gt;armTwnr = tweener(0, 3500, 'loop')&lt;/p&gt;
+&lt;p&gt;def initArm(opts):
+    seg2Grp.transform.translate(50,0)
+    seg3Grp.transform.translate(50,0)
+    seg4.transform.translate(50,0)&lt;/p&gt;
+&lt;p&gt;def armPathFn(time, opts):
+    seg1Rot = armTwnr.getVal(time, opts.s1)
+    seg2Rot = armTwnr.getVal(time, opts.s2)
+    seg3Rot = armTwnr.getVal(time, opts.s3)
+    seg4Rot = armTwnr.getVal(time, opts.s4)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;seg1Grp.transform.rotate(seg1Rot)
+seg2Grp.transform.rotate(seg2Rot)
+seg2Grp.transform.translate(50,0)
+seg3Grp.transform.rotate(seg3Rot)
+seg3Grp.transform.translate(50,0)
+seg4.transform.rotate(seg4Rot)
+seg4.transform.translate(50,0)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;cgo.animate(armGrp, initArm, armPathFn, animData)
+cgo.playAnimation()
+&lt;/script&gt;&lt;/p&gt;
+&lt;h3&gt;單連桿繪製與導入V-rep&lt;/h3&gt;
+&lt;p&gt;&lt;p&gt; 利用Solvespace繪製以下尺寸及組裝連桿&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;尺寸&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/pQ7GYmG"&gt;&lt;img src="http://i.imgur.com/pQ7GYmG.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;長度30連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355096" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209355096"&gt;base&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;長度50連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209354247" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209354247"&gt;link1&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;直徑5的連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355724" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209355724"&gt;shaft&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;導入V-rep&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209373893" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209373893"&gt;v-rep  0316&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;V-rep模擬&lt;/h4&gt;
+&lt;h2&gt;Hyperworks安裝與心得&lt;/h2&gt;
+&lt;h3&gt;各組利用網誌與簡報說明安裝或使用 Hyperworks 套件過程與心得 - 課程結束前, 希望能夠使用 Hyperworks 進行連桿機構零件的應力分析與機構運動模擬&lt;/h3&gt;
+&lt;h4&gt;Hyperworks安裝&lt;/h4&gt;
+&lt;h4&gt;心得&lt;/h4&gt;
+&lt;h2&gt;Solidthinking安裝&lt;/h2&gt;
+&lt;h2&gt;Feko安裝&lt;/h2&gt;
+&lt;h2&gt;Fossil SCM 倉儲(網路)&lt;/h2&gt;</summary><category term="Hyperworks 與 2D 繪圖-W4"></category></entry><entry><title>Hyperworks 與 2D 繪圖-W4</title><link href="./Fossil.html" rel="alternate"></link><published>2017-03-16T15:00:00+08:00</published><updated>2017-03-16T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-16:./Fossil.html</id><summary type="html">&lt;h4&gt;網際平面四連桿機構動態模擬&lt;/h4&gt;
+&lt;h4&gt;單連桿繪製與導入V-rep&lt;/h4&gt;
+&lt;h4&gt;Hyperworks&lt;/h4&gt;
+
+
+&lt;h3&gt;網際平面四連桿機構動態模擬&lt;/h3&gt;
+&lt;h4&gt;四連桿平面機構&lt;/h4&gt;
+&lt;p&gt;&lt;!-- 以下執行 Brython 程式 --&gt;
+&lt;canvas id="plotarea2" width="600" height="600"&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from browser import window&lt;/p&gt;
+&lt;p&gt;cango = window.Cango2D.new
+shapedefs = window.shapeDefs
+obj2d = window.Obj2D.new
+group2d = window.Group2D.new
+cgo = cango("plotarea2")&lt;/p&gt;
+&lt;p&gt;x1, y1 = 40, 20
+cx1, cy1 = 90, 120
+x2, y2 = 120, 100
+cx2, cy2 = 130, 20
+cx3, cy3 = 150, 120
+x3, y3 = 180, 60&lt;/p&gt;
+&lt;p&gt;def dragC1(mousePos):
+    global cx1, cy1
+    cx1 = mousePos.x
+    cy1 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def dragC2(mousePos):
+    global cx2, cy2
+    cx2 = mousePos.x
+    cy2 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def dragC3(mousePos):
+    global cx3, cy3
+    cx3 = mousePos.x
+    cy3 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def dragX1(mousePos):
+    global x1, y1
+    x1 = mousePos.x
+    y1 = mousePos.y
+    drawCurve()&lt;/p&gt;
+&lt;p&gt;def drawCurve():
+    # curve change shape so it must be re-draw each time
+    # draw a quadratic bezier from x1,y2 to x2,y2
+    qbez = obj2d(['M', x1, y1, 'Q', cx1, cy1, x2, y2], "PATH",  {
+          "strokeColor":'blue'})
+    cbez = obj2d(['M', x2, y2, 'C', cx2, cy2, cx3, cy3, x3, y3], "PATH",  {
+          "strokeColor":'green'})
+    # show lines to control point
+    '''
+    L1 = obj2d(['M', x1, y1, 'L', cx1, cy1, x2, y2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})  # semi-transparent gray
+    L2 = obj2d(['M', x2, y2, 'L', cx2, cy2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})
+    L3 = obj2d(['M', x3, y3, 'L', cx3, cy3], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "dashed":[4]})
+    '''
+    L1 = obj2d(['M', x1, y1, 'L', cx1, cy1], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})  # semi-transparent gray
+    L2 = obj2d(['M', cx1, cy1, 'L', cx2, cy2], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})
+    L3 = obj2d(['M', cx2, cy2, 'L', cx3, cy3], "PATH", {
+      "strokeColor":"rgba(0, 0, 0, 0.2)",
+      "solided":[10]})
+    #c1.transform.reset()
+    c1.transform.translate(cx1, cy1)
+    #c2.transform.reset()
+    c2.transform.translate(cx2, cy2)
+    #c3.transform.reset()
+    c3.transform.translate(cx3, cy3)
+    #mx1.transform.reset()
+    mx1.transform.translate(x1, y1)
+    #grp = group2d(qbez, cbez, L1, L2, L3, c1, c2, c3)
+    grp = group2d(L1, L2, L3, c1, c2, c3, mx1)
+    cgo.clearCanvas()
+    cgo.render(grp)&lt;/p&gt;
+&lt;p&gt;cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(0, 0, 200)&lt;/p&gt;
+&lt;h1&gt;draggable control points&lt;/h1&gt;
+&lt;p&gt;c1 = obj2d(shapedefs.circle(4), "SHAPE", {"fillColor":'red'})
+c1.enableDrag(None, dragC1, None)
+c2 = c1.dup()
+c2.enableDrag(None, dragC2, None)
+c3 = c1.dup()
+c3.enableDrag(None, dragC3, None)
+mx1 = c1.dup()
+mx1.enableDrag(None, dragX1, None)
+drawCurve();
+&lt;/script&gt;&lt;/p&gt;
+&lt;h4&gt;四連桿動態模擬&lt;/h4&gt;
+&lt;p&gt;&lt;canvas id='robot' width='800' height='400'&gt;&lt;/canvas&gt;
+&lt;script type="text/python"&gt;
+from browser import window&lt;/p&gt;
+&lt;p&gt;cango2d = window.Cango2D.new
+shapedefs = window.shapeDefs
+obj2d = window.Obj2D.new
+tweener = window.Tweener.new&lt;/p&gt;
+&lt;p&gt;cgo = cango2d("robot")&lt;/p&gt;
+&lt;h1&gt;清除畫面&lt;/h1&gt;
+&lt;p&gt;cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(-50, -50, 300)&lt;/p&gt;
+&lt;h1&gt;加上基軸與第一桿&lt;/h1&gt;
+&lt;h1&gt;畫筆移到 -20, -10, 畫直線到 -10,-10 以及 -10,0&lt;/h1&gt;
+&lt;p&gt;standData = ['M', -20,-10, 'L', -10,-10, -10,0, 'A', 10,10,0,0,0,10,0, 'L',10,-10, 20,-10, 20,-40, -20,-40,'z']
+stand = obj2d(standData, "SHAPE", {
+        "fillColor":'darkgray',
+        "border": True,
+        "strokeColor": "#222222" })
+axle0 = obj2d(shapedefs.circle(10), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222" })
+armGrp = cgo.createGroup2D(stand, axle0)&lt;/p&gt;
+&lt;p&gt;segData = ['M',0,-8, 'A',8,8,0,0,0,0,8, 'L',50,8, 'A',8,8,0,0,0,50,-8, 'Z']
+seg1 = obj2d(segData, "SHAPE", {
+        "fillColor":'darkGray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": -1 })&lt;/p&gt;
+&lt;h1&gt;利用 zIndex 決定疊層的先後次序&lt;/h1&gt;
+&lt;p&gt;axle1 = obj2d(shapedefs.circle(8), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": 1 })
+axle1.translate(50, 0)
+seg1Grp = cgo.createGroup2D(seg1, axle1)
+armGrp.addObj(seg1Grp)&lt;/p&gt;
+&lt;h1&gt;加上第二軸&lt;/h1&gt;
+&lt;p&gt;seg2 = obj2d(segData, "SHAPE", {
+        "fillColor":'darkGray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": -1 })
+axle2 = obj2d(shapedefs.circle(8), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": 1 })
+axle2.translate(50, 0)
+seg2Grp = cgo.createGroup2D(seg2, axle2)
+cgo.render(seg2Grp)&lt;/p&gt;
+&lt;h1&gt;請注意 seg2Grp 加上 seg1Grp 物件上&lt;/h1&gt;
+&lt;p&gt;seg1Grp.addObj(seg2Grp)&lt;/p&gt;
+&lt;p&gt;seg3 = obj2d(segData, "SHAPE", {
+        'fillColor':'darkGray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': -1 })
+axle3 = obj2d(shapedefs.circle(6), "SHAPE", {
+        'fillColor':'gray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': 1 })
+axle3.translate(50, 0)
+seg3Grp = cgo.createGroup2D(seg3, axle3)
+seg2Grp.addObj(seg3Grp)&lt;/p&gt;
+&lt;p&gt;seg4Data = ['M',0,-6, 'A',6,6,0,0,0,0,6, 'L',40,6, 40,12, 50,12, 50,-12, 40,-12, 40,-6, 'Z']
+seg4 = obj2d(seg4Data, "SHAPE", {
+        'fillColor':'darkGray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': -1 })
+seg3Grp.addObj(seg4)&lt;/p&gt;
+&lt;h1&gt;setup animation&lt;/h1&gt;
+&lt;p&gt;animData = {'s1': [0, 80, 45, 0],
+                  's2': [0, -60, -60, 0],
+                  's3': [0, -90, 0, 90, 0],
+                  's4': [0, 30, -90, 0]}&lt;/p&gt;
+&lt;p&gt;armTwnr = tweener(0, 3500, 'loop')&lt;/p&gt;
+&lt;p&gt;def initArm(opts):
+    seg2Grp.transform.translate(50,0)
+    seg3Grp.transform.translate(50,0)
+    seg4.transform.translate(50,0)&lt;/p&gt;
+&lt;p&gt;def armPathFn(time, opts):
+    seg1Rot = armTwnr.getVal(time, opts.s1)
+    seg2Rot = armTwnr.getVal(time, opts.s2)
+    seg3Rot = armTwnr.getVal(time, opts.s3)
+    seg4Rot = armTwnr.getVal(time, opts.s4)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;seg1Grp.transform.rotate(seg1Rot)
+seg2Grp.transform.rotate(seg2Rot)
+seg2Grp.transform.translate(50,0)
+seg3Grp.transform.rotate(seg3Rot)
+seg3Grp.transform.translate(50,0)
+seg4.transform.rotate(seg4Rot)
+seg4.transform.translate(50,0)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;cgo.animate(armGrp, initArm, armPathFn, animData)
+cgo.playAnimation()
+&lt;/script&gt;&lt;/p&gt;
+&lt;h3&gt;單連桿繪製與導入V-rep&lt;/h3&gt;
+&lt;p&gt;&lt;p&gt; 利用Solvespace繪製以下尺寸及組裝連桿&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;尺寸&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/pQ7GYmG"&gt;&lt;img src="http://i.imgur.com/pQ7GYmG.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;長度30連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355096" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209355096"&gt;base&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;長度50連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209354247" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209354247"&gt;link1&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;直徑5的連桿&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355724" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209355724"&gt;shaft&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;導入V-rep&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209373893" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/209373893"&gt;v-rep  0316&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;V-rep模擬&lt;/h4&gt;
+&lt;h2&gt;Hyperworks安裝與心得&lt;/h2&gt;
+&lt;h3&gt;各組利用網誌與簡報說明安裝或使用 Hyperworks 套件過程與心得 - 課程結束前, 希望能夠使用 Hyperworks 進行連桿機構零件的應力分析與機構運動模擬&lt;/h3&gt;
+&lt;h4&gt;Hyperworks安裝&lt;/h4&gt;
+&lt;h4&gt;心得&lt;/h4&gt;
+&lt;h2&gt;Solidthinking安裝&lt;/h2&gt;
+&lt;h2&gt;Feko安裝&lt;/h2&gt;
 &lt;h2&gt;Fossil SCM 倉儲(網路)&lt;/h2&gt;</summary><category term="Hyperworks 與 2D 繪圖-W4"></category></entry><entry><title>Fossil 與 Stunnel 啟動-W3</title><link href="./Fossil%20%E8%88%87%20Stunnel.html" rel="alternate"></link><published>2017-03-09T15:00:00+08:00</published><updated>2017-03-09T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-09:./Fossil 與 Stunnel.html</id><summary type="html">&lt;h4&gt;Fossil SCM&lt;/h4&gt;
 &lt;h4&gt;Stunnel 啟動&lt;/h4&gt;
 &lt;h4&gt;Hyperworks翻譯&lt;/h4&gt;
