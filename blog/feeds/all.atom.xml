@@ -227,42 +227,51 @@ cgo.playAnimation()
 
 &lt;h3&gt;網際平面四連桿機構動態模擬&lt;/h3&gt;
 &lt;h4&gt;四連桿平面機構&lt;/h4&gt;
-&lt;p&gt;&lt;!-- 以下執行 Brython 程式 --&gt;
+&lt;!-- 以下執行 Brython 程式 --&gt;
+
 &lt;canvas id="plotarea2" width="600" height="600"&gt;&lt;/canvas&gt;
+
 &lt;script type="text/python"&gt;
-from browser import window&lt;/p&gt;
-&lt;p&gt;cango = window.Cango2D.new
+from browser import window
+
+cango = window.Cango2D.new
 shapedefs = window.shapeDefs
 obj2d = window.Obj2D.new
 group2d = window.Group2D.new
-cgo = cango("plotarea2")&lt;/p&gt;
-&lt;p&gt;x1, y1 = 40, 20
+cgo = cango("plotarea2")
+
+x1, y1 = 40, 20
 cx1, cy1 = 90, 120
 x2, y2 = 120, 100
 cx2, cy2 = 130, 20
 cx3, cy3 = 150, 120
-x3, y3 = 180, 60&lt;/p&gt;
-&lt;p&gt;def dragC1(mousePos):
+x3, y3 = 180, 60
+
+def dragC1(mousePos):
     global cx1, cy1
     cx1 = mousePos.x
     cy1 = mousePos.y
-    drawCurve()&lt;/p&gt;
-&lt;p&gt;def dragC2(mousePos):
+    drawCurve()
+
+def dragC2(mousePos):
     global cx2, cy2
     cx2 = mousePos.x
     cy2 = mousePos.y
-    drawCurve()&lt;/p&gt;
-&lt;p&gt;def dragC3(mousePos):
+    drawCurve()
+
+def dragC3(mousePos):
     global cx3, cy3
     cx3 = mousePos.x
     cy3 = mousePos.y
-    drawCurve()&lt;/p&gt;
-&lt;p&gt;def dragX1(mousePos):
+    drawCurve()
+
+def dragX1(mousePos):
     global x1, y1
     x1 = mousePos.x
     y1 = mousePos.y
-    drawCurve()&lt;/p&gt;
-&lt;p&gt;def drawCurve():
+    drawCurve()
+
+def drawCurve():
     # curve change shape so it must be re-draw each time
     # draw a quadratic bezier from x1,y2 to x2,y2
     qbez = obj2d(['M', x1, y1, 'Q', cx1, cy1, x2, y2], "PATH",  {
@@ -301,11 +310,13 @@ x3, y3 = 180, 60&lt;/p&gt;
     #grp = group2d(qbez, cbez, L1, L2, L3, c1, c2, c3)
     grp = group2d(L1, L2, L3, c1, c2, c3, mx1)
     cgo.clearCanvas()
-    cgo.render(grp)&lt;/p&gt;
-&lt;p&gt;cgo.clearCanvas("lightyellow")
-cgo.setWorldCoords(0, 0, 200)&lt;/p&gt;
-&lt;h1&gt;draggable control points&lt;/h1&gt;
-&lt;p&gt;c1 = obj2d(shapedefs.circle(4), "SHAPE", {"fillColor":'red'})
+    cgo.render(grp)
+
+cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(0, 0, 200)
+
+# draggable control points
+c1 = obj2d(shapedefs.circle(4), "SHAPE", {"fillColor":'red'})
 c1.enableDrag(None, dragC1, None)
 c2 = c1.dup()
 c2.enableDrag(None, dragC2, None)
@@ -314,7 +325,8 @@ c3.enableDrag(None, dragC3, None)
 mx1 = c1.dup()
 mx1.enableDrag(None, dragX1, None)
 drawCurve();
-&lt;/script&gt;&lt;/p&gt;
+&lt;/script&gt;
+
 &lt;h4&gt;四連桿動態模擬&lt;/h4&gt;
 &lt;p&gt;&lt;canvas id='robot' width='800' height='400'&gt;&lt;/canvas&gt;
 &lt;script type="text/python"&gt;
@@ -448,42 +460,51 @@ cgo.playAnimation()
 
 &lt;h3&gt;網際平面四連桿機構動態模擬&lt;/h3&gt;
 &lt;h4&gt;四連桿平面機構&lt;/h4&gt;
-&lt;p&gt;&lt;!-- 以下執行 Brython 程式 --&gt;
+&lt;!-- 以下執行 Brython 程式 --&gt;
+
 &lt;canvas id="plotarea2" width="600" height="600"&gt;&lt;/canvas&gt;
+
 &lt;script type="text/python"&gt;
-from browser import window&lt;/p&gt;
-&lt;p&gt;cango = window.Cango2D.new
+from browser import window
+
+cango = window.Cango2D.new
 shapedefs = window.shapeDefs
 obj2d = window.Obj2D.new
 group2d = window.Group2D.new
-cgo = cango("plotarea2")&lt;/p&gt;
-&lt;p&gt;x1, y1 = 40, 20
+cgo = cango("plotarea2")
+
+x1, y1 = 40, 20
 cx1, cy1 = 90, 120
 x2, y2 = 120, 100
 cx2, cy2 = 130, 20
 cx3, cy3 = 150, 120
-x3, y3 = 180, 60&lt;/p&gt;
-&lt;p&gt;def dragC1(mousePos):
+x3, y3 = 180, 60
+
+def dragC1(mousePos):
     global cx1, cy1
     cx1 = mousePos.x
     cy1 = mousePos.y
-    drawCurve()&lt;/p&gt;
-&lt;p&gt;def dragC2(mousePos):
+    drawCurve()
+
+def dragC2(mousePos):
     global cx2, cy2
     cx2 = mousePos.x
     cy2 = mousePos.y
-    drawCurve()&lt;/p&gt;
-&lt;p&gt;def dragC3(mousePos):
+    drawCurve()
+
+def dragC3(mousePos):
     global cx3, cy3
     cx3 = mousePos.x
     cy3 = mousePos.y
-    drawCurve()&lt;/p&gt;
-&lt;p&gt;def dragX1(mousePos):
+    drawCurve()
+
+def dragX1(mousePos):
     global x1, y1
     x1 = mousePos.x
     y1 = mousePos.y
-    drawCurve()&lt;/p&gt;
-&lt;p&gt;def drawCurve():
+    drawCurve()
+
+def drawCurve():
     # curve change shape so it must be re-draw each time
     # draw a quadratic bezier from x1,y2 to x2,y2
     qbez = obj2d(['M', x1, y1, 'Q', cx1, cy1, x2, y2], "PATH",  {
@@ -522,11 +543,13 @@ x3, y3 = 180, 60&lt;/p&gt;
     #grp = group2d(qbez, cbez, L1, L2, L3, c1, c2, c3)
     grp = group2d(L1, L2, L3, c1, c2, c3, mx1)
     cgo.clearCanvas()
-    cgo.render(grp)&lt;/p&gt;
-&lt;p&gt;cgo.clearCanvas("lightyellow")
-cgo.setWorldCoords(0, 0, 200)&lt;/p&gt;
-&lt;h1&gt;draggable control points&lt;/h1&gt;
-&lt;p&gt;c1 = obj2d(shapedefs.circle(4), "SHAPE", {"fillColor":'red'})
+    cgo.render(grp)
+
+cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(0, 0, 200)
+
+# draggable control points
+c1 = obj2d(shapedefs.circle(4), "SHAPE", {"fillColor":'red'})
 c1.enableDrag(None, dragC1, None)
 c2 = c1.dup()
 c2.enableDrag(None, dragC2, None)
@@ -535,7 +558,8 @@ c3.enableDrag(None, dragC3, None)
 mx1 = c1.dup()
 mx1.enableDrag(None, dragX1, None)
 drawCurve();
-&lt;/script&gt;&lt;/p&gt;
+&lt;/script&gt;
+
 &lt;h4&gt;四連桿動態模擬&lt;/h4&gt;
 &lt;p&gt;&lt;canvas id='robot' width='800' height='400'&gt;&lt;/canvas&gt;
 &lt;script type="text/python"&gt;
