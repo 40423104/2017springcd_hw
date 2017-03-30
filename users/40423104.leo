@@ -27,7 +27,7 @@
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1"><vh>@clean index.html</vh>
+<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
 <v t="yen.20170120110024.2" a="E"><vh>html</vh>
 <v t="yen.20170120110024.3"><vh>head</vh></v>
 <v t="yen.20170120110024.4" a="E"><vh>body</vh>
@@ -423,10 +423,10 @@ make.start()
 </t>
 <t tx="yen.20170120110024.8">## 2017Spring 協同產品設計實習
 
-### 虎科大機械設計工程系
+### 設計二甲 40423104 顏暄
 
 &lt;small&gt;
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+40423104(https://40423104.github.io/2017springcd_hw/blog)
 &lt;/small&gt;
 
 [協同產品設計實習課程網誌](blog/index.html)
