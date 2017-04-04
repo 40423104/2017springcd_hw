@@ -1207,7 +1207,7 @@ cgo.playAnimation()
 &lt;a href="http://imgur.com/nxL7g4L"&gt;&lt;img src="http://i.imgur.com/nxL7g4L.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
 &lt;p&gt;*帳號密碼記得儲存&lt;/p&gt;&lt;/p&gt;
 &lt;h3&gt;步驟2. 更改Start.bat內容(在SciTE下更改)&lt;/h3&gt;
-&lt;p&gt;&lt;pre class="brush: python"&gt;
+&lt;p&gt;&lt;pre&gt;
 REM tiny2017 主要針對初學 Python3 與 C 學員所建立
 REM 近端使用 fossil 管理資料版本, 並且定時轉為 git 格式後上傳到 github
 @echo off
