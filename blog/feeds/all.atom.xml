@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-16T15:00:00+08:00</updated><entry><title>Hyperworks 與 2D 繪圖-W4</title><link href="./Fossil.html" rel="alternate"></link><published>2017-03-16T15:00:00+08:00</published><updated>2017-03-16T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-16:./Fossil.html</id><summary type="html">&lt;h4&gt;網際平面四連桿機構動態模擬&lt;/h4&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (虎尾科大MDE)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-29T15:00:00+08:00</updated><entry><title>onshape-W6</title><link href="./onshape.html" rel="alternate"></link><published>2017-03-29T15:00:00+08:00</published><updated>2017-03-29T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-29:./onshape.html</id><summary type="html">&lt;h4&gt;onshape&lt;/h4&gt;
+
+
+&lt;h2&gt;影片&lt;/h2&gt;
+&lt;h3&gt;20&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/210709563" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/210709563"&gt;W6-20-四連桿&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;40&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/210709572" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/210709572"&gt;W6-40-四連桿&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;50&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/210709757" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/210709757"&gt;W6-50-四連桿&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;60&lt;/h3&gt;</summary><category term="onshape-W6"></category></entry><entry><title>Hyperworks 與 2D 繪圖-W4</title><link href="./Fossil.html" rel="alternate"></link><published>2017-03-16T15:00:00+08:00</published><updated>2017-03-16T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-16:./Fossil.html</id><summary type="html">&lt;h4&gt;網際平面四連桿機構動態模擬&lt;/h4&gt;
 &lt;h4&gt;單連桿繪製與導入V-rep&lt;/h4&gt;
 &lt;h4&gt;Hyperworks&lt;/h4&gt;
 
