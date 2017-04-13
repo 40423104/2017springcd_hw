@@ -50,7 +50,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 &lt;p&gt;平面機構繪圖:&lt;/p&gt;
 &lt;!-- 以下執行 Brython 程式 --&gt;
 
-&lt;canvas id="plotarea2" width="600" height="600"&gt;&lt;/canvas&gt;
+&lt;canvas id="plotarea2" width="600" height="400"&gt;&lt;/canvas&gt;
 
 &lt;script type="text/python"&gt;
 from browser import window
