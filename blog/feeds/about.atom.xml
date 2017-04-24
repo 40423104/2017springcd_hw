@@ -21,8 +21,8 @@
 &lt;h3&gt;7.調整桿件設定&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/VmMz0Vo"&gt;&lt;img src="http://i.imgur.com/VmMz0Vo.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;8.模擬&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/SAORFYj"&gt;&lt;img src="http://i.imgur.com/SAORFYj.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;</summary><category term="V-rep"></category></entry><entry><title>W6-onshape與V-rep四連桿、八連桿</title><link href="./onshape%E8%88%87V-rep.html" rel="alternate"></link><published>2017-03-30T12:00:00+08:00</published><updated>2017-03-30T12:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-30:./onshape與V-rep.html</id><summary type="html">&lt;h4&gt;1.利用onshape繪製與組裝四連桿、八連桿&lt;/h4&gt;
-&lt;h4&gt;2.轉入V-REP並模擬&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/SAORFYj"&gt;&lt;img src="http://i.imgur.com/SAORFYj.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;</summary><category term="V-rep"></category></entry><entry><title>W6-onshape與V-rep四連桿、八連桿</title><link href="./onshape%E8%88%87V-rep.html" rel="alternate"></link><published>2017-03-30T12:00:00+08:00</published><updated>2017-03-30T12:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-30:./onshape與V-rep.html</id><summary type="html">&lt;h4&gt;利用onshape繪製與組裝四連桿、八連桿&lt;/h4&gt;
+&lt;h4&gt;轉入V-REP並模擬&lt;/h4&gt;
 
 
 &lt;h3&gt;四連桿影片&lt;/h3&gt;
@@ -39,8 +39,8 @@
 &lt;h4&gt;轉入V-rep模擬&lt;/h4&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214558908" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/214558908"&gt;虎尾科技大學 機械設計工程系-40423104-W6-四連桿模擬V-rep&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;40423104-Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
-&lt;h3&gt;八連桿影片&lt;/h3&gt;</summary><category term="onshape與V-rep-W6"></category></entry><entry><title>W5-V-rep模擬</title><link href="./V-rep.html" rel="alternate"></link><published>2017-03-23T15:00:00+08:00</published><updated>2017-03-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-23:./V-rep.html</id><summary type="html">&lt;h4&gt;1.利用V-rep 將單連桿機構導入，在進行模擬&lt;/h4&gt;
-&lt;h4&gt;2.簡單介紹 Git Hub 改版問題&lt;/h4&gt;
+&lt;h3&gt;八連桿影片&lt;/h3&gt;</summary><category term="onshape與V-rep-W6"></category></entry><entry><title>W5-V-rep模擬</title><link href="./V-rep.html" rel="alternate"></link><published>2017-03-23T15:00:00+08:00</published><updated>2017-03-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-23:./V-rep.html</id><summary type="html">&lt;h4&gt;利用V-rep 將單連桿機構導入，在進行模擬&lt;/h4&gt;
+&lt;h4&gt;簡單介紹 Git Hub 改版問題&lt;/h4&gt;
 
 
 &lt;h3&gt;單連桿影片&lt;/h3&gt;
@@ -286,9 +286,9 @@ wzxhzdk:0
 &lt;p&gt;&lt;p&gt;1.透過多次練習越來越熟悉v-rep的模擬操作&lt;/p&gt;
 &lt;p&gt;2.清楚多連桿與單連桿機構&lt;/p&gt;
 &lt;p&gt;3.了解連桿運動方式 &lt;/p&gt;
-&lt;p&gt;4.熟悉解決Git Hub改版方法&lt;/p&gt;&lt;/p&gt;</summary><category term="V-rep-W5"></category></entry><entry><title>W4-Hyperworks 與 2D 繪圖</title><link href="./Hyperworks.html" rel="alternate"></link><published>2017-03-16T15:00:00+08:00</published><updated>2017-03-16T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-16:./Hyperworks.html</id><summary type="html">&lt;h4&gt;1.網際平面四連桿機構動態模擬&lt;/h4&gt;
-&lt;h4&gt;2.單連桿繪製與導入V-rep&lt;/h4&gt;
-&lt;h4&gt;3.Hyperworks安裝&lt;/h4&gt;
+&lt;p&gt;4.熟悉解決Git Hub改版方法&lt;/p&gt;&lt;/p&gt;</summary><category term="V-rep-W5"></category></entry><entry><title>W4-Hyperworks 與 2D 繪圖</title><link href="./Hyperworks.html" rel="alternate"></link><published>2017-03-16T15:00:00+08:00</published><updated>2017-03-16T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-16:./Hyperworks.html</id><summary type="html">&lt;h4&gt;網際平面四連桿機構動態模擬&lt;/h4&gt;
+&lt;h4&gt;單連桿繪製與導入V-rep&lt;/h4&gt;
+&lt;h4&gt;Hyperworks安裝&lt;/h4&gt;
 
 
 &lt;h3&gt;網際平面四連桿機構動態模擬&lt;/h3&gt;
@@ -550,9 +550,9 @@ cgo.playAnimation()
 &lt;h3&gt;心得&lt;/h3&gt;
 &lt;p&gt;&lt;p&gt;1.學習與複習以線及座標繪製四連桿&lt;/p&gt;
 &lt;p&gt;2.單連桿繪製練習與模擬&lt;/p&gt;
-&lt;p&gt;3. 大約讀懂一些機械手臂動態模擬的程式與做動方式&lt;/p&gt;&lt;/p&gt;</summary><category term="Hyperworks 與 2D 繪圖-W4"></category></entry><entry><title>W3-Fossil 與 Stunnel 啟動</title><link href="./Fossil%20%E8%88%87%20Stunnel.html" rel="alternate"></link><published>2017-03-09T15:00:00+08:00</published><updated>2017-03-09T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-09:./Fossil 與 Stunnel.html</id><summary type="html">&lt;h4&gt;1.Fossil SCM與Stunnel 啟動&lt;/h4&gt;
-&lt;h4&gt;2.Hyperworks翻譯&lt;/h4&gt;
-&lt;h4&gt;3.Solvespace四連桿三角形頂點運動軌跡&lt;/h4&gt;
+&lt;p&gt;3. 大約讀懂一些機械手臂動態模擬的程式與做動方式&lt;/p&gt;&lt;/p&gt;</summary><category term="Hyperworks 與 2D 繪圖-W4"></category></entry><entry><title>W3-Fossil 與 Stunnel 啟動</title><link href="./Fossil%20%E8%88%87%20Stunnel.html" rel="alternate"></link><published>2017-03-09T15:00:00+08:00</published><updated>2017-03-09T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-09:./Fossil 與 Stunnel.html</id><summary type="html">&lt;h4&gt;Fossil SCM與Stunnel 啟動&lt;/h4&gt;
+&lt;h4&gt;Hyperworks翻譯&lt;/h4&gt;
+&lt;h4&gt;Solvespace四連桿三角形頂點運動軌跡&lt;/h4&gt;
 
 
 &lt;h2&gt;Fossil SCM與Stunnel 啟動&lt;/h2&gt;
@@ -783,8 +783,8 @@ Exit
 &lt;p&gt;&lt;p&gt; 1.學習如何使用Fossil SCM &lt;/p&gt;
 &lt;p&gt; 2.目前Stunnel 啟動不能再proxy下進入網頁 &lt;/p&gt;
 &lt;p&gt; 3.英文翻譯學習 及 Hyperworks認識&lt;/p&gt;
-&lt;p&gt; 4.熟悉V-rep匯入練習 &lt;/p&gt;&lt;/p&gt;</summary><category term="Fossil 與 Stunnel-W3"></category></entry><entry><title>W2- solvespace四連桿v-rep應用</title><link href="./solvespace%E8%88%87v-rep.html" rel="alternate"></link><published>2017-03-02T15:00:00+08:00</published><updated>2017-03-02T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-02:./solvespace與v-rep.html</id><summary type="html">&lt;h4&gt;1.Solvespace四連桿系統繪圖模擬&lt;/h4&gt;
-&lt;h4&gt;2.v-rep應用模擬&lt;/h4&gt;
+&lt;p&gt; 4.熟悉V-rep匯入練習 &lt;/p&gt;&lt;/p&gt;</summary><category term="Fossil 與 Stunnel-W3"></category></entry><entry><title>W2- solvespace四連桿v-rep應用</title><link href="./solvespace%E8%88%87v-rep.html" rel="alternate"></link><published>2017-03-02T15:00:00+08:00</published><updated>2017-03-02T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-02:./solvespace與v-rep.html</id><summary type="html">&lt;h4&gt;Solvespace四連桿系統繪圖模擬&lt;/h4&gt;
+&lt;h4&gt;v-rep應用模擬&lt;/h4&gt;
 
 
 &lt;h2&gt;利用Solvespace組合四連桿機構&lt;/h2&gt;
@@ -817,8 +817,8 @@ Exit
 &lt;h2&gt;心得&lt;/h2&gt;
 &lt;p&gt;&lt;p&gt; 1.學習v-rep應用模擬四連桿 &lt;/p&gt;
 &lt;p&gt; 2.熟悉v-rep操作，由於沒有很熟悉所以在模擬還是有些問題還沒找到解決方法 &lt;/p&gt;
-&lt;p&gt; 3.隨著多次練習畫圖模擬，更了解上課內容 &lt;/p&gt;&lt;/p&gt;</summary><category term="solvespace與v-rep-W2"></category></entry><entry><title>W1-協同設計資料與連桿實習</title><link href="./solvespace%E8%88%87Onshape.html" rel="alternate"></link><published>2017-02-23T15:00:00+08:00</published><updated>2017-02-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-02-23:./solvespace與Onshape.html</id><summary type="html">&lt;h4&gt;1.Solvespace 與 Onshape 組立單軸旋轉連桿系統、四連桿系統繪圖模擬&lt;/h4&gt;
-&lt;h4&gt;2.git submodule指令複習&lt;/h4&gt;
+&lt;p&gt; 3.隨著多次練習畫圖模擬，更了解上課內容 &lt;/p&gt;&lt;/p&gt;</summary><category term="solvespace與v-rep-W2"></category></entry><entry><title>W1-協同設計資料與連桿實習</title><link href="./solvespace%E8%88%87Onshape.html" rel="alternate"></link><published>2017-02-23T15:00:00+08:00</published><updated>2017-02-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-02-23:./solvespace與Onshape.html</id><summary type="html">&lt;h4&gt;Solvespace 與 Onshape 組立單軸旋轉連桿系統、四連桿系統繪圖模擬&lt;/h4&gt;
+&lt;h4&gt;git submodule指令複習&lt;/h4&gt;
 
 
 &lt;h2&gt;協同設計資料&lt;/h2&gt;
