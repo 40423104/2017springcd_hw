@@ -17,8 +17,8 @@
 &lt;h4&gt;轉入V-rep模擬&lt;/h4&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214558908" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/214558908"&gt;虎尾科技大學 機械設計工程系-40423104-W6-四連桿模擬V-rep&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;40423104-Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
-&lt;h3&gt;八連桿影片&lt;/h3&gt;</summary><category term="onshape-W6"></category></entry><entry><title>W5-V-rep模擬</title><link href="./V-rep.html" rel="alternate"></link><published>2017-03-23T15:00:00+08:00</published><updated>2017-03-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-23:./V-rep.html</id><summary type="html">&lt;h4&gt;利用V-rep 將單連桿機構導入，在進行模擬&lt;/h4&gt;
-&lt;h4&gt;簡單介紹 Git Hub 改版問題&lt;/h4&gt;
+&lt;h3&gt;八連桿影片&lt;/h3&gt;</summary><category term="onshape-W6"></category></entry><entry><title>W5-V-rep模擬</title><link href="./V-rep.html" rel="alternate"></link><published>2017-03-23T15:00:00+08:00</published><updated>2017-03-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-23:./V-rep.html</id><summary type="html">&lt;h4&gt;1.利用V-rep 將單連桿機構導入，在進行模擬&lt;/h4&gt;
+&lt;h4&gt;2.簡單介紹 Git Hub 改版問題&lt;/h4&gt;
 
 
 &lt;h3&gt;單連桿影片&lt;/h3&gt;
@@ -261,11 +261,12 @@ wzxhzdk:0
 [IPython]: http://ipython.org/&lt;/pre&gt;
 
 &lt;h3&gt;心得&lt;/h3&gt;
-&lt;p&gt;&lt;p&gt;透過多次練習越來越熟悉v-rep的模擬操作&lt;/p&gt;
-&lt;p&gt;清楚多連桿與單連桿機構&lt;/p&gt;
-&lt;p&gt;了解連桿運動方式 &lt;/p&gt;&lt;/p&gt;</summary><category term="V-rep-W5"></category></entry><entry><title>W4-Hyperworks 與 2D 繪圖</title><link href="./Hyperworks.html" rel="alternate"></link><published>2017-03-16T15:00:00+08:00</published><updated>2017-03-16T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-16:./Hyperworks.html</id><summary type="html">&lt;h4&gt;網際平面四連桿機構動態模擬&lt;/h4&gt;
-&lt;h4&gt;單連桿繪製與導入V-rep&lt;/h4&gt;
-&lt;h4&gt;Hyperworks安裝&lt;/h4&gt;
+&lt;p&gt;&lt;p&gt;1.透過多次練習越來越熟悉v-rep的模擬操作&lt;/p&gt;
+&lt;p&gt;2.清楚多連桿與單連桿機構&lt;/p&gt;
+&lt;p&gt;3.了解連桿運動方式 &lt;/p&gt;
+&lt;p&gt;4.熟悉解決Git Hub改版方法&lt;/p&gt;&lt;/p&gt;</summary><category term="V-rep-W5"></category></entry><entry><title>W4-Hyperworks 與 2D 繪圖</title><link href="./Hyperworks.html" rel="alternate"></link><published>2017-03-16T15:00:00+08:00</published><updated>2017-03-16T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-16:./Hyperworks.html</id><summary type="html">&lt;h4&gt;1.網際平面四連桿機構動態模擬&lt;/h4&gt;
+&lt;h4&gt;2.單連桿繪製與導入V-rep&lt;/h4&gt;
+&lt;h4&gt;3.Hyperworks安裝&lt;/h4&gt;
 
 
 &lt;h3&gt;網際平面四連桿機構動態模擬&lt;/h3&gt;
@@ -513,33 +514,28 @@ cgo.playAnimation()
 &lt;h4&gt;尺寸&lt;/h4&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/pQ7GYmG"&gt;&lt;img src="http://i.imgur.com/pQ7GYmG.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;長度30連桿&lt;/h4&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355096" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/209355096"&gt;base&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355096" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h4&gt;長度50連桿&lt;/h4&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209354247" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/209354247"&gt;link1&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209354247" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h4&gt;直徑5的連桿&lt;/h4&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355724" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/209355724"&gt;shaft&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209355724" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h4&gt;導入V-rep&lt;/h4&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209373893" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/209373893"&gt;v-rep  0316&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209373893" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h4&gt;V-rep模擬&lt;/h4&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/210707261" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/210707261"&gt;v-rep模擬&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
-&lt;h2&gt;Hyperworks安裝與心得&lt;/h2&gt;
-&lt;h4&gt;Hyperworks安裝&lt;/h4&gt;
-&lt;h4&gt;心得&lt;/h4&gt;
-&lt;h2&gt;Solidthinking安裝&lt;/h2&gt;
-&lt;h2&gt;Feko安裝&lt;/h2&gt;
-&lt;h2&gt;Fossil SCM 倉儲(網路)&lt;/h2&gt;</summary><category term="Hyperworks 與 2D 繪圖-W4"></category></entry><entry><title>W3-Fossil 與 Stunnel 啟動</title><link href="./Fossil%20%E8%88%87%20Stunnel.html" rel="alternate"></link><published>2017-03-09T15:00:00+08:00</published><updated>2017-03-09T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-09:./Fossil 與 Stunnel.html</id><summary type="html">&lt;h4&gt;Fossil SCM與Stunnel 啟動&lt;/h4&gt;
-&lt;h4&gt;Hyperworks翻譯&lt;/h4&gt;
-&lt;h4&gt;Solvespace四連桿三角形頂點運動軌跡&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/210707261" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;Hyperworks安裝&lt;/h2&gt;
+&lt;p&gt;信箱還沒收到認證信&lt;/p&gt;
+&lt;h3&gt;心得&lt;/h3&gt;
+&lt;p&gt;&lt;p&gt;1.學習與複習以線及座標繪製四連桿&lt;/p&gt;
+&lt;p&gt;2.單連桿繪製練習與模擬&lt;/p&gt;
+&lt;p&gt;3. 大約讀懂一些機械手臂動態模擬的程式與做動方式&lt;/p&gt;&lt;/p&gt;</summary><category term="Hyperworks 與 2D 繪圖-W4"></category></entry><entry><title>W3-Fossil 與 Stunnel 啟動</title><link href="./Fossil%20%E8%88%87%20Stunnel.html" rel="alternate"></link><published>2017-03-09T15:00:00+08:00</published><updated>2017-03-09T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-09:./Fossil 與 Stunnel.html</id><summary type="html">&lt;h4&gt;1.Fossil SCM與Stunnel 啟動&lt;/h4&gt;
+&lt;h4&gt;2.Hyperworks翻譯&lt;/h4&gt;
+&lt;h4&gt;3.Solvespace四連桿三角形頂點運動軌跡&lt;/h4&gt;
 
 
 &lt;h2&gt;Fossil SCM與Stunnel 啟動&lt;/h2&gt;
 &lt;h4&gt;步驟1. 執行fossil_repo目錄執行指令&lt;/h4&gt;
-&lt;p&gt;&lt;pre&gt;fossil init 組別.fpssil&lt;/pre&gt;
+&lt;p&gt;&lt;pre&gt;fossil init 組別.fossil&lt;/pre&gt;
 &lt;a href="http://imgur.com/lxR6Cpe"&gt;&lt;img src="http://i.imgur.com/lxR6Cpe.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
 &lt;a href="http://imgur.com/nxL7g4L"&gt;&lt;img src="http://i.imgur.com/nxL7g4L.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;
 &lt;p&gt;*帳號密碼記得儲存&lt;/p&gt;&lt;/p&gt;
@@ -604,8 +600,7 @@ Exit
 &lt;p&gt;&lt;a href="http://imgur.com/k7r1XRG"&gt;&lt;img src="http://i.imgur.com/k7r1XRG.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;可在網頁中進入設定更改成自己小組的名字&lt;/h4&gt;
 &lt;h2&gt;操作影片&lt;/h2&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207569135" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/207569135"&gt;2017-03-09 11-13-46&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207569135" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;hyperworks翻譯&lt;/h2&gt;
 &lt;p&gt;&lt;h2&gt;Hyperworks1&lt;/h2&gt;&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/207229473" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
@@ -753,68 +748,55 @@ Exit
 &lt;h2&gt;solvespace四連桿三角形頂點運動軌跡&lt;/h2&gt;
 &lt;h3&gt;桿件加入三角形顯示路徑與過程&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/9HN7TK8"&gt;&lt;img src="http://i.imgur.com/9HN7TK8.png" title="source: imgur.com" /&gt;&lt;/a&gt;
-&lt;iframe src="https://player.vimeo.com/video/208360660" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/208360660"&gt;Untitled&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/208360660" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h3&gt;利用excel查看路徑是否與在solvespace操作下相同(驗證路徑)&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://imgur.com/ZraAYID"&gt;&lt;img src="http://i.imgur.com/ZraAYID.png" title="source: imgur.com" /&gt;&lt;/a&gt;
-&lt;iframe src="https://player.vimeo.com/video/208361060" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/208361060"&gt;excel路徑&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/208361060" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;V-rep&lt;/h2&gt;
 &lt;h3&gt;完成 Solvespace 30-50-60 cm 比例的四連桿組立, 並轉出 stl 檔案, 以 import 方式轉入 V-rep&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209081797" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/209081797"&gt;v-rep(solvespace)&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209081797" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h3&gt;利用 Onshape 上述相同尺寸之四連桿機構, 以 stl 轉出 (或其他格式) 後, 再轉入 V-rep&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209085492" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/209085492"&gt;v-rep(on-shape)&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209085492" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;心得&lt;/h2&gt;
 &lt;p&gt;&lt;p&gt; 1.學習如何使用Fossil SCM &lt;/p&gt;
 &lt;p&gt; 2.目前Stunnel 啟動不能再proxy下進入網頁 &lt;/p&gt;
 &lt;p&gt; 3.英文翻譯學習 及 Hyperworks認識&lt;/p&gt;
-&lt;p&gt; 4.熟悉V-rep匯入練習 &lt;/p&gt;&lt;/p&gt;</summary><category term="Fossil 與 Stunnel-W3"></category></entry><entry><title>W2- solvespace四連桿v-rep應用</title><link href="./solvespace%E8%88%87v-rep.html" rel="alternate"></link><published>2017-03-02T15:00:00+08:00</published><updated>2017-03-02T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-02:./solvespace與v-rep.html</id><summary type="html">&lt;h4&gt;Solvespace四連桿系統繪圖模擬&lt;/h4&gt;
-&lt;h4&gt;v-rep應用模擬&lt;/h4&gt;
+&lt;p&gt; 4.熟悉V-rep匯入練習 &lt;/p&gt;&lt;/p&gt;</summary><category term="Fossil 與 Stunnel-W3"></category></entry><entry><title>W2- solvespace四連桿v-rep應用</title><link href="./solvespace%E8%88%87v-rep.html" rel="alternate"></link><published>2017-03-02T15:00:00+08:00</published><updated>2017-03-02T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-02:./solvespace與v-rep.html</id><summary type="html">&lt;h4&gt;1.Solvespace四連桿系統繪圖模擬&lt;/h4&gt;
+&lt;h4&gt;2.v-rep應用模擬&lt;/h4&gt;
 
 
 &lt;h2&gt;利用Solvespace組合四連桿機構&lt;/h2&gt;
 &lt;h3&gt;四連桿機構&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/206347595" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/206347595"&gt;W1 and W2四連桿-20170302&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
 &lt;h3&gt;長度30連桿&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/207312630" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="https://vimeo.com/207312630"&gt;W2-30桿件&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;iframe src="./../data/Week2/30桿件.html" width="640" height="360"&gt;&lt;/iframe&gt;
 
 &lt;h3&gt;長度50連桿&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/207314989" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/207314989"&gt;W2-50桿件&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
 &lt;iframe src="./../data/Week2/50桿件.html" width="640" height="360"&gt;&lt;/iframe&gt;
 
 &lt;h3&gt;長度60連桿&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/207315011" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="https://vimeo.com/207315011"&gt;W2-60桿件&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;iframe src="./../data/Week2/60桿件.html" width="640" height="360"&gt;&lt;/iframe&gt;
 
 &lt;h3&gt;四連桿組合&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/207315023" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/207315023"&gt;W2-組合&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
 &lt;iframe src="./../data/Week2/組合.html" width="640" height="360"&gt;&lt;/iframe&gt;
 
 &lt;h2&gt;v-rep應用&lt;/h2&gt;
-&lt;h4&gt;還在整理&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214566863" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214566863"&gt;虎尾科技大學 機械設計工程系-40423104-W2-V-Rep操作&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;40423104-Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h2&gt;心得&lt;/h2&gt;
 &lt;p&gt;&lt;p&gt; 1.學習v-rep應用模擬四連桿 &lt;/p&gt;
-&lt;p&gt; 2.熟悉v-rep操作 &lt;/p&gt;
-&lt;p&gt; 3.隨著多次練習畫圖模擬，更了解上課內容 &lt;/p&gt;&lt;/p&gt;</summary><category term="solvespace與v-rep-W2"></category></entry><entry><title>W1-協同設計資料與連桿實習</title><link href="./solvespace%E8%88%87Onshape.html" rel="alternate"></link><published>2017-02-23T15:00:00+08:00</published><updated>2017-02-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-02-23:./solvespace與Onshape.html</id><summary type="html">&lt;h4&gt;Solvespace 與 Onshape 組立單軸旋轉連桿系統、四連桿系統繪圖模擬&lt;/h4&gt;
-&lt;h4&gt;git submodule指令複習&lt;/h4&gt;
+&lt;p&gt; 2.熟悉v-rep操作，由於沒有很熟悉所以在模擬還是有些問題還沒找到解決方法 &lt;/p&gt;
+&lt;p&gt; 3.隨著多次練習畫圖模擬，更了解上課內容 &lt;/p&gt;&lt;/p&gt;</summary><category term="solvespace與v-rep-W2"></category></entry><entry><title>W1-協同設計資料與連桿實習</title><link href="./solvespace%E8%88%87Onshape.html" rel="alternate"></link><published>2017-02-23T15:00:00+08:00</published><updated>2017-02-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-02-23:./solvespace與Onshape.html</id><summary type="html">&lt;h4&gt;1.Solvespace 與 Onshape 組立單軸旋轉連桿系統、四連桿系統繪圖模擬&lt;/h4&gt;
+&lt;h4&gt;2.git submodule指令複習&lt;/h4&gt;
 
 
 &lt;h2&gt;協同設計資料&lt;/h2&gt;
