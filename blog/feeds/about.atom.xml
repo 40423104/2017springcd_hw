@@ -83,7 +83,12 @@
 &lt;p&gt;角度100度L型桿件:18mm、25mm、R45mm&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/214741635" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;h4&gt;桿件組合&lt;/h4&gt;</summary><category term="onshape與V-rep-W6"></category></entry><entry><title>W5-V-rep模擬</title><link href="./V-rep.html" rel="alternate"></link><published>2017-03-23T15:00:00+08:00</published><updated>2017-03-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-23:./V-rep.html</id><summary type="html">&lt;h4&gt;利用V-rep 將單連桿機構導入，在進行模擬&lt;/h4&gt;
+&lt;h4&gt;桿件組合&lt;/h4&gt;
+&lt;h4&gt;轉入V-rep模擬&lt;/h4&gt;
+&lt;h3&gt;心得&lt;/h3&gt;
+&lt;p&gt;&lt;p&gt;1.操作八連桿模擬要一個桿件慢慢來測試模擬，才不會一直模擬失敗&lt;/p&gt;
+&lt;p&gt;2.透過設計八連桿尺寸，更熟知設計時要注意到的桿件長度與需不需要加入特殊固定&lt;/p&gt;
+&lt;p&gt;3.在onshape中組裝零件須注意要使用轉動配合，才能方便在V-rep中模擬 &lt;/p&gt;&lt;/p&gt;</summary><category term="onshape與V-rep-W6"></category></entry><entry><title>W5-V-rep模擬</title><link href="./V-rep.html" rel="alternate"></link><published>2017-03-23T15:00:00+08:00</published><updated>2017-03-23T15:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-03-23:./V-rep.html</id><summary type="html">&lt;h4&gt;利用V-rep 將單連桿機構導入，在進行模擬&lt;/h4&gt;
 &lt;h4&gt;簡單介紹 Git Hub 改版問題&lt;/h4&gt;
 
 
@@ -589,8 +594,8 @@ cgo.playAnimation()
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/209373893" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h4&gt;V-rep模擬&lt;/h4&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/210707261" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;Hyperworks安裝&lt;/h2&gt;
-&lt;p&gt;因為安裝時間上需要花比較多時間，所以沒有錄製影片，&lt;/p&gt;
+&lt;h2&gt;Hyperworks安裝心得&lt;/h2&gt;
+&lt;p&gt;因為安裝時間上需要花比較多時間，所以沒有錄製影片，操作過後與網路上的影片的介紹，我發現HyperWorks包括建模，線性和非線性分析，結構和系統級優化，流​​體和多體動力學模擬，電磁兼容性（EMC），多物理場分析，基於模型的開發和數據管理解決等功能，對於未來的幫助很大，讓我對於這個軟體有新認識與期待。&lt;/p&gt;
 &lt;h3&gt;心得&lt;/h3&gt;
 &lt;p&gt;&lt;p&gt;1.學習與複習以線及座標繪製四連桿&lt;/p&gt;
 &lt;p&gt;2.單連桿繪製練習與模擬&lt;/p&gt;
@@ -898,52 +903,37 @@ Exit
 &lt;h3&gt;四連桿機構&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/206347595" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/206347595"&gt;W1 and W2四連桿-20170302&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
 &lt;h3&gt;長度30連桿&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/206344876" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="https://vimeo.com/206344876"&gt;W1-30桿件-20170223&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;iframe src="./../data/Week1/30桿.html" width="640" height="360"&gt;&lt;/iframe&gt;
 
 &lt;h3&gt;長度50連桿&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/206346002" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/206346002"&gt;W1-50桿件-20170223&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
 &lt;iframe src="./../data/Week1/50桿.html" width="640" height="360"&gt;&lt;/iframe&gt;
 
 &lt;h3&gt;長度60連桿&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/206347142" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="https://vimeo.com/206347142"&gt;W1-60桿件-20170223&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;iframe src="./../data/Week1/60桿.html" width="640" height="360"&gt;&lt;/iframe&gt;
 
 &lt;h3&gt;四連桿組合&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/207295299" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/207295299"&gt;W1-組合&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
 &lt;iframe src="./../data/Week1/組合.html" width="640" height="360"&gt;&lt;/iframe&gt;
 
 &lt;h2&gt;Onshape四連桿機構&lt;/h2&gt;
 &lt;h3&gt;四連桿機構&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207301283" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/207301283"&gt;W1-onshape-連桿&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207301283" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h3&gt;長度30連桿&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207300388" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/207300388"&gt;W1-onshape-30in&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207300388" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h3&gt;長度50連桿&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207299666" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/207299666"&gt;W1-onshape-50in&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207299666" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h3&gt;長度60連桿&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207300757" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/207300757"&gt;W1-onshape-60in&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207300757" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h3&gt;四連桿組合&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207304049" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/207304049"&gt;W1-onshape-組合&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/207304049" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;心得&lt;/h2&gt;
 &lt;p&gt;&lt;p&gt; 1.利用第一周熟悉Solvespace 與 Onshape繪圖與模擬以及組合(包含快捷鍵複習) &lt;/p&gt;
 &lt;p&gt; 2.熟悉git submodule指令 &lt;/p&gt;

@@ -22,58 +22,336 @@
 <v t="yen.20170108171733.6"><vh>@edit local_publishconf.py</vh></v>
 <v t="yen.20170108171733.7"><vh>@edit pelicanconf.py</vh></v>
 </v>
-<v t="yen.20170215103217.1" a="E"><vh>編輯 template</vh>
+<v t="yen.20170215103217.1"><vh>編輯 template</vh>
 <v t="yen.20170215103228.1" a="E"><vh>@path theme/pelican-bootstrap3_local/templates</vh>
 <v t="yen.20170215103332.1"><vh>@edit base.html</vh></v>
 </v>
 </v>
-<v t="yen.20170120110024.1" a="E"><vh>@clean index.html</vh>
-<v t="yen.20170120110024.2" a="E"><vh>html</vh>
-<v t="yen.20170120110024.3"><vh>head</vh></v>
-<v t="yen.20170120110024.4" a="E"><vh>body</vh>
-<v t="yen.20170120110024.5" a="E"><vh>reveal div</vh>
-<v t="yen.20170120110024.6" a="E"><vh>slides div</vh>
-<v t="yen.20170120110024.7" a="E"><vh>封面投影片</vh>
-<v t="yen.20170120110024.8"><vh>封面投影片內容</vh></v>
+<v t="leo.20170427044749.1" a="E"><vh>@clean index.html</vh>
+<v t="leo.20170427044749.2" a="E"><vh>html</vh>
+<v t="leo.20170427044749.3"><vh>head</vh></v>
+<v t="leo.20170427044749.4" a="E"><vh>body</vh>
+<v t="leo.20170427044749.5" a="E"><vh>reveal div</vh>
+<v t="leo.20170427044749.6" a="E"><vh>slides div</vh>
+<v t="leo.20170427044749.7" a="E"><vh>封面投影片</vh>
+<v t="leo.20170427044749.8"><vh>封面投影片內容</vh></v>
 </v>
-<v t="yen.20170120110024.9" a="E"><vh>快捷鍵</vh>
-<v t="yen.20170120110024.10"><vh>投影片快捷鍵</vh></v>
-</v>
-<v t="yen.20170120110024.11"><vh>各式內容引用範例</vh>
-<v t="yen.20170120110024.12" a="E"><vh>導入數學符號與方程式</vh>
-<v t="yen.20170120110024.13"><vh>LaTeX 格式方程式</vh></v>
-</v>
-<v t="yen.20170120110024.14" a="E"><vh>導入縮排程式碼</vh>
-<v t="yen.20170120110024.15"><vh>引用程式碼</vh></v>
-</v>
-<v t="yen.20170120110024.16" a="E"><vh>導入影片</vh>
-<v t="yen.20170120110024.17"><vh>iframe 導入影片</vh></v>
+<v t="leo.20170427044749.9"><vh>連結</vh>
+<v t="leo.20170427044749.10" a="E"><vh>個人連結</vh>
+<v t="leo.20170427044749.11"><vh>個人連結</vh></v>
 </v>
 </v>
-<v t="leo.20170425043442.1"><vh>第四週</vh>
-<v t="leo.20170425043442.2"><vh>標題</vh>
-<v t="leo.20170425043442.3"><vh>第四週</vh></v>
+<v t="leo.20170427044749.15"><vh>W1</vh>
+<v t="leo.20170427044749.16" a="E"><vh>標題</vh>
+<v t="leo.20170427044749.17"><vh>第一周</vh></v>
 </v>
-<v t="leo.20170425043442.4" a="E"><vh>標題</vh>
-<v t="leo.20170425043442.5"><vh>簡介</vh></v>
+<v t="leo.20170427044749.18" a="E"><vh>標題</vh>
+<v t="leo.20170427044749.19"><vh>4bar</vh></v>
 </v>
-<v t="leo.20170425043442.6" a="E"><vh>標題</vh>
-<v t="leo.20170425043442.7"><vh>單連桿</vh></v>
+<v t="leo.20170427044749.20"><vh>四連桿機構</vh>
+<v t="leo.20170427044749.21"><vh>影片</vh></v>
 </v>
-<v t="leo.20170425043442.8" a="E"><vh>影片-30</vh>
-<v t="leo.20170425043442.9"><vh>30</vh></v>
+<v t="leo.20170427050004.1"><vh>長度30連桿</vh>
+<v t="leo.20170427050004.2"><vh>影片</vh></v>
 </v>
-<v t="leo.20170425043442.10" a="E"><vh>影片-50</vh>
-<v t="leo.20170425043442.11"><vh>50</vh></v>
+<v t="leo.20170427050005.1"><vh>長度50連桿</vh>
+<v t="leo.20170427050005.2"><vh>影片</vh></v>
 </v>
-<v t="leo.20170425043442.12" a="E"><vh>影片-圓柱</vh>
-<v t="leo.20170425043442.13"><vh>圓柱</vh></v>
+<v t="leo.20170427050007.1"><vh>長度60連桿</vh>
+<v t="leo.20170427050007.2"><vh>影片</vh></v>
 </v>
-<v t="leo.20170425043442.14" a="E"><vh>標題</vh>
-<v t="leo.20170425043442.15"><vh>導入V-rep</vh></v>
+<v t="leo.20170427050155.1"><vh>四連桿組合</vh>
+<v t="leo.20170427050155.2"><vh>影片</vh></v>
 </v>
-<v t="leo.20170425043442.16" a="E"><vh>影片-V-rep</vh>
-<v t="leo.20170425043442.17"><vh>V-rep</vh></v>
+<v t="leo.20170427050156.1"><vh>Onshape四連桿機構</vh>
+<v t="leo.20170427050156.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427050157.1"><vh>長度30連桿</vh>
+<v t="leo.20170427050157.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427050200.1"><vh>長度50連桿</vh>
+<v t="leo.20170427050200.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427050008.1"><vh>長度60連桿</vh>
+<v t="leo.20170427050008.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427050010.1"><vh>四連桿組合</vh>
+<v t="leo.20170427050010.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427050611.1"><vh>心得</vh>
+<v t="leo.20170427050611.2"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170427045700.1"><vh>W2</vh>
+<v t="leo.20170427045700.2" a="E"><vh>標題</vh>
+<v t="leo.20170427045700.3"><vh>第二周</vh></v>
+</v>
+<v t="leo.20170427045700.4" a="E"><vh>標題</vh>
+<v t="leo.20170427045700.5"><vh>4bar</vh></v>
+</v>
+<v t="leo.20170427045700.6"><vh>四連桿機構</vh>
+<v t="leo.20170427045700.7"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427050938.1"><vh>長度30連桿</vh>
+<v t="leo.20170427050938.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427050939.1"><vh>長度50連桿</vh>
+<v t="leo.20170427050939.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427050940.1"><vh>長度60連桿</vh>
+<v t="leo.20170427050940.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427050941.1"><vh>四連桿組合</vh>
+<v t="leo.20170427050941.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427051123.1"><vh>v-rep應用</vh>
+<v t="leo.20170427051123.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427051124.1"><vh>心得</vh>
+<v t="leo.20170427051124.2"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20170427044749.22"><vh>W3</vh>
+<v t="leo.20170427044749.23" a="E"><vh>標題</vh>
+<v t="leo.20170427044749.24"><vh>第三週</vh></v>
+</v>
+<v t="leo.20170427044749.25" a="E"><vh>標題</vh>
+<v t="leo.20170427044749.26"><vh>內容</vh></v>
+</v>
+<v t="leo.20170427052109.1"><vh>Fossil SCM與Stunnel 啟動</vh>
+<v t="leo.20170427052109.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052245.1"><vh>Solvespace四連桿三角形頂點運動軌跡</vh>
+<v t="leo.20170427052245.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20170427052350.1"><vh>Solvespace四連桿三角形頂點運動軌跡</vh>
+<v t="leo.20170427052350.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052419.1"><vh>excel</vh>
+<v t="leo.20170427052419.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20170427052421.1"><vh>excel</vh>
+<v t="leo.20170427052421.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052128.1"><vh>Hyperworks1</vh>
+<v t="leo.20170427052128.2"><vh>Hyperworks1</vh></v>
+</v>
+<v t="leo.20170427044749.29"><vh>Hyperworks1</vh>
+<v t="leo.20170427044749.30"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427051748.1"><vh>Hyperworks1</vh>
+<v t="leo.20170427051748.2"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427051802.1"><vh>Hyperworks1</vh>
+<v t="leo.20170427051802.2"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427044749.31"><vh>Hyperworks3</vh>
+<v t="leo.20170427044749.32"><vh>Hyperworks3		</vh></v>
+</v>
+<v t="leo.20170427044749.33"><vh>Hyperworks3</vh>
+<v t="leo.20170427044749.34"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427051902.1"><vh>Hyperworks3</vh>
+<v t="leo.20170427051902.2"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427051906.1"><vh>Hyperworks3</vh>
+<v t="leo.20170427051906.2"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427052538.1"><vh>V-rep</vh>
+<v t="leo.20170427052538.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052545.1"><vh>V-rep</vh>
+<v t="leo.20170427052545.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052633.1"><vh>心得</vh>
+<v t="leo.20170427052633.2"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170427052716.1"><vh>W4</vh>
+<v t="leo.20170427052716.2"><vh>標題</vh>
+<v t="leo.20170427052716.3"><vh>第四週</vh></v>
+</v>
+<v t="leo.20170427052716.4"><vh>標題</vh>
+<v t="leo.20170427052716.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170427052716.6"><vh>單連桿繪製與導入V-rep</vh>
+<v t="leo.20170427052716.7"><vh>內容</vh></v>
+</v>
+<v t="leo.20170427052716.8"><vh>長度30連桿</vh>
+<v t="leo.20170427052716.9"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052716.10"><vh>長度50連桿</vh>
+<v t="leo.20170427052716.11"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052716.12"><vh>直徑5的連桿</vh>
+<v t="leo.20170427052716.13"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052716.14"><vh>導入V-rep</vh>
+<v t="leo.20170427052716.15"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052716.16"><vh>V-rep模擬</vh>
+<v t="leo.20170427052716.17"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052716.18"><vh>Hyperworks安裝心得</vh>
+<v t="leo.20170427052716.19"><vh>Hyperworks安裝心得</vh></v>
+</v>
+<v t="leo.20170427052716.36"><vh>心得</vh>
+<v t="leo.20170427052716.37"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20170427052717.1"><vh>W5</vh>
+<v t="leo.20170427052717.2"><vh>標題</vh>
+<v t="leo.20170427052717.3"><vh>第五週</vh></v>
+</v>
+<v t="leo.20170427052717.4"><vh>標題</vh>
+<v t="leo.20170427052717.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170427052717.6"><vh>單連桿影片</vh>
+<v t="leo.20170427052717.7"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052717.36"><vh>心得</vh>
+<v t="leo.20170427052717.37"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20170427052730.1"><vh>W6</vh>
+<v t="leo.20170427052730.2"><vh>標題</vh>
+<v t="leo.20170427052730.3"><vh>第六週</vh></v>
+</v>
+<v t="leo.20170427052730.4"><vh>標題</vh>
+<v t="leo.20170427052730.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170427052730.6"><vh>四連桿影片-桿件20</vh>
+<v t="leo.20170427052730.7"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052730.8"><vh>桿件30</vh>
+<v t="leo.20170427052730.9"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052730.10"><vh>桿件50</vh>
+<v t="leo.20170427052730.11"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427054313.1"><vh>桿件60</vh>
+<v t="leo.20170427054313.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427054315.1"><vh>桿件組合</vh>
+<v t="leo.20170427054315.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427054316.1"><vh>V-rep模擬</vh>
+<v t="leo.20170427054316.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427054318.1"><vh>八連桿影片</vh>
+<v t="leo.20170427054318.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427054523.1"><vh>桿件繪製(二)</vh>
+<v t="leo.20170427054523.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427054556.1" a="E"><vh>桿件組合</vh>
+<v t="leo.20170427054556.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427054557.1" a="E"><vh>V-rep模擬</vh>
+<v t="leo.20170427054557.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052730.36"><vh>心得</vh>
+<v t="leo.20170427052730.37"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170427052732.1"><vh>W7</vh>
+<v t="leo.20170427052732.2"><vh>標題</vh>
+<v t="leo.20170427052732.3"><vh>第七週</vh></v>
+</v>
+<v t="leo.20170427052732.4"><vh>標題</vh>
+<v t="leo.20170427052732.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170427052732.6"><vh>導入 STL 3D圖檔</vh>
+<v t="leo.20170427052732.7"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170427055427.1"><vh>可先調整圖的位置</vh>
+<v t="leo.20170427055427.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170427055428.1"><vh>分解組合圖</vh>
+<v t="leo.20170427055428.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170427055429.1"><vh>分解組合圖</vh>
+<v t="leo.20170427055429.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170427055431.1"><vh>導入圓柱</vh>
+<v t="leo.20170427055431.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170427055432.1"><vh>導入圓柱</vh>
+<v t="leo.20170427055432.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170427055434.1"><vh>將圓柱與軸對齊中心</vh>
+<v t="leo.20170427055434.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170427055632.1"><vh>將圓柱與軸對齊中心</vh>
+<v t="leo.20170427055632.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170427055634.1"><vh>調整軸轉動的速度</vh>
+<v t="leo.20170427055634.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170427055654.1"><vh>調整軸轉動的速度</vh>
+<v t="leo.20170427055654.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170427055655.1"><vh>調整桿件設定</vh>
+<v t="leo.20170427055655.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170427055819.1"><vh>模擬</vh>
+<v t="leo.20170427055819.2"><vh>圖片</vh></v>
+</v>
+</v>
+<v t="leo.20170427052734.1"><vh>W8</vh>
+<v t="leo.20170427052734.2" a="E"><vh>標題</vh>
+<v t="leo.20170427052734.3"><vh>第三週</vh></v>
+</v>
+<v t="leo.20170427052734.4" a="E"><vh>標題</vh>
+<v t="leo.20170427052734.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170427052734.6"><vh>Fossil SCM與Stunnel 啟動</vh>
+<v t="leo.20170427052734.7"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052734.8"><vh>Solvespace四連桿三角形頂點運動軌跡</vh>
+<v t="leo.20170427052734.9"><vh>內容</vh></v>
+</v>
+<v t="leo.20170427052734.10"><vh>Solvespace四連桿三角形頂點運動軌跡</vh>
+<v t="leo.20170427052734.11"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052734.12"><vh>excel</vh>
+<v t="leo.20170427052734.13"><vh>內容</vh></v>
+</v>
+<v t="leo.20170427052734.14"><vh>excel</vh>
+<v t="leo.20170427052734.15"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052734.16"><vh>Hyperworks1</vh>
+<v t="leo.20170427052734.17"><vh>Hyperworks1</vh></v>
+</v>
+<v t="leo.20170427052734.18"><vh>Hyperworks1</vh>
+<v t="leo.20170427052734.19"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427052734.20"><vh>Hyperworks1</vh>
+<v t="leo.20170427052734.21"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427052734.22"><vh>Hyperworks1</vh>
+<v t="leo.20170427052734.23"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427052734.24"><vh>Hyperworks3</vh>
+<v t="leo.20170427052734.25"><vh>Hyperworks3		</vh></v>
+</v>
+<v t="leo.20170427052734.26"><vh>Hyperworks3</vh>
+<v t="leo.20170427052734.27"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427052734.28"><vh>Hyperworks3</vh>
+<v t="leo.20170427052734.29"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427052734.30"><vh>Hyperworks3</vh>
+<v t="leo.20170427052734.31"><vh>逐字稿</vh></v>
+</v>
+<v t="leo.20170427052734.32"><vh>V-rep</vh>
+<v t="leo.20170427052734.33"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052734.34"><vh>V-rep</vh>
+<v t="leo.20170427052734.35"><vh>影片</vh></v>
+</v>
+<v t="leo.20170427052734.36"><vh>心得</vh>
+<v t="leo.20170427052734.37"><vh>影片</vh></v>
 </v>
 </v>
 </v>
@@ -118,57 +396,31 @@
 <v t="yen.20170209024032.1"><vh>reference</vh></v>
 </vnodes>
 <tnodes>
-<t tx="leo.20170425043442.1">&lt;section&gt;
+<t tx="leo.20170427044749.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20170427044749.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427044749.11">##個人連結
+
+###[Github](https://github.com/40423104/2017springcd_hw)
+
+###[vimeo](https://vimeo.com/user44900188)
+
+###[網誌](https://40423104.github.io/2017springcd_hw/blog/)</t>
+<t tx="leo.20170427044749.15">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="leo.20170425043442.10">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170425043442.11">###長度 50 桿鍵
-
-&lt;iframe src="https://player.vimeo.com/video/209354247" width="1024" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20170425043442.12">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170425043442.13">###直徑 5 桿鍵
-
-&lt;iframe src="https://player.vimeo.com/video/209355724" width="1024" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20170425043442.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170425043442.15">#導入V-rep</t>
-<t tx="leo.20170425043442.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20170425043442.17">###導入 V-rep
-
-&lt;iframe src="https://player.vimeo.com/video/209373893" width="1024" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20170425043442.2">&lt;section data-markdown&gt;
+<t tx="leo.20170427044749.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -178,8 +430,9 @@
 
 						
 </t>
-<t tx="leo.20170425043442.3"># 第四週</t>
-<t tx="leo.20170425043442.4">&lt;section data-markdown&gt;
+<t tx="leo.20170427044749.17"># 第一週
+</t>
+<t tx="leo.20170427044749.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -189,10 +442,14 @@
 
 						
 </t>
-<t tx="leo.20170425043442.5">##利用Solvespace繪製單連桿機構，
-
-##並導入V-rep進行動態模擬</t>
-<t tx="leo.20170425043442.6">&lt;section data-markdown&gt;
+<t tx="leo.20170427044749.19">##Solvespace四連桿機構
+##Onshape四連桿機構</t>
+<t tx="leo.20170427044749.2">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+@others
+&lt;/html&gt;
+</t>
+<t tx="leo.20170427044749.20">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -202,8 +459,14 @@
 
 						
 </t>
-<t tx="leo.20170425043442.7"># 單連桿繪製</t>
-<t tx="leo.20170425043442.8">&lt;section data-markdown&gt;
+<t tx="leo.20170427044749.21">###Solvespace四連桿機構
+
+&lt;iframe src="https://player.vimeo.com/video/206347595" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427044749.22">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170427044749.23">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -213,9 +476,1453 @@
 
 						
 </t>
-<t tx="leo.20170425043442.9">###長度 30 桿鍵
+<t tx="leo.20170427044749.24"># 第三週</t>
+<t tx="leo.20170427044749.25">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-&lt;iframe src="https://player.vimeo.com/video/209355096" width="1024" height="520" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+
+
+						
+</t>
+<t tx="leo.20170427044749.26">##Fossil SCM與Stunnel 啟動
+##Hyperworks翻譯
+##Solvespace四連桿三角形頂點運動軌跡</t>
+<t tx="leo.20170427044749.29">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427044749.3">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+&lt;title&gt;
+2017 Spring 機械設計工程系協同產品設計實習
+&lt;/title&gt;
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+    
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+    
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+    
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+    
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+    &lt;!-- Printing and PDF exports --&gt;
+    &lt;script&gt;
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    &lt;/script&gt;
+
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+
+</t>
+<t tx="leo.20170427044749.30">&lt;h3&gt;逐字稿&lt;/h3&gt;
+&lt;p&gt;In the 2017 release, we followed our vision and implement a lot more features, delivering more technology for your HyperWorks units investment.&lt;/p&gt;
+&lt;p&gt;在2017年版本中，我們遵循了我們的願景並實施了更多功能，為您的HyperWorks提供更多技術。&lt;/p&gt;
+&lt;p&gt;In our continuous development, we focused, as# always, on simulation-driven innovation, adding more optimization technology. &lt;/p&gt;
+&lt;p&gt;在我們的不斷發展中，我們一如既往地專注於模擬驅動的創新，增加更多的優化技術。&lt;/p&gt;
+&lt;p&gt;We added more physics simulation to the software, and we improved our parallel performance on high performance computers. &lt;/p&gt;
+&lt;p&gt;我們增加了許多的物理的模擬，我們提高了高性能電腦的平行性能。&lt;/p&gt;
+&lt;p&gt;OptiStruct, which is our implicit code, adds a lot of development in the nonlinear implicit area, but also in the optimization technology.&lt;/p&gt;
+&lt;p&gt;OptiStruct是我們的隱式代碼，在非線性隱含區域中，也在優化技術中添加了很多開發。&lt;/p&gt;
+</t>
+<t tx="leo.20170427044749.31">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427044749.32">###Hyperworks3
+&lt;iframe src="https://player.vimeo.com/video/207229503" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427044749.33">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427044749.34">&lt;h3&gt;逐字稿&lt;/h3&gt;
+&lt;p&gt;In OptiStruct, one of our focus areas is nonlinear large deformation analysis.&lt;/p&gt;
+&lt;p&gt;在OptiStruct中，我們的一個重點領域是非線性大變形分析。 &lt;/p&gt;
+&lt;p&gt;And in 2017 we added nonlinear transient analysis.&lt;/p&gt;
+&lt;p&gt;在2017年，我們添加了非線性瞬態分析&lt;/p&gt;
+&lt;p&gt;The main purpose was to couple AcuSolve to do fluid-structure interaction.&lt;/p&gt;
+&lt;p&gt;主要目的是使AcuSolve與流體 - 結構相互作用。&lt;/p&gt;
+&lt;p&gt;But also one development that happened during the last year came out piece-wise in different point releases and is now really mature.&lt;/p&gt;
+&lt;p&gt;但是，在過去一年中發生的一個發展，在不同的積分發布中分段出現，現在已經成熟。&lt;/p&gt;
+&lt;p&gt;And 2017 is our contact analysis, so we have different ways of defining sliding contact and things like that.&lt;/p&gt;
+&lt;p&gt;2017年是我們的接觸分析，所以我們有不同的方式來定義滑動接觸和類似的東西。&lt;/p&gt;
+&lt;p&gt;The fast contact analysis for small deformation is blazing fast.&lt;/p&gt;
+&lt;p&gt;對小變形的快速接觸分析是快速的。&lt;/p&gt;
+&lt;p&gt;It’s a very simple idea that makes the solution very fast, and that adds OptiStruct as really a leading nonlinear structural solver. &lt;/p&gt;
+&lt;p&gt;這是一個非常簡單的想法，使解決方案非常快，並將OptiStruct添加為真正的領先的非線性結構求解器。&lt;/p&gt;</t>
+<t tx="leo.20170427044749.4">&lt;body&gt;
+@others
+&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/zoom-js/zoom.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/notes/notes.js', async: true },
+                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/math/math.js', async: true }
+            ]
+        });
+&lt;/script&gt;
+&lt;/body&gt;
+</t>
+<t tx="leo.20170427044749.5">&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+
+</t>
+<t tx="leo.20170427044749.6">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+
+</t>
+<t tx="leo.20170427044749.7">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427044749.8">## 2017 Spring 協同產品設計實習
+
+## 四設計二甲 40423104 顏暄
+
+
+
+
+
+&lt;small&gt;
+Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/index.html)
+&lt;/small&gt;
+
+
+
+</t>
+<t tx="leo.20170427044749.9">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170427045700.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170427045700.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427045700.3"># 第二週</t>
+<t tx="leo.20170427045700.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427045700.5">##四連桿機構
+##v-rep應用</t>
+<t tx="leo.20170427045700.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427045700.7">###四連桿機構
+
+&lt;iframe src="https://player.vimeo.com/video/206347595" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427050004.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050004.2">###長度30連桿
+
+&lt;iframe src="https://player.vimeo.com/video/206344876" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427050005.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050005.2">###長度50連桿
+
+&lt;iframe src="https://player.vimeo.com/video/206346002" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427050007.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050007.2">###長度60連桿
+
+&lt;iframe src="https://player.vimeo.com/video/206347142" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427050008.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050008.2">###長度60連桿
+&lt;iframe src="https://player.vimeo.com/video/207300757" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427050010.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050010.2">###四連桿組合
+&lt;iframe src="https://player.vimeo.com/video/207304049" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427050155.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050155.2">###四連桿組合
+
+&lt;iframe src="https://player.vimeo.com/video/207295299" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20170427050156.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050156.2">###Onshape四連桿機構
+&lt;iframe src="https://player.vimeo.com/video/207301283" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20170427050157.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050157.2">###長度30連桿
+&lt;iframe src="https://player.vimeo.com/video/207300388" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427050200.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050200.2">###長度50連桿
+&lt;iframe src="https://player.vimeo.com/video/207299666" width="640" height="316" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427050611.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050611.2">##心得
+&lt;p&gt; 1.利用第一周熟悉Solvespace 與 Onshape繪圖與模擬以及組合(包含快捷鍵複習) &lt;/p&gt;
+&lt;p&gt; 2.熟悉git submodule指令 &lt;/p&gt;
+&lt;p&gt; 3.了解這學期上課內容與每周進度 &lt;/p&gt;
+</t>
+<t tx="leo.20170427050938.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050938.2">###長度30連桿
+
+&lt;iframe src="https://player.vimeo.com/video/207312630" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427050939.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050939.2">###長度50連桿
+
+&lt;iframe src="https://player.vimeo.com/video/207314989" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170427050940.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050940.2">###長度60連桿
+
+&lt;iframe src="https://player.vimeo.com/video/207315011" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427050941.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427050941.2">###四連桿組合
+
+&lt;iframe src="https://player.vimeo.com/video/207315023" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427051123.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427051123.2">##v-rep應用
+
+&lt;iframe src="https://player.vimeo.com/video/214566863" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427051124.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427051124.2">##心得
+&lt;p&gt; 1.學習v-rep應用模擬四連桿 &lt;/p&gt;
+&lt;p&gt; 2.熟悉v-rep操作，由於沒有很熟悉所以在模擬還是有些問題還沒找到解決方法 &lt;/p&gt;
+&lt;p&gt; 3.隨著多次練習畫圖模擬，更了解上課內容 &lt;/p&gt;
+</t>
+<t tx="leo.20170427051748.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427051748.2">&lt;p&gt;RADIOSS, we see a lot of development in new materials and material modeling. &lt;/p&gt;
+&lt;p&gt;RADIOSS，我們看到很多新材料和材料建模的發展。&lt;/p&gt;
+&lt;p&gt;You probably know that we did the acquisition of MDS a couple of years back, and we have now MDS integrated with RSDIOSS, and are doing application there.&lt;/p&gt;
+&lt;p&gt;您可能知道我們在幾年前就完成了MDS的收購，現在我們已經將MDS與RSDIOSS整合，並開始應用。&lt;/p&gt;
+&lt;p&gt;MotionSolve is based on a very unique formulation that this different from other multibody dynamics code, and the  formulation lends itself very well to optimization implementation.&lt;/p&gt;
+&lt;p&gt;MoMotionSolvetionSolve是根據一個非常獨特的公式，這不同於其他多體動力學代碼，MotionSolve公式本身非常好地優化實施。 &lt;/p&gt;
+&lt;p&gt;So the team has worked really hard on contact formulations, got very robust.&lt;/p&gt;
+&lt;p&gt;因此團隊對於接觸公式非常努力，獲得了非常強大的。&lt;/p&gt;
+&lt;p&gt;It's very cool which kind of problems can solve with contact modelling.&lt;/p&gt;
+&lt;p&gt;這類型的問題可以解決與接觸建模這是非常酷的。&lt;/p&gt;
+</t>
+<t tx="leo.20170427051802.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427051802.2">&lt;p&gt;So this is along the structural solvers side on AcuSolve side we actually added the complete portfolio of turbulence and transition models that really helps us to solve problems in wind turbines and automotive industry much more accurately, and it’s a big asset of physics simulation.&lt;/p&gt;
+&lt;p&gt;因此，這是沿著AcuSolve一側的結構解算方面，我們實際添加了完整的湍流和轉換模型組合，真正幫助我們更準確地解決風力渦輪機和汽車行業的問題，這是物理仿真的一個重要的資產。&lt;/p&gt;
+&lt;p&gt;And then our electromagnetic suite has actually grown last year through the acquisition of Flux, from the CEDRAT company.&lt;/p&gt;
+&lt;p&gt;然後，我們的電磁套件實際上是去年通過從CEDRAT公司收購Flux而實現的。&lt;/p&gt;
+&lt;p&gt;As well as the acquisition of WinProp, from AWE.&lt;/p&gt;
+&lt;p&gt;以及從AWE收購WinProp。&lt;/p&gt;
+&lt;p&gt;So now we have a complete frequency spectrum from low frequency electromagnetics the high frequency electromagnetics which is powered by FEKO.&lt;/p&gt;
+&lt;p&gt;所以現在我們有一個完整的頻譜從低頻電磁學的高頻電磁學由FEKO供電。&lt;/p&gt;
+&lt;p&gt;We now have a complete portfolio of physics modeling available for our customers, and it’s all linked through optimization. &lt;/p&gt;
+&lt;p&gt;我們現在有一個完整的物理建模組合可用於我們的客戶，它都通過優化鏈接。&lt;/p&gt;
+</t>
+<t tx="leo.20170427051902.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427051902.2">&lt;p&gt;Our two major optimization packages are OptiStruct for structural optimization, there’s a huge multidisciplinary component, too.&lt;/p&gt;
+&lt;p&gt;我們的兩個主要優化包是用於結構優化的OptiStruct，還有一個巨大的多學科組件。&lt;/p&gt;
+&lt;p&gt;And Hyperstudy for general optimization wrap around multidisciplinary optimization.&lt;/p&gt;
+&lt;p&gt;並且Hyperstudy對一般優化包圍多學科優化。&lt;/p&gt;
+&lt;p&gt;OptiStruct we spend a lot of time continuing the development for optimization and we have now Failsafe topology optimization.&lt;/p&gt;
+&lt;p&gt;OptiStruct我們花了很多時間繼續開發優化，我們現在已經失效的拓撲優化。&lt;/p&gt;
+&lt;p&gt;We kept on working on the manufacturing solution to do lattice optimization.&lt;/p&gt;
+&lt;p&gt;我們一直在製造解決方案上做晶格優化。&lt;/p&gt;
+&lt;p&gt;For the multi-model optimization it’s really maturing and we find more and more applications where that helps. &lt;/p&gt;
+&lt;p&gt;對於多模型優化，它真的成熟，我們發現越來越多的應用程序，這有助於。&lt;/p&gt;
+&lt;p&gt;Our goal is actually to include all the physics in the optimizations.&lt;/p&gt;
+&lt;p&gt;我們的目標實際上是在優化中包括所有的物理。&lt;/p&gt;</t>
+<t tx="leo.20170427051906.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427051906.2">&lt;p&gt;So the team right now is working on optimization for nonlinear problems and so on.&lt;/p&gt;
+&lt;p&gt;所以團隊現在正在努力優化非線性問題等等。&lt;/p&gt;
+&lt;p&gt;And then Hyperstudy, on the other hand, is going through a new transformation of the user the user experience was changed a few years back, but we are now trying to  make it much more easy to use by hiding a lot of the advanced functionalities to the regular users.&lt;/p&gt;
+&lt;p&gt;另一方面，Hyperstudy正在經歷用戶體驗在幾年前改變的用戶體驗的一個新的轉變，但是我們現在試圖通過隱藏許多高級功能來使它更容易使用 普通用戶。&lt;/p&gt;
+&lt;p&gt;And depending on the level of expertise or depending on the job that the user has to do, they can customize the user experience.&lt;/p&gt;
+&lt;p&gt;並且取決於專業水平或者根據用戶必須做的工作，他們可以定制用戶體驗。&lt;/p&gt;
+&lt;p&gt;We adds a few new connections.&lt;/p&gt;
+&lt;p&gt;我們添加了一些新的連接。&lt;/p&gt;
+&lt;p&gt;One of them is a Flux connection.&lt;/p&gt;
+&lt;p&gt;其中一個是Flux連接。&lt;/p&gt;
+&lt;p&gt;Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that.&lt;/p&gt;
+&lt;p&gt;Flux是我們剛剛為低頻電磁學採集的電磁學代碼，所以我們可以採用一個Flux數據庫，並把它放入Hyperstudy進行研究。&lt;/p&gt;</t>
+<t tx="leo.20170427052109.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052109.2">###Fossil SCM與Stunnel 啟動
+&lt;iframe src="https://player.vimeo.com/video/207569135" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170427052128.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052128.2">###Hyperworks1
+&lt;iframe src="https://player.vimeo.com/video/207229473" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170427052245.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052245.2">##solvespace四連桿三角形頂點運動軌跡
+###桿件加入三角形顯示路徑與過程
+&lt;a href="http://imgur.com/9HN7TK8"&gt;&lt;img src="http://i.imgur.com/9HN7TK8.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427052350.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052350.2">&lt;iframe src="https://player.vimeo.com/video/208360660" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427052419.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052419.2">###利用excel查看路徑是否與在solvespace操作下相同(驗證路徑)
+&lt;a href="http://imgur.com/ZraAYID"&gt;&lt;img src="http://i.imgur.com/ZraAYID.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+</t>
+<t tx="leo.20170427052421.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052421.2">&lt;iframe src="https://player.vimeo.com/video/208361060" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20170427052538.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052538.2">##V-rep
+###完成 Solvespace 30-50-60 cm 比例的四連桿組立, 並轉出 stl 檔案, 以 import 方式轉入 V-rep
+&lt;iframe src="https://player.vimeo.com/video/209081797" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20170427052545.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052545.2">###利用 Onshape 上述相同尺寸之四連桿機構, 以 stl 轉出 (或其他格式) 後, 再轉入 V-rep
+&lt;iframe src="https://player.vimeo.com/video/209085492" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427052633.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052633.2">##心得
+&lt;p&gt; 1.學習如何使用Fossil SCM &lt;/p&gt;
+&lt;p&gt; 2.目前Stunnel 啟動不能再proxy下進入網頁 &lt;/p&gt;
+&lt;p&gt; 3.英文翻譯學習 及 Hyperworks認識&lt;/p&gt;
+&lt;p&gt; 4.熟悉V-rep匯入練習 &lt;/p&gt;
+</t>
+<t tx="leo.20170427052716.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170427052716.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052716.11">####長度50連桿
+&lt;iframe src="https://player.vimeo.com/video/209354247" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427052716.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052716.13">####直徑5的連桿
+&lt;iframe src="https://player.vimeo.com/video/209355724" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427052716.14">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052716.15">####導入V-rep
+&lt;iframe src="https://player.vimeo.com/video/209373893" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20170427052716.16">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052716.17">####V-rep模擬
+&lt;iframe src="https://player.vimeo.com/video/210707261" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170427052716.18">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427052716.19">##Hyperworks安裝心得
+因為安裝時間上需要花比較多時間，所以沒有錄製影片，操作過後與網路上的影片的介紹，我發現HyperWorks包括建模，線性和非線性分析，結構和系統級優化，流​​體和多體動力學模擬，電磁兼容性（EMC），多物理場分析，基於模型的開發和數據管理解決等功能，對於未來的幫助很大，讓我對於這個軟體有新認識與期待。
+</t>
+<t tx="leo.20170427052716.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052716.3"># 第四週</t>
+<t tx="leo.20170427052716.36">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052716.37">###心得
+&lt;p&gt;1.學習與複習以線及座標繪製四連桿&lt;/p&gt;
+&lt;p&gt;2.單連桿繪製練習與模擬&lt;/p&gt;
+&lt;p&gt;3. 大約讀懂一些機械手臂動態模擬的程式與做動方式&lt;/p&gt;
+
+</t>
+<t tx="leo.20170427052716.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052716.5">##網際平面四連桿機構動態模擬
+##單連桿繪製與導入V-rep
+##Hyperworks安裝心得</t>
+<t tx="leo.20170427052716.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052716.7">###單連桿繪製與導入V-rep
+&lt;p&gt; 利用Solvespace繪製以下尺寸及組裝連桿&lt;/p&gt;
+####尺寸
+&lt;a href="http://imgur.com/pQ7GYmG"&gt;&lt;img src="http://i.imgur.com/pQ7GYmG.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427052716.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052716.9">####長度30連桿
+&lt;iframe src="https://player.vimeo.com/video/209355096" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe</t>
+<t tx="leo.20170427052717.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170427052717.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052717.3"># 第五週</t>
+<t tx="leo.20170427052717.36">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052717.37">###心得
+&lt;p&gt;1.透過多次練習越來越熟悉v-rep的模擬操作&lt;/p&gt;
+&lt;p&gt;2.清楚多連桿與單連桿機構&lt;/p&gt;
+&lt;p&gt;3.了解連桿運動方式 &lt;/p&gt;
+&lt;p&gt;4.熟悉解決Git Hub改版方法&lt;/p&gt;</t>
+<t tx="leo.20170427052717.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052717.5">##利用V-rep 將單連桿機構導入，在進行模擬</t>
+<t tx="leo.20170427052717.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052717.7">###單連桿影片
+&lt;iframe src="https://player.vimeo.com/video/214560619" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214560619"&gt;虎尾科技大學 機械設計工程系-40423104-W5-單連趕v-rep模擬&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;40423104-Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20170427052730.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170427052730.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052730.11">####桿件50
+&lt;iframe src="https://player.vimeo.com/video/210709757" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427052730.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052730.3"># 第六週</t>
+<t tx="leo.20170427052730.36">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052730.37">##心得
+&lt;p&gt;1.操作八連桿模擬要一個桿件慢慢來測試模擬，才不會一直模擬失敗&lt;/p&gt;
+&lt;p&gt;2.透過設計八連桿尺寸，更熟知設計時要注意到的桿件長度與需不需要加入特殊固定&lt;/p&gt;
+&lt;p&gt;3.在onshape中組裝零件須注意要使用轉動配合，才能方便在V-rep中模擬 &lt;/p&gt;
+</t>
+<t tx="leo.20170427052730.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052730.5">##利用onshape繪製與組裝四連桿、八連桿
+##轉入V-REP並模擬</t>
+<t tx="leo.20170427052730.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052730.7">###四連桿影片
+####桿件20
+&lt;iframe src="https://player.vimeo.com/video/210709563" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170427052730.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052730.9">####桿件30
+&lt;iframe src="https://player.vimeo.com/video/210709572" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170427052732.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170427052732.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052732.3"># 第七週</t>
+<t tx="leo.20170427052732.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052732.5">##轉入V-REP並模擬及轉入作法</t>
+<t tx="leo.20170427052732.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052732.7">###1.導入 STL 3D圖檔
+&lt;a href="http://imgur.com/byoORo7"&gt;&lt;img src="http://i.imgur.com/byoORo7.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427052734.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170427052734.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052734.11">&lt;iframe src="https://player.vimeo.com/video/208360660" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427052734.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052734.13">###利用excel查看路徑是否與在solvespace操作下相同(驗證路徑)
+&lt;a href="http://imgur.com/ZraAYID"&gt;&lt;img src="http://i.imgur.com/ZraAYID.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+</t>
+<t tx="leo.20170427052734.14">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052734.15">&lt;iframe src="https://player.vimeo.com/video/208361060" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20170427052734.16">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052734.17">###Hyperworks1
+&lt;iframe src="https://player.vimeo.com/video/207229473" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170427052734.18">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427052734.19">&lt;h3&gt;逐字稿&lt;/h3&gt;
+&lt;p&gt;In the 2017 release, we followed our vision and implement a lot more features, delivering more technology for your HyperWorks units investment.&lt;/p&gt;
+&lt;p&gt;在2017年版本中，我們遵循了我們的願景並實施了更多功能，為您的HyperWorks提供更多技術。&lt;/p&gt;
+&lt;p&gt;In our continuous development, we focused, as# always, on simulation-driven innovation, adding more optimization technology. &lt;/p&gt;
+&lt;p&gt;在我們的不斷發展中，我們一如既往地專注於模擬驅動的創新，增加更多的優化技術。&lt;/p&gt;
+&lt;p&gt;We added more physics simulation to the software, and we improved our parallel performance on high performance computers. &lt;/p&gt;
+&lt;p&gt;我們增加了許多的物理的模擬，我們提高了高性能電腦的平行性能。&lt;/p&gt;
+&lt;p&gt;OptiStruct, which is our implicit code, adds a lot of development in the nonlinear implicit area, but also in the optimization technology.&lt;/p&gt;
+&lt;p&gt;OptiStruct是我們的隱式代碼，在非線性隱含區域中，也在優化技術中添加了很多開發。&lt;/p&gt;
+</t>
+<t tx="leo.20170427052734.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052734.20">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427052734.21">&lt;p&gt;RADIOSS, we see a lot of development in new materials and material modeling. &lt;/p&gt;
+&lt;p&gt;RADIOSS，我們看到很多新材料和材料建模的發展。&lt;/p&gt;
+&lt;p&gt;You probably know that we did the acquisition of MDS a couple of years back, and we have now MDS integrated with RSDIOSS, and are doing application there.&lt;/p&gt;
+&lt;p&gt;您可能知道我們在幾年前就完成了MDS的收購，現在我們已經將MDS與RSDIOSS整合，並開始應用。&lt;/p&gt;
+&lt;p&gt;MotionSolve is based on a very unique formulation that this different from other multibody dynamics code, and the  formulation lends itself very well to optimization implementation.&lt;/p&gt;
+&lt;p&gt;MoMotionSolvetionSolve是根據一個非常獨特的公式，這不同於其他多體動力學代碼，MotionSolve公式本身非常好地優化實施。 &lt;/p&gt;
+&lt;p&gt;So the team has worked really hard on contact formulations, got very robust.&lt;/p&gt;
+&lt;p&gt;因此團隊對於接觸公式非常努力，獲得了非常強大的。&lt;/p&gt;
+&lt;p&gt;It's very cool which kind of problems can solve with contact modelling.&lt;/p&gt;
+&lt;p&gt;這類型的問題可以解決與接觸建模這是非常酷的。&lt;/p&gt;
+</t>
+<t tx="leo.20170427052734.22">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427052734.23">&lt;p&gt;So this is along the structural solvers side on AcuSolve side we actually added the complete portfolio of turbulence and transition models that really helps us to solve problems in wind turbines and automotive industry much more accurately, and it’s a big asset of physics simulation.&lt;/p&gt;
+&lt;p&gt;因此，這是沿著AcuSolve一側的結構解算方面，我們實際添加了完整的湍流和轉換模型組合，真正幫助我們更準確地解決風力渦輪機和汽車行業的問題，這是物理仿真的一個重要的資產。&lt;/p&gt;
+&lt;p&gt;And then our electromagnetic suite has actually grown last year through the acquisition of Flux, from the CEDRAT company.&lt;/p&gt;
+&lt;p&gt;然後，我們的電磁套件實際上是去年通過從CEDRAT公司收購Flux而實現的。&lt;/p&gt;
+&lt;p&gt;As well as the acquisition of WinProp, from AWE.&lt;/p&gt;
+&lt;p&gt;以及從AWE收購WinProp。&lt;/p&gt;
+&lt;p&gt;So now we have a complete frequency spectrum from low frequency electromagnetics the high frequency electromagnetics which is powered by FEKO.&lt;/p&gt;
+&lt;p&gt;所以現在我們有一個完整的頻譜從低頻電磁學的高頻電磁學由FEKO供電。&lt;/p&gt;
+&lt;p&gt;We now have a complete portfolio of physics modeling available for our customers, and it’s all linked through optimization. &lt;/p&gt;
+&lt;p&gt;我們現在有一個完整的物理建模組合可用於我們的客戶，它都通過優化鏈接。&lt;/p&gt;
+</t>
+<t tx="leo.20170427052734.24">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427052734.25">###Hyperworks3
+&lt;iframe src="https://player.vimeo.com/video/207229503" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427052734.26">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427052734.27">&lt;h3&gt;逐字稿&lt;/h3&gt;
+&lt;p&gt;In OptiStruct, one of our focus areas is nonlinear large deformation analysis.&lt;/p&gt;
+&lt;p&gt;在OptiStruct中，我們的一個重點領域是非線性大變形分析。 &lt;/p&gt;
+&lt;p&gt;And in 2017 we added nonlinear transient analysis.&lt;/p&gt;
+&lt;p&gt;在2017年，我們添加了非線性瞬態分析&lt;/p&gt;
+&lt;p&gt;The main purpose was to couple AcuSolve to do fluid-structure interaction.&lt;/p&gt;
+&lt;p&gt;主要目的是使AcuSolve與流體 - 結構相互作用。&lt;/p&gt;
+&lt;p&gt;But also one development that happened during the last year came out piece-wise in different point releases and is now really mature.&lt;/p&gt;
+&lt;p&gt;但是，在過去一年中發生的一個發展，在不同的積分發布中分段出現，現在已經成熟。&lt;/p&gt;
+&lt;p&gt;And 2017 is our contact analysis, so we have different ways of defining sliding contact and things like that.&lt;/p&gt;
+&lt;p&gt;2017年是我們的接觸分析，所以我們有不同的方式來定義滑動接觸和類似的東西。&lt;/p&gt;
+&lt;p&gt;The fast contact analysis for small deformation is blazing fast.&lt;/p&gt;
+&lt;p&gt;對小變形的快速接觸分析是快速的。&lt;/p&gt;
+&lt;p&gt;It’s a very simple idea that makes the solution very fast, and that adds OptiStruct as really a leading nonlinear structural solver. &lt;/p&gt;
+&lt;p&gt;這是一個非常簡單的想法，使解決方案非常快，並將OptiStruct添加為真正的領先的非線性結構求解器。&lt;/p&gt;</t>
+<t tx="leo.20170427052734.28">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427052734.29">&lt;p&gt;Our two major optimization packages are OptiStruct for structural optimization, there’s a huge multidisciplinary component, too.&lt;/p&gt;
+&lt;p&gt;我們的兩個主要優化包是用於結構優化的OptiStruct，還有一個巨大的多學科組件。&lt;/p&gt;
+&lt;p&gt;And Hyperstudy for general optimization wrap around multidisciplinary optimization.&lt;/p&gt;
+&lt;p&gt;並且Hyperstudy對一般優化包圍多學科優化。&lt;/p&gt;
+&lt;p&gt;OptiStruct we spend a lot of time continuing the development for optimization and we have now Failsafe topology optimization.&lt;/p&gt;
+&lt;p&gt;OptiStruct我們花了很多時間繼續開發優化，我們現在已經失效的拓撲優化。&lt;/p&gt;
+&lt;p&gt;We kept on working on the manufacturing solution to do lattice optimization.&lt;/p&gt;
+&lt;p&gt;我們一直在製造解決方案上做晶格優化。&lt;/p&gt;
+&lt;p&gt;For the multi-model optimization it’s really maturing and we find more and more applications where that helps. &lt;/p&gt;
+&lt;p&gt;對於多模型優化，它真的成熟，我們發現越來越多的應用程序，這有助於。&lt;/p&gt;
+&lt;p&gt;Our goal is actually to include all the physics in the optimizations.&lt;/p&gt;
+&lt;p&gt;我們的目標實際上是在優化中包括所有的物理。&lt;/p&gt;</t>
+<t tx="leo.20170427052734.3"># 第三週
+####Fossil SCM與Stunnel 啟動
+####Hyperworks翻譯
+####Solvespace四連桿三角形頂點運動軌跡</t>
+<t tx="leo.20170427052734.30">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170427052734.31">&lt;p&gt;So the team right now is working on optimization for nonlinear problems and so on.&lt;/p&gt;
+&lt;p&gt;所以團隊現在正在努力優化非線性問題等等。&lt;/p&gt;
+&lt;p&gt;And then Hyperstudy, on the other hand, is going through a new transformation of the user the user experience was changed a few years back, but we are now trying to  make it much more easy to use by hiding a lot of the advanced functionalities to the regular users.&lt;/p&gt;
+&lt;p&gt;另一方面，Hyperstudy正在經歷用戶體驗在幾年前改變的用戶體驗的一個新的轉變，但是我們現在試圖通過隱藏許多高級功能來使它更容易使用 普通用戶。&lt;/p&gt;
+&lt;p&gt;And depending on the level of expertise or depending on the job that the user has to do, they can customize the user experience.&lt;/p&gt;
+&lt;p&gt;並且取決於專業水平或者根據用戶必須做的工作，他們可以定制用戶體驗。&lt;/p&gt;
+&lt;p&gt;We adds a few new connections.&lt;/p&gt;
+&lt;p&gt;我們添加了一些新的連接。&lt;/p&gt;
+&lt;p&gt;One of them is a Flux connection.&lt;/p&gt;
+&lt;p&gt;其中一個是Flux連接。&lt;/p&gt;
+&lt;p&gt;Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that.&lt;/p&gt;
+&lt;p&gt;Flux是我們剛剛為低頻電磁學採集的電磁學代碼，所以我們可以採用一個Flux數據庫，並把它放入Hyperstudy進行研究。&lt;/p&gt;</t>
+<t tx="leo.20170427052734.32">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052734.33">##V-rep
+###完成 Solvespace 30-50-60 cm 比例的四連桿組立, 並轉出 stl 檔案, 以 import 方式轉入 V-rep
+&lt;iframe src="https://player.vimeo.com/video/209081797" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20170427052734.34">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052734.35">###利用 Onshape 上述相同尺寸之四連桿機構, 以 stl 轉出 (或其他格式) 後, 再轉入 V-rep
+&lt;iframe src="https://player.vimeo.com/video/209085492" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427052734.36">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052734.37">##心得
+&lt;p&gt; 1.學習如何使用Fossil SCM &lt;/p&gt;
+&lt;p&gt; 2.目前Stunnel 啟動不能再proxy下進入網頁 &lt;/p&gt;
+&lt;p&gt; 3.英文翻譯學習 及 Hyperworks認識&lt;/p&gt;
+&lt;p&gt; 4.熟悉V-rep匯入練習 &lt;/p&gt;
+</t>
+<t tx="leo.20170427052734.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052734.5">##Fossil SCM與Stunnel 啟動
+##Hyperworks翻譯
+##Solvespace四連桿三角形頂點運動軌跡</t>
+<t tx="leo.20170427052734.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052734.7">###Fossil SCM與Stunnel 啟動
+&lt;iframe src="https://player.vimeo.com/video/207569135" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170427052734.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427052734.9">##solvespace四連桿三角形頂點運動軌跡
+###桿件加入三角形顯示路徑與過程
+&lt;a href="http://imgur.com/9HN7TK8"&gt;&lt;img src="http://i.imgur.com/9HN7TK8.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427054313.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427054313.2">####桿件60
+&lt;iframe src="https://player.vimeo.com/video/210709915" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427054315.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427054315.2">####桿件組合
+&lt;iframe src="https://player.vimeo.com/video/211774477" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427054316.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427054316.2">####轉入V-rep模擬
+&lt;iframe src="https://player.vimeo.com/video/214558908" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427054318.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427054318.2">###八連桿影片
+####桿件繪製(一)
+中心距分別為:15mm、50mm、64mm
+L型桿件:6mmx40mm
+
+&lt;iframe src="https://player.vimeo.com/video/214740141" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427054523.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427054523.2">####桿件繪製(二)
+中心距分別為:40mm、50mm
+三角形尺寸:40mm、40mm、56mm
+角度100度L型桿件:18mm、25mm、R45mm
+
+&lt;iframe src="https://player.vimeo.com/video/214741635" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170427054556.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427054556.2">####桿件組合
+</t>
+<t tx="leo.20170427054557.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427054557.2">####轉入V-rep模擬
+
+</t>
+<t tx="leo.20170427055427.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427055427.2">###2.可先調整圖的位置
+&lt;a href="http://imgur.com/VW5pBOR"&gt;&lt;img src="http://i.imgur.com/VW5pBOR.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427055428.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427055428.2">###3.分解組合圖(每件變成單一個體)
+&lt;a href="http://imgur.com/12OHaFy"&gt;&lt;img src="http://i.imgur.com/12OHaFy.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427055429.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427055429.2">&lt;a href="http://imgur.com/Edd28T2"&gt;&lt;img src="http://i.imgur.com/Edd28T2.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427055431.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427055431.2">###4.導入圓柱
+&lt;a href="http://imgur.com/KJMFJQ7"&gt;&lt;img src="http://i.imgur.com/KJMFJQ7.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427055432.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427055432.2">&lt;a href="http://imgur.com/cXaH1ZH"&gt;&lt;img src="http://i.imgur.com/cXaH1ZH.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427055434.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427055434.2">###5.將圓柱與軸對齊中心
+&lt;a href="http://imgur.com/WGANwBU"&gt;&lt;img src="http://i.imgur.com/WGANwBU.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427055632.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427055632.2">&lt;a href="http://imgur.com/VmMz0Vo"&gt;&lt;img src="http://i.imgur.com/VmMz0Vo.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427055634.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427055634.2">###6.調整軸轉動的速度
+&lt;a href="http://imgur.com/HGMpJmb"&gt;&lt;img src="http://i.imgur.com/HGMpJmb.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427055654.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427055654.2">&lt;a href="http://imgur.com/LbXtSgu"&gt;&lt;img src="http://i.imgur.com/LbXtSgu.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427055655.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427055655.2">###7.調整桿件設定
+&lt;a href="http://imgur.com/VmMz0Vo"&gt;&lt;img src="http://i.imgur.com/VmMz0Vo.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427055819.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170427055819.2">###8.模擬
+&lt;a href="http://imgur.com/SAORFYj"&gt;&lt;img src="http://i.imgur.com/SAORFYj.png" title="source: imgur.com" /&gt;&lt;/a&gt;
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -364,204 +2071,6 @@ def domake():
 # 利用執行緒執行 https 伺服器
 make = threading.Thread(target=domake)
 make.start()</t>
-<t tx="yen.20170120110024.1">@language xml
-@tabwidth -4
-@others
-
-</t>
-<t tx="yen.20170120110024.10"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="yen.20170120110024.11">&lt;section&gt;
-@others
-&lt;/section&gt;</t>
-<t tx="yen.20170120110024.12">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="yen.20170120110024.13"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="yen.20170120110024.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="yen.20170120110024.15">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="yen.20170120110024.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20170120110024.17">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="yen.20170120110024.2">&lt;!doctype html&gt;
-&lt;html lang="en"&gt;
-@others
-&lt;/html&gt;
-</t>
-<t tx="yen.20170120110024.3">&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-&lt;title&gt;
-2017 Spring 機械設計工程系協同產品設計實習
-&lt;/title&gt;
-    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
-    &lt;meta name="author" content="Hakim El Hattab"&gt;
-    
-    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
-    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
-    
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
-    
-    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
-    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
-    
-    &lt;!-- Theme used for syntax highlighting of code --&gt;
-    &lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
-
-    &lt;!-- Printing and PDF exports --&gt;
-    &lt;script&gt;
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    &lt;/script&gt;
-
-    &lt;!--[if lt IE 9]&gt;
-    &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
-    &lt;![endif]--&gt;
-&lt;/head&gt;
-
-</t>
-<t tx="yen.20170120110024.4">&lt;body&gt;
-@others
-&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"&gt;&lt;/script&gt;
-&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-        // More info https://github.com/hakimel/reveal.js#configuration
-        Reveal.initialize({
-            controls: true,
-            progress: true,
-            history: true,
-            center: true,
-
-            transition: 'slide', // none/fade/slide/convex/concave/zoom
-
-            // More info https://github.com/hakimel/reveal.js#dependencies
-            dependencies: [
-                { src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/zoom-js/zoom.js', async: true },
-                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/notes/notes.js', async: true },
-                { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/math/math.js', async: true }
-            ]
-        });
-&lt;/script&gt;
-&lt;/body&gt;
-</t>
-<t tx="yen.20170120110024.5">&lt;div class="reveal"&gt;
-@others
-&lt;/div&gt;
-
-</t>
-<t tx="yen.20170120110024.6">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
-&lt;div class="slides"&gt;
-@others
-&lt;/div&gt;
-
-</t>
-<t tx="yen.20170120110024.7">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20170120110024.8">## 2017Spring 協同產品設計實習
-
-### 設計二甲 40423104 顏暄
-
-&lt;small&gt;
-Created by [KMOLab](https://40423104.github.io/2017springcd_hw/blog/)
-&lt;/small&gt;
-
-[協同產品設計實習網誌](blog/index.html)
-
-
-</t>
-<t tx="yen.20170120110024.9">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
 <t tx="yen.20170120212350.1"></t>
 <t tx="yen.20170120212354.1">@language python
 import calendar
