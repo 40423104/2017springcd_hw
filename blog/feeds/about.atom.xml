@@ -32,7 +32,7 @@
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214882073" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h3&gt;組裝&lt;/h3&gt;
 &lt;h3&gt;模擬&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214729992" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="期中"></category></entry><entry><title>V-rep模擬操作(祥細)</title><link href="./V-rep%E6%A8%A1%E6%93%AC%E6%93%8D%E4%BD%9C.html" rel="alternate"></link><published>2017-04-13T17:00:00+08:00</published><updated>2017-04-13T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-13:./V-rep模擬操作.html</id><summary type="html">&lt;h4&gt;轉入V-REP並模擬及轉入作法&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214729992" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="期中協同"></category></entry><entry><title>V-rep模擬操作(祥細)</title><link href="./V-rep%E6%93%8D%E4%BD%9C.html" rel="alternate"></link><published>2017-04-13T17:00:00+08:00</published><updated>2017-04-13T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-13:./V-rep操作.html</id><summary type="html">&lt;h4&gt;轉入V-REP並模擬及轉入作法&lt;/h4&gt;
 
 
 &lt;h3&gt;1.導入 STL 3D圖檔&lt;/h3&gt;
@@ -349,7 +349,7 @@ comments are rendered as standard code input cells.
 To test the plugin in multiple environments we use [tox](http://tox.readthedocs.org/en/latest/), to run the entire test suite, just type:
 
 
-wzxhzdk:0
+ wzxhzdk:0 
 
 
 [IPython]: http://ipython.org/&lt;/pre&gt;
