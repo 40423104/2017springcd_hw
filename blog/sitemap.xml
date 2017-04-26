@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-04-27T06:34:20-00:00</lastmod>
+<lastmod>2017-04-27T06:36:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-04-27T06:34:20-00:00</lastmod>
+<lastmod>2017-04-27T06:36:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-04-27T06:34:20-00:00</lastmod>
+<lastmod>2017-04-27T06:36:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-04-27T06:34:20-00:00</lastmod>
+<lastmod>2017-04-27T06:36:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -48,13 +48,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./V-rep操作.html</loc>
 <lastmod>2017-04-13T17:00:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./V-rep模擬操作.html</loc>
-<lastmod>2017-03-31T13:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -109,15 +102,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/qi-zhong-xie-tong.html</loc>
-<lastmod>2017-04-27T13:20:00+08:06</lastmod>
+<loc>./tag/v-repmo-ni.html</loc>
+<lastmod>2017-04-13T17:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/v-rep-w5.html</loc>
-<lastmod>2017-03-23T15:00:00+08:06</lastmod>
+<loc>./tag/solvespaceyu-onshape-w1.html</loc>
+<lastmod>2017-02-23T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -130,15 +123,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/v-repmo-ni.html</loc>
-<lastmod>2017-04-13T17:00:00+08:06</lastmod>
+<loc>./tag/solvespaceyu-v-rep-w2.html</loc>
+<lastmod>2017-03-02T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/v-repmo-ni-cao-zuo.html</loc>
-<lastmod>2017-03-31T13:00:00+08:06</lastmod>
+<loc>./tag/qi-zhong-xie-tong.html</loc>
+<lastmod>2017-04-27T13:20:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -151,13 +144,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/solvespaceyu-v-rep-w2.html</loc>
-<lastmod>2017-03-02T11:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./tag/hyperworks-yu-2d-hui-tu-w4.html</loc>
 <lastmod>2017-03-16T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -165,8 +151,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/solvespaceyu-onshape-w1.html</loc>
-<lastmod>2017-02-23T15:00:00+08:06</lastmod>
+<loc>./tag/v-rep-w5.html</loc>
+<lastmod>2017-03-23T15:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
