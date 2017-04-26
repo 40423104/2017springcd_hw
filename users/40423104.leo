@@ -254,7 +254,7 @@
 <v t="leo.20170427052730.37"><vh>影片</vh></v>
 </v>
 </v>
-<v t="leo.20170427052732.1"><vh>W7</vh>
+<v t="leo.20170427052732.1"><vh>W8</vh>
 <v t="leo.20170427052732.2"><vh>標題</vh>
 <v t="leo.20170427052732.3"><vh>第七週</vh></v>
 </v>
@@ -298,9 +298,9 @@
 <v t="leo.20170427055819.2"><vh>圖片</vh></v>
 </v>
 </v>
-<v t="leo.20170427052734.1"><vh>W8</vh>
+<v t="leo.20170427052734.1" a="E"><vh>W10</vh>
 <v t="leo.20170427052734.2" a="E"><vh>標題</vh>
-<v t="leo.20170427052734.3"><vh>第三週</vh></v>
+<v t="leo.20170427052734.3"><vh>第十週</vh></v>
 </v>
 <v t="leo.20170427052734.4" a="E"><vh>標題</vh>
 <v t="leo.20170427052734.5"><vh>內容</vh></v>
@@ -308,50 +308,41 @@
 <v t="leo.20170427052734.6"><vh>Fossil SCM與Stunnel 啟動</vh>
 <v t="leo.20170427052734.7"><vh>影片</vh></v>
 </v>
-<v t="leo.20170427052734.8"><vh>Solvespace四連桿三角形頂點運動軌跡</vh>
-<v t="leo.20170427052734.9"><vh>內容</vh></v>
+<v t="leo.20170427052734.8" a="E"><vh>四連桿機構協同 Trace Point 查驗</vh>
+<v t="leo.20170427052734.9"><vh>影片</vh></v>
 </v>
-<v t="leo.20170427052734.10"><vh>Solvespace四連桿三角形頂點運動軌跡</vh>
-<v t="leo.20170427052734.11"><vh>影片</vh></v>
+<v t="leo.20170427052734.10"><vh>四連桿機構協同 Trace Point 查驗</vh>
+<v t="leo.20170427052734.11"><vh>圖片</vh></v>
 </v>
-<v t="leo.20170427052734.12"><vh>excel</vh>
-<v t="leo.20170427052734.13"><vh>內容</vh></v>
+<v t="leo.20170427052734.12"><vh>四連桿機構協同 Trace Point 查驗</vh>
+<v t="leo.20170427052734.13"><vh>excel</vh></v>
 </v>
-<v t="leo.20170427052734.14"><vh>excel</vh>
+<v t="leo.20170427052734.14"><vh>第二種尺寸修改</vh>
 <v t="leo.20170427052734.15"><vh>影片</vh></v>
 </v>
-<v t="leo.20170427052734.16"><vh>Hyperworks1</vh>
-<v t="leo.20170427052734.17"><vh>Hyperworks1</vh></v>
+<v t="leo.20170427052734.16"><vh>第二種尺寸修改</vh>
+<v t="leo.20170427052734.17"><vh>圖片</vh></v>
 </v>
-<v t="leo.20170427052734.18"><vh>Hyperworks1</vh>
-<v t="leo.20170427052734.19"><vh>逐字稿</vh></v>
+<v t="leo.20170427052734.18"><vh>第二種尺寸修改</vh>
+<v t="leo.20170427052734.19"><vh>excel</vh></v>
 </v>
-<v t="leo.20170427052734.20"><vh>Hyperworks1</vh>
-<v t="leo.20170427052734.21"><vh>逐字稿</vh></v>
+<v t="leo.20170427052734.20"><vh>Fourbar Walker</vh>
+<v t="leo.20170427052734.21"><vh>圖片</vh></v>
 </v>
-<v t="leo.20170427052734.22"><vh>Hyperworks1</vh>
-<v t="leo.20170427052734.23"><vh>逐字稿</vh></v>
+<v t="leo.20170427052734.22"><vh>Fourbar Walker</vh>
+<v t="leo.20170427052734.23"><vh>影片</vh></v>
 </v>
-<v t="leo.20170427052734.24"><vh>Hyperworks3</vh>
-<v t="leo.20170427052734.25"><vh>Hyperworks3		</vh></v>
+<v t="leo.20170427052734.24"><vh>Fourbar Walker</vh>
+<v t="leo.20170427052734.25"><vh>影片</vh></v>
 </v>
-<v t="leo.20170427052734.26"><vh>Hyperworks3</vh>
-<v t="leo.20170427052734.27"><vh>逐字稿</vh></v>
+<v t="leo.20170427052734.26"><vh>Fourbar Walker</vh>
+<v t="leo.20170427052734.27"><vh>影片</vh></v>
 </v>
-<v t="leo.20170427052734.28"><vh>Hyperworks3</vh>
-<v t="leo.20170427052734.29"><vh>逐字稿</vh></v>
+<v t="leo.20170427052734.28" a="E"><vh>組裝</vh>
+<v t="leo.20170427052734.29"><vh>影片</vh></v>
 </v>
-<v t="leo.20170427052734.30"><vh>Hyperworks3</vh>
-<v t="leo.20170427052734.31"><vh>逐字稿</vh></v>
-</v>
-<v t="leo.20170427052734.32"><vh>V-rep</vh>
-<v t="leo.20170427052734.33"><vh>影片</vh></v>
-</v>
-<v t="leo.20170427052734.34"><vh>V-rep</vh>
-<v t="leo.20170427052734.35"><vh>影片</vh></v>
-</v>
-<v t="leo.20170427052734.36"><vh>心得</vh>
-<v t="leo.20170427052734.37"><vh>影片</vh></v>
+<v t="leo.20170427052734.30"><vh>模擬</vh>
+<v t="leo.20170427052734.31"><vh>影片</vh></v>
 </v>
 </v>
 </v>
@@ -361,7 +352,7 @@
 </v>
 <v t="yen.20170108171733.71" a="E"><vh>@path content</vh>
 <v t="leo.20170406084328.1"><vh>@edit 20170427.md</vh></v>
-<v t="leo.20170427024141.1"><vh>@edit 20170331.md</vh></v>
+<v t="leo.20170427024141.1"><vh>@edit 20170413.md</vh></v>
 <v t="leo.20170425043650.1"><vh>@edit 20170330.md</vh></v>
 <v t="leo.20170406084320.1"><vh>@edit 20170323.md</vh></v>
 <v t="leo.20170406084306.1"><vh>@edit 20170316.md</vh></v>
@@ -1386,7 +1377,7 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052732.3"># 第七週</t>
+<t tx="leo.20170427052732.3"># 第八週</t>
 <t tx="leo.20170427052732.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1423,7 +1414,7 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.11">&lt;iframe src="https://player.vimeo.com/video/208360660" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+<t tx="leo.20170427052734.11">&lt;a href="http://imgur.com/fQfeSWr"&gt;&lt;img src="http://i.imgur.com/fQfeSWr.png" title="source: imgur.com" /&gt;&lt;/a&gt;
 </t>
 <t tx="leo.20170427052734.12">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -1435,9 +1426,8 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.13">###利用excel查看路徑是否與在solvespace操作下相同(驗證路徑)
-&lt;a href="http://imgur.com/ZraAYID"&gt;&lt;img src="http://i.imgur.com/ZraAYID.png" title="source: imgur.com" /&gt;&lt;/a&gt;
-</t>
+<t tx="leo.20170427052734.13">###excel查驗
+&lt;a href="http://imgur.com/OvWMa1p"&gt;&lt;img src="http://i.imgur.com/OvWMa1p.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
 <t tx="leo.20170427052734.14">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1448,9 +1438,9 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.15">&lt;iframe src="https://player.vimeo.com/video/208361060" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-</t>
+<t tx="leo.20170427052734.15">###第二種尺寸修改
+###繪製機構尺寸並模擬(L=40)
+&lt;iframe src="https://player.vimeo.com/video/214902196" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20170427052734.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1461,8 +1451,7 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.17">###Hyperworks1
-&lt;iframe src="https://player.vimeo.com/video/207229473" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170427052734.17">&lt;a href="http://imgur.com/CMi7Zyz"&gt;&lt;img src="http://i.imgur.com/CMi7Zyz.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
 <t tx="leo.20170427052734.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1472,16 +1461,8 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.19">&lt;h3&gt;逐字稿&lt;/h3&gt;
-&lt;p&gt;In the 2017 release, we followed our vision and implement a lot more features, delivering more technology for your HyperWorks units investment.&lt;/p&gt;
-&lt;p&gt;在2017年版本中，我們遵循了我們的願景並實施了更多功能，為您的HyperWorks提供更多技術。&lt;/p&gt;
-&lt;p&gt;In our continuous development, we focused, as# always, on simulation-driven innovation, adding more optimization technology. &lt;/p&gt;
-&lt;p&gt;在我們的不斷發展中，我們一如既往地專注於模擬驅動的創新，增加更多的優化技術。&lt;/p&gt;
-&lt;p&gt;We added more physics simulation to the software, and we improved our parallel performance on high performance computers. &lt;/p&gt;
-&lt;p&gt;我們增加了許多的物理的模擬，我們提高了高性能電腦的平行性能。&lt;/p&gt;
-&lt;p&gt;OptiStruct, which is our implicit code, adds a lot of development in the nonlinear implicit area, but also in the optimization technology.&lt;/p&gt;
-&lt;p&gt;OptiStruct是我們的隱式代碼，在非線性隱含區域中，也在優化技術中添加了很多開發。&lt;/p&gt;
-</t>
+<t tx="leo.20170427052734.19">###excel查驗
+&lt;a href="http://imgur.com/jFAisIq"&gt;&lt;img src="http://i.imgur.com/jFAisIq.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
 <t tx="leo.20170427052734.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1501,17 +1482,9 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.21">&lt;p&gt;RADIOSS, we see a lot of development in new materials and material modeling. &lt;/p&gt;
-&lt;p&gt;RADIOSS，我們看到很多新材料和材料建模的發展。&lt;/p&gt;
-&lt;p&gt;You probably know that we did the acquisition of MDS a couple of years back, and we have now MDS integrated with RSDIOSS, and are doing application there.&lt;/p&gt;
-&lt;p&gt;您可能知道我們在幾年前就完成了MDS的收購，現在我們已經將MDS與RSDIOSS整合，並開始應用。&lt;/p&gt;
-&lt;p&gt;MotionSolve is based on a very unique formulation that this different from other multibody dynamics code, and the  formulation lends itself very well to optimization implementation.&lt;/p&gt;
-&lt;p&gt;MoMotionSolvetionSolve是根據一個非常獨特的公式，這不同於其他多體動力學代碼，MotionSolve公式本身非常好地優化實施。 &lt;/p&gt;
-&lt;p&gt;So the team has worked really hard on contact formulations, got very robust.&lt;/p&gt;
-&lt;p&gt;因此團隊對於接觸公式非常努力，獲得了非常強大的。&lt;/p&gt;
-&lt;p&gt;It's very cool which kind of problems can solve with contact modelling.&lt;/p&gt;
-&lt;p&gt;這類型的問題可以解決與接觸建模這是非常酷的。&lt;/p&gt;
-</t>
+<t tx="leo.20170427052734.21">##Fourbar Walker OnShape 零件協同繪圖與組立查驗
+####利用solvespace繪製機構尺寸
+&lt;a href="http://imgur.com/qeDUQdF"&gt;&lt;img src="http://i.imgur.com/qeDUQdF.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
 <t tx="leo.20170427052734.22">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1521,16 +1494,8 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.23">&lt;p&gt;So this is along the structural solvers side on AcuSolve side we actually added the complete portfolio of turbulence and transition models that really helps us to solve problems in wind turbines and automotive industry much more accurately, and it’s a big asset of physics simulation.&lt;/p&gt;
-&lt;p&gt;因此，這是沿著AcuSolve一側的結構解算方面，我們實際添加了完整的湍流和轉換模型組合，真正幫助我們更準確地解決風力渦輪機和汽車行業的問題，這是物理仿真的一個重要的資產。&lt;/p&gt;
-&lt;p&gt;And then our electromagnetic suite has actually grown last year through the acquisition of Flux, from the CEDRAT company.&lt;/p&gt;
-&lt;p&gt;然後，我們的電磁套件實際上是去年通過從CEDRAT公司收購Flux而實現的。&lt;/p&gt;
-&lt;p&gt;As well as the acquisition of WinProp, from AWE.&lt;/p&gt;
-&lt;p&gt;以及從AWE收購WinProp。&lt;/p&gt;
-&lt;p&gt;So now we have a complete frequency spectrum from low frequency electromagnetics the high frequency electromagnetics which is powered by FEKO.&lt;/p&gt;
-&lt;p&gt;所以現在我們有一個完整的頻譜從低頻電磁學的高頻電磁學由FEKO供電。&lt;/p&gt;
-&lt;p&gt;We now have a complete portfolio of physics modeling available for our customers, and it’s all linked through optimization. &lt;/p&gt;
-&lt;p&gt;我們現在有一個完整的物理建模組合可用於我們的客戶，它都通過優化鏈接。&lt;/p&gt;
+<t tx="leo.20170427052734.23">###影片
+&lt;iframe src="https://player.vimeo.com/video/214880324" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20170427052734.24">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -1541,8 +1506,9 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.25">###Hyperworks3
-&lt;iframe src="https://player.vimeo.com/video/207229503" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+<t tx="leo.20170427052734.25">####利用onshape繪製零件圖與組裝模擬
+###零件一主體
+&lt;iframe src="https://player.vimeo.com/video/214882891" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20170427052734.26">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -1553,21 +1519,8 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.27">&lt;h3&gt;逐字稿&lt;/h3&gt;
-&lt;p&gt;In OptiStruct, one of our focus areas is nonlinear large deformation analysis.&lt;/p&gt;
-&lt;p&gt;在OptiStruct中，我們的一個重點領域是非線性大變形分析。 &lt;/p&gt;
-&lt;p&gt;And in 2017 we added nonlinear transient analysis.&lt;/p&gt;
-&lt;p&gt;在2017年，我們添加了非線性瞬態分析&lt;/p&gt;
-&lt;p&gt;The main purpose was to couple AcuSolve to do fluid-structure interaction.&lt;/p&gt;
-&lt;p&gt;主要目的是使AcuSolve與流體 - 結構相互作用。&lt;/p&gt;
-&lt;p&gt;But also one development that happened during the last year came out piece-wise in different point releases and is now really mature.&lt;/p&gt;
-&lt;p&gt;但是，在過去一年中發生的一個發展，在不同的積分發布中分段出現，現在已經成熟。&lt;/p&gt;
-&lt;p&gt;And 2017 is our contact analysis, so we have different ways of defining sliding contact and things like that.&lt;/p&gt;
-&lt;p&gt;2017年是我們的接觸分析，所以我們有不同的方式來定義滑動接觸和類似的東西。&lt;/p&gt;
-&lt;p&gt;The fast contact analysis for small deformation is blazing fast.&lt;/p&gt;
-&lt;p&gt;對小變形的快速接觸分析是快速的。&lt;/p&gt;
-&lt;p&gt;It’s a very simple idea that makes the solution very fast, and that adds OptiStruct as really a leading nonlinear structural solver. &lt;/p&gt;
-&lt;p&gt;這是一個非常簡單的想法，使解決方案非常快，並將OptiStruct添加為真正的領先的非線性結構求解器。&lt;/p&gt;</t>
+<t tx="leo.20170427052734.27">###所有桿件繪製
+&lt;iframe src="https://player.vimeo.com/video/214882073" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20170427052734.28">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1577,22 +1530,8 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.29">&lt;p&gt;Our two major optimization packages are OptiStruct for structural optimization, there’s a huge multidisciplinary component, too.&lt;/p&gt;
-&lt;p&gt;我們的兩個主要優化包是用於結構優化的OptiStruct，還有一個巨大的多學科組件。&lt;/p&gt;
-&lt;p&gt;And Hyperstudy for general optimization wrap around multidisciplinary optimization.&lt;/p&gt;
-&lt;p&gt;並且Hyperstudy對一般優化包圍多學科優化。&lt;/p&gt;
-&lt;p&gt;OptiStruct we spend a lot of time continuing the development for optimization and we have now Failsafe topology optimization.&lt;/p&gt;
-&lt;p&gt;OptiStruct我們花了很多時間繼續開發優化，我們現在已經失效的拓撲優化。&lt;/p&gt;
-&lt;p&gt;We kept on working on the manufacturing solution to do lattice optimization.&lt;/p&gt;
-&lt;p&gt;我們一直在製造解決方案上做晶格優化。&lt;/p&gt;
-&lt;p&gt;For the multi-model optimization it’s really maturing and we find more and more applications where that helps. &lt;/p&gt;
-&lt;p&gt;對於多模型優化，它真的成熟，我們發現越來越多的應用程序，這有助於。&lt;/p&gt;
-&lt;p&gt;Our goal is actually to include all the physics in the optimizations.&lt;/p&gt;
-&lt;p&gt;我們的目標實際上是在優化中包括所有的物理。&lt;/p&gt;</t>
-<t tx="leo.20170427052734.3"># 第三週
-####Fossil SCM與Stunnel 啟動
-####Hyperworks翻譯
-####Solvespace四連桿三角形頂點運動軌跡</t>
+<t tx="leo.20170427052734.29">###組裝</t>
+<t tx="leo.20170427052734.3"># 期中任務</t>
 <t tx="leo.20170427052734.30">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1602,61 +1541,8 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.31">&lt;p&gt;So the team right now is working on optimization for nonlinear problems and so on.&lt;/p&gt;
-&lt;p&gt;所以團隊現在正在努力優化非線性問題等等。&lt;/p&gt;
-&lt;p&gt;And then Hyperstudy, on the other hand, is going through a new transformation of the user the user experience was changed a few years back, but we are now trying to  make it much more easy to use by hiding a lot of the advanced functionalities to the regular users.&lt;/p&gt;
-&lt;p&gt;另一方面，Hyperstudy正在經歷用戶體驗在幾年前改變的用戶體驗的一個新的轉變，但是我們現在試圖通過隱藏許多高級功能來使它更容易使用 普通用戶。&lt;/p&gt;
-&lt;p&gt;And depending on the level of expertise or depending on the job that the user has to do, they can customize the user experience.&lt;/p&gt;
-&lt;p&gt;並且取決於專業水平或者根據用戶必須做的工作，他們可以定制用戶體驗。&lt;/p&gt;
-&lt;p&gt;We adds a few new connections.&lt;/p&gt;
-&lt;p&gt;我們添加了一些新的連接。&lt;/p&gt;
-&lt;p&gt;One of them is a Flux connection.&lt;/p&gt;
-&lt;p&gt;其中一個是Flux連接。&lt;/p&gt;
-&lt;p&gt;Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that.&lt;/p&gt;
-&lt;p&gt;Flux是我們剛剛為低頻電磁學採集的電磁學代碼，所以我們可以採用一個Flux數據庫，並把它放入Hyperstudy進行研究。&lt;/p&gt;</t>
-<t tx="leo.20170427052734.32">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170427052734.33">##V-rep
-###完成 Solvespace 30-50-60 cm 比例的四連桿組立, 並轉出 stl 檔案, 以 import 方式轉入 V-rep
-&lt;iframe src="https://player.vimeo.com/video/209081797" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-</t>
-<t tx="leo.20170427052734.34">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170427052734.35">###利用 Onshape 上述相同尺寸之四連桿機構, 以 stl 轉出 (或其他格式) 後, 再轉入 V-rep
-&lt;iframe src="https://player.vimeo.com/video/209085492" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20170427052734.36">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170427052734.37">##心得
-&lt;p&gt; 1.學習如何使用Fossil SCM &lt;/p&gt;
-&lt;p&gt; 2.目前Stunnel 啟動不能再proxy下進入網頁 &lt;/p&gt;
-&lt;p&gt; 3.英文翻譯學習 及 Hyperworks認識&lt;/p&gt;
-&lt;p&gt; 4.熟悉V-rep匯入練習 &lt;/p&gt;
+<t tx="leo.20170427052734.31">###模擬
+&lt;iframe src="https://player.vimeo.com/video/214729992" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20170427052734.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -1668,9 +1554,9 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.5">##Fossil SCM與Stunnel 啟動
-##Hyperworks翻譯
-##Solvespace四連桿三角形頂點運動軌跡</t>
+<t tx="leo.20170427052734.5">##Fossil Server 實習查驗
+##四連桿機構協同 Trace Point 查驗
+##Fourbar Walker OnShape 零件協同繪圖與組立查驗</t>
 <t tx="leo.20170427052734.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1693,9 +1579,11 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.9">##solvespace四連桿三角形頂點運動軌跡
-###桿件加入三角形顯示路徑與過程
-&lt;a href="http://imgur.com/9HN7TK8"&gt;&lt;img src="http://i.imgur.com/9HN7TK8.png" title="source: imgur.com" /&gt;&lt;/a&gt;</t>
+<t tx="leo.20170427052734.9">##四連桿機構協同 Trace Point 查驗
+####利用solvespace繪製機構尺寸並模擬路徑在導入excel查驗
+###第一種尺寸修改
+###繪製機構尺寸並模擬(L=40)
+&lt;iframe src="https://player.vimeo.com/video/214898008" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20170427054313.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
