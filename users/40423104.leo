@@ -317,16 +317,16 @@
 </v>
 </v>
 <v t="leo.20170427052734.1"><vh>W10</vh>
-<v t="leo.20170427052734.2" a="E"><vh>標題</vh>
+<v t="leo.20170427052734.2"><vh>標題</vh>
 <v t="leo.20170427052734.3"><vh>第十週</vh></v>
 </v>
-<v t="leo.20170427052734.4" a="E"><vh>標題</vh>
+<v t="leo.20170427052734.4"><vh>標題</vh>
 <v t="leo.20170427052734.5"><vh>內容</vh></v>
 </v>
 <v t="leo.20170427052734.6"><vh>Fossil SCM與Stunnel 啟動</vh>
 <v t="leo.20170427052734.7"><vh>影片</vh></v>
 </v>
-<v t="leo.20170427052734.8" a="E"><vh>四連桿機構協同 Trace Point 查驗</vh>
+<v t="leo.20170427052734.8"><vh>四連桿機構協同 Trace Point 查驗</vh>
 <v t="leo.20170427052734.9"><vh>影片</vh></v>
 </v>
 <v t="leo.20170427052734.10"><vh>四連桿機構協同 Trace Point 查驗</vh>
@@ -356,7 +356,7 @@
 <v t="leo.20170427052734.26"><vh>Fourbar Walker</vh>
 <v t="leo.20170427052734.27"><vh>影片</vh></v>
 </v>
-<v t="leo.20170427052734.28" a="E"><vh>組裝</vh>
+<v t="leo.20170427052734.28"><vh>組裝</vh>
 <v t="leo.20170427052734.29"><vh>影片</vh></v>
 </v>
 <v t="leo.20170427052734.30"><vh>模擬</vh>
@@ -1509,7 +1509,8 @@ Created by [40423104網誌](https://40423104.github.io/2017springcd_hw/blog/inde
 
 						
 </t>
-<t tx="leo.20170427052734.29">###組裝</t>
+<t tx="leo.20170427052734.29">###組裝
+&lt;iframe src="https://player.vimeo.com/video/214944513" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20170427052734.3"># 期中任務</t>
 <t tx="leo.20170427052734.30">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
