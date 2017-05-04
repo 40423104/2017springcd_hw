@@ -19,12 +19,16 @@ import addend&lt;/p&gt;
 &lt;p&gt;sum = addend.addend (19,88)&lt;/p&gt;
 &lt;p&gt;print(sum)
 &lt;/pre&gt;&lt;/p&gt;
-&lt;p&gt;驗證影片
-&lt;iframe src="https://player.vimeo.com/video/215938725" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;按鈕測試
+&lt;p&gt;驗證影片&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/215938725" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;按鈕測試&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
+
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
-&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
 &lt;!-- 啟動 Brython --&gt;
 
 &lt;script&gt;
@@ -70,10 +74,12 @@ import minus&lt;/p&gt;
 &lt;p&gt;sum = minus.minus (698,2278)&lt;/p&gt;
 &lt;p&gt;print(sum)
 &lt;/pre&gt;&lt;/p&gt;
-&lt;p&gt;驗證影片
-&lt;iframe src="https://player.vimeo.com/video/215939173" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;按鈕測試
-&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
+&lt;p&gt;驗證影片&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/215939173" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;按鈕測試&lt;/p&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
@@ -123,10 +129,12 @@ import tines&lt;/p&gt;
 &lt;p&gt;sum = tines.tines (4,2)&lt;/p&gt;
 &lt;p&gt;print(sum)
 &lt;/pre&gt;&lt;/p&gt;
-&lt;p&gt;驗證影片
-&lt;iframe src="https://player.vimeo.com/video/215937328" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;按鈕測試
-&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
+&lt;p&gt;驗證影片&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/215937328" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;按鈕測試&lt;/p&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
@@ -176,10 +184,12 @@ import divided&lt;/p&gt;
 &lt;p&gt;sum = divided.divided (3,2)&lt;/p&gt;
 &lt;p&gt;print(sum)
 &lt;/pre&gt;&lt;/p&gt;
-&lt;p&gt;驗證影片
-&lt;iframe src="https://player.vimeo.com/video/215938127" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;按鈕測試
-&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
+&lt;p&gt;驗證影片&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/215938127" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;按鈕測試&lt;/p&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
