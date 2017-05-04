@@ -162,8 +162,8 @@
 <h3>1.先建立一個較m1的資料夾(配合程式)</h3>
 <h3>2.將以下兩個程式碼放在m1資料夾</h3>
 <h3>3.按鈕程式碼</h3>
-<p><pre>
-<!-- 導入 Brython 標準程式庫 --></p>
+<!-- 導入 Brython 標準程式庫 -->
+
 <script src="../data/Brython-3.3.1/brython.js"></script>
 
 <script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
@@ -181,24 +181,55 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <!--<canvas id="w10" width="800" height="600"></canvas>-->
 
-<div id="container4" width="600" height="400"></div>
+<div id="container" width="600" height="400"></div>
 
 <script type="text/python3">
 from browser import document as doc
 from browser import html
 import math
-container = doc['container4']
+container = doc['container']
 degree = math.pi/180
-def button4(event):
+def button1(event):
     a = input("give me a")
-    b = input("give me b")
-    container <= str(float(a)/float(b))
-doc["button4"].bind("click", button4)
-
+    container <= str(math.cos(60*degree)+float(a))
+doc["button1"].bind("click", button1)
 </script>
 
-<p><button id="button4">按下取 a b 值</button>
-</pre></p>
+<p><button id="button1">按下取 a 值</button></p>
+<p>上述按鈕取值程式碼:</p>
+<pre class="brush: python">
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="../data/Brython-3.3.1/brython.js"></script>
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+<!--<canvas id="w10" width="800" height="600"></canvas>-->
+
+<div id="container" width="600" height="400"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    container <= str(math.cos(60*degree)+float(a))
+doc["button1"].bind("click", button1)
+</script>
+<button id="button1">按下取 a 值</button>
+</pre>
+
 <h2>加運算</h2>
 <h4>程式碼</h4>
 <p><p>檔名append.py</p>
