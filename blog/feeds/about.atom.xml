@@ -1,5 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (40423104)</title><link href="./" rel="alternate"></link><link href="./feeds/about.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T13:20:00+08:00</updated><entry><title>期中協同</title><link href="./%E6%9C%9F%E4%B8%AD.html" rel="alternate"></link><published>2017-04-27T13:20:00+08:00</published><updated>2017-04-27T13:20:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-27:./期中.html</id><summary type="html">&lt;h4&gt;Fossil Server 實習查驗&lt;/h4&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (40423104)</title><link href="./" rel="alternate"></link><link href="./feeds/about.atom.xml" rel="self"></link><id>./</id><updated>2017-04-20T17:00:00+08:00</updated><entry><title>W10-加減乘除查驗</title><link href="./V-rep%E6%93%8D%E4%BD%9C.html" rel="alternate"></link><published>2017-04-20T17:00:00+08:00</published><updated>2017-04-20T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-20:./V-rep操作.html</id><summary type="html">&lt;h4&gt;利用程式做加減乘除的運算&lt;/h4&gt;
+
+
+&lt;h3&gt;1.先建立一個較m1的資料夾(配合程式)&lt;/h3&gt;
+&lt;h3&gt;2.將以下兩個程式碼放在m1資料夾&lt;/h3&gt;
+&lt;h2&gt;加運算&lt;/h2&gt;
+&lt;h4&gt;程式碼&lt;/h4&gt;
+&lt;p&gt;&lt;p&gt;檔名append.py&lt;/p&gt;
+&lt;pre&gt;
+def addend (a,b):
+      return a+b
+&lt;/pre&gt;
+&lt;p&gt;檔名app.py&lt;/p&gt;
+&lt;pre&gt;
+import sys
+sys.path.append("./m3")
+import addend&lt;/p&gt;
+&lt;p&gt;sum = addend.addend (19,88)&lt;/p&gt;
+&lt;p&gt;print(sum)
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;驗證影片
+&lt;iframe src="https://player.vimeo.com/video/215938725" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;減運算&lt;/h2&gt;
+&lt;h4&gt;程式碼&lt;/h4&gt;
+&lt;p&gt;&lt;p&gt;檔名minus.py&lt;/p&gt;
+&lt;pre&gt;
+def minus (a,b):
+      return a-b
+&lt;/pre&gt;
+&lt;p&gt;檔名app.py&lt;/p&gt;
+&lt;pre&gt;
+import sys
+sys.path.append("./m4")
+import minus&lt;/p&gt;
+&lt;p&gt;sum = minus.minus (698,2278)&lt;/p&gt;
+&lt;p&gt;print(sum)
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;驗證影片
+&lt;iframe src="https://player.vimeo.com/video/215939173" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;乘運算&lt;/h2&gt;
+&lt;h4&gt;程式碼&lt;/h4&gt;
+&lt;p&gt;&lt;p&gt;檔名tines.py&lt;/p&gt;
+&lt;pre&gt;
+def tines (a,b):
+      return a*b
+&lt;/pre&gt;
+&lt;p&gt;檔名app.py&lt;/p&gt;
+&lt;pre&gt;
+import sys
+sys.path.append("./m1")
+import tines&lt;/p&gt;
+&lt;p&gt;sum = tines.tines (4,2)&lt;/p&gt;
+&lt;p&gt;print(sum)
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;驗證影片
+&lt;iframe src="https://player.vimeo.com/video/215937328" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h3&gt;除運算&lt;/h3&gt;
+&lt;h4&gt;程式碼&lt;/h4&gt;
+&lt;p&gt;&lt;p&gt;檔名divided.py&lt;/p&gt;
+&lt;pre&gt;
+def divided (a,b):
+      return a/b
+&lt;/pre&gt;
+&lt;p&gt;檔名app.py&lt;/p&gt;
+&lt;pre&gt;
+import sys
+sys.path.append("./m2")
+import divided&lt;/p&gt;
+&lt;p&gt;sum = divided.divided (3,2)&lt;/p&gt;
+&lt;p&gt;print(sum)
+&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt;驗證影片
+&lt;iframe src="https://player.vimeo.com/video/215938127" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="V-rep模擬"></category></entry><entry><title>期中協同</title><link href="./%E6%9C%9F%E4%B8%AD.html" rel="alternate"></link><published>2017-04-20T13:20:00+08:00</published><updated>2017-04-20T13:20:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-20:./期中.html</id><summary type="html">&lt;h4&gt;Fossil Server 實習查驗&lt;/h4&gt;
 &lt;h4&gt;四連桿機構協同 Trace Point 查驗&lt;/h4&gt;
 &lt;h4&gt;Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/h4&gt;
 
@@ -33,7 +105,7 @@
 &lt;h3&gt;組裝&lt;/h3&gt;
 &lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214944513" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h3&gt;模擬&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214729992" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="期中協同"></category></entry><entry><title>V-rep模擬操作(祥細)</title><link href="./V-rep%E6%93%8D%E4%BD%9C.html" rel="alternate"></link><published>2017-04-20T17:00:00+08:00</published><updated>2017-04-20T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-20:./V-rep操作.html</id><summary type="html">&lt;h4&gt;轉入V-REP並模擬及轉入作法&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/214729992" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="期中協同"></category></entry><entry><title>V-rep模擬操作(祥細)</title><link href="./V-rep%E6%93%8D%E4%BD%9C.html" rel="alternate"></link><published>2017-04-18T17:00:00+08:00</published><updated>2017-04-18T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-18:./V-rep操作.html</id><summary type="html">&lt;h4&gt;轉入V-REP並模擬及轉入作法&lt;/h4&gt;
 
 
 &lt;h3&gt;1.導入 STL 3D圖檔&lt;/h3&gt;
