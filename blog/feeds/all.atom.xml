@@ -21,6 +21,45 @@ import addend&lt;/p&gt;
 &lt;/pre&gt;&lt;/p&gt;
 &lt;p&gt;驗證影片
 &lt;iframe src="https://player.vimeo.com/video/215938725" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;按鈕測試&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)+float(b))
+doc["button1"].bind("click", button1)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button1"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
 &lt;h2&gt;減運算&lt;/h2&gt;
 &lt;h4&gt;程式碼&lt;/h4&gt;
 &lt;p&gt;&lt;p&gt;檔名minus.py&lt;/p&gt;
@@ -38,6 +77,45 @@ import minus&lt;/p&gt;
 &lt;/pre&gt;&lt;/p&gt;
 &lt;p&gt;驗證影片
 &lt;iframe src="https://player.vimeo.com/video/215939173" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;按鈕測試&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container1" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container1']
+degree = math.pi/180
+def button2(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)-float(b))
+doc["button2"].bind("click", button2)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button2"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
 &lt;h2&gt;乘運算&lt;/h2&gt;
 &lt;h4&gt;程式碼&lt;/h4&gt;
 &lt;p&gt;&lt;p&gt;檔名tines.py&lt;/p&gt;
@@ -55,6 +133,45 @@ import tines&lt;/p&gt;
 &lt;/pre&gt;&lt;/p&gt;
 &lt;p&gt;驗證影片
 &lt;iframe src="https://player.vimeo.com/video/215937328" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;按鈕測試&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container3" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container3']
+degree = math.pi/180
+def button3(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)*float(b))
+doc["button3"].bind("click", button3)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button3"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
 &lt;h3&gt;除運算&lt;/h3&gt;
 &lt;h4&gt;程式碼&lt;/h4&gt;
 &lt;p&gt;&lt;p&gt;檔名divided.py&lt;/p&gt;
@@ -71,7 +188,44 @@ import divided&lt;/p&gt;
 &lt;p&gt;print(sum)
 &lt;/pre&gt;&lt;/p&gt;
 &lt;p&gt;驗證影片
-&lt;iframe src="https://player.vimeo.com/video/215938127" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="V-rep模擬"></category></entry><entry><title>W10-加減乘除查驗</title><link href="./V-rep%E6%93%8D%E4%BD%9C.html" rel="alternate"></link><published>2017-04-20T17:00:00+08:00</published><updated>2017-04-20T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-20:./V-rep操作.html</id><summary type="html">&lt;h4&gt;利用程式做加減乘除的運算&lt;/h4&gt;
+&lt;iframe src="https://player.vimeo.com/video/215938127" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;按鈕測試&lt;/h1&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container4" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container4']
+degree = math.pi/180
+def button4(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)/float(b))
+doc["button4"].bind("click", button4)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button4"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;</summary><category term="V-rep模擬"></category></entry><entry><title>W10-加減乘除查驗</title><link href="./V-rep%E6%93%8D%E4%BD%9C.html" rel="alternate"></link><published>2017-04-20T17:00:00+08:00</published><updated>2017-04-20T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-20:./V-rep操作.html</id><summary type="html">&lt;h4&gt;利用程式做加減乘除的運算&lt;/h4&gt;
 
 
 &lt;h3&gt;1.先建立一個較m1的資料夾(配合程式)&lt;/h3&gt;
@@ -93,6 +247,45 @@ import addend&lt;/p&gt;
 &lt;/pre&gt;&lt;/p&gt;
 &lt;p&gt;驗證影片
 &lt;iframe src="https://player.vimeo.com/video/215938725" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;按鈕測試&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container']
+degree = math.pi/180
+def button1(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)+float(b))
+doc["button1"].bind("click", button1)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button1"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
 &lt;h2&gt;減運算&lt;/h2&gt;
 &lt;h4&gt;程式碼&lt;/h4&gt;
 &lt;p&gt;&lt;p&gt;檔名minus.py&lt;/p&gt;
@@ -110,6 +303,45 @@ import minus&lt;/p&gt;
 &lt;/pre&gt;&lt;/p&gt;
 &lt;p&gt;驗證影片
 &lt;iframe src="https://player.vimeo.com/video/215939173" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;按鈕測試&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container1" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container1']
+degree = math.pi/180
+def button2(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)-float(b))
+doc["button2"].bind("click", button2)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button2"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
 &lt;h2&gt;乘運算&lt;/h2&gt;
 &lt;h4&gt;程式碼&lt;/h4&gt;
 &lt;p&gt;&lt;p&gt;檔名tines.py&lt;/p&gt;
@@ -127,6 +359,45 @@ import tines&lt;/p&gt;
 &lt;/pre&gt;&lt;/p&gt;
 &lt;p&gt;驗證影片
 &lt;iframe src="https://player.vimeo.com/video/215937328" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;按鈕測試&lt;/h1&gt;
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container3" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container3']
+degree = math.pi/180
+def button3(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)*float(b))
+doc["button3"].bind("click", button3)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button3"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
 &lt;h3&gt;除運算&lt;/h3&gt;
 &lt;h4&gt;程式碼&lt;/h4&gt;
 &lt;p&gt;&lt;p&gt;檔名divided.py&lt;/p&gt;
@@ -143,7 +414,44 @@ import divided&lt;/p&gt;
 &lt;p&gt;print(sum)
 &lt;/pre&gt;&lt;/p&gt;
 &lt;p&gt;驗證影片
-&lt;iframe src="https://player.vimeo.com/video/215938127" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="V-rep模擬"></category></entry><entry><title>期中協同</title><link href="./%E6%9C%9F%E4%B8%AD.html" rel="alternate"></link><published>2017-04-20T13:20:00+08:00</published><updated>2017-04-20T13:20:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-20:./期中.html</id><summary type="html">&lt;h4&gt;Fossil Server 實習查驗&lt;/h4&gt;
+&lt;iframe src="https://player.vimeo.com/video/215938127" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;按鈕測試&lt;/h1&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container4" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container4']
+degree = math.pi/180
+def button4(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)/float(b))
+doc["button4"].bind("click", button4)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button4"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;</summary><category term="V-rep模擬"></category></entry><entry><title>期中協同</title><link href="./%E6%9C%9F%E4%B8%AD.html" rel="alternate"></link><published>2017-04-20T13:20:00+08:00</published><updated>2017-04-20T13:20:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-20:./期中.html</id><summary type="html">&lt;h4&gt;Fossil Server 實習查驗&lt;/h4&gt;
 &lt;h4&gt;四連桿機構協同 Trace Point 查驗&lt;/h4&gt;
 &lt;h4&gt;Fourbar Walker OnShape 零件協同繪圖與組立查驗&lt;/h4&gt;
 
