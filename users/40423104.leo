@@ -262,10 +262,10 @@
 <v t="leo.20170427054523.1"><vh>桿件繪製(二)</vh>
 <v t="leo.20170427054523.2"><vh>影片</vh></v>
 </v>
-<v t="leo.20170427054556.1" a="E"><vh>桿件組合</vh>
+<v t="leo.20170427054556.1"><vh>桿件組合</vh>
 <v t="leo.20170427054556.2"><vh>影片</vh></v>
 </v>
-<v t="leo.20170427054557.1" a="E"><vh>V-rep模擬</vh>
+<v t="leo.20170427054557.1"><vh>V-rep模擬</vh>
 <v t="leo.20170427054557.2"><vh>影片</vh></v>
 </v>
 <v t="leo.20170427052730.36"><vh>心得</vh>
@@ -316,9 +316,9 @@
 <v t="leo.20170427055819.2"><vh>圖片</vh></v>
 </v>
 </v>
-<v t="leo.20170427052734.1"><vh>W10</vh>
+<v t="leo.20170427052734.1"><vh>W9</vh>
 <v t="leo.20170427052734.2"><vh>標題</vh>
-<v t="leo.20170427052734.3"><vh>第十週</vh></v>
+<v t="leo.20170427052734.3"><vh>第九週</vh></v>
 </v>
 <v t="leo.20170427052734.4"><vh>標題</vh>
 <v t="leo.20170427052734.5"><vh>內容</vh></v>
@@ -1649,6 +1649,7 @@ L型桿件:6mmx40mm
 						
 </t>
 <t tx="leo.20170427054556.2">####桿件組合
+&lt;iframe src="https://player.vimeo.com/video/214777688" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20170427054557.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -1661,7 +1662,7 @@ L型桿件:6mmx40mm
 						
 </t>
 <t tx="leo.20170427054557.2">####轉入V-rep模擬
-
+&lt;iframe src="https://player.vimeo.com/video/214958790" width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20170427055427.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
