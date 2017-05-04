@@ -4,6 +4,44 @@
 
 &lt;h3&gt;1.先建立一個較m1的資料夾(配合程式)&lt;/h3&gt;
 &lt;h3&gt;2.將以下兩個程式碼放在m1資料夾&lt;/h3&gt;
+&lt;h3&gt;3.按鈕程式碼&lt;/h3&gt;
+&lt;p&gt;&lt;pre&gt;
+&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
+
+&lt;!--&lt;canvas id="w10" width="800" height="600"&gt;&lt;/canvas&gt;--&gt;
+
+&lt;div id="container4" width="600" height="400"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+container = doc['container4']
+degree = math.pi/180
+def button4(event):
+    a = input("give me a")
+    b = input("give me b")
+    container &lt;= str(float(a)/float(b))
+doc["button4"].bind("click", button4)
+
+&lt;/script&gt;
+
+&lt;p&gt;&lt;button id="button4"&gt;按下取 a b 值&lt;/button&gt;
+&lt;/pre&gt;&lt;/p&gt;
 &lt;h2&gt;加運算&lt;/h2&gt;
 &lt;h4&gt;程式碼&lt;/h4&gt;
 &lt;p&gt;&lt;p&gt;檔名append.py&lt;/p&gt;
