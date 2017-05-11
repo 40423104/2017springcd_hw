@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (40423104)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-11T17:00:00+08:00</updated><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-11T17:00:00+08:00</published><updated>2017-05-11T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
+&lt;p&gt;從單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
 
 
+&lt;p&gt;利用漸開線原理, 以 Brython 繪製單一正齒輪廓:&lt;/p&gt;
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
@@ -144,16 +146,63 @@ class Spur(object):
             # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
-canvas = doc['onegear']
+
+
+# 準備在 id="gear" 的 canvas 中繪圖
+canvas = doc["gear"]
 ctx = canvas.getContext("2d")
+
+# x = (canvas.width)/2
+# y = (canvas.height)/2
+# r = 0.8*(canvas.height/2)
 x = (canvas.width)/2
 y = (canvas.height)/2
-r = 0.8*(canvas.height/2)
+# r17,r11
+n17 = 17
+n11 = 11
+n13 = 13
+canvas_size = canvas.height*0.4
+r17 = canvas_size*n17/(n17+n11+n13)
+r11 = canvas_size*n11/(n17+n11+n13)
+r11 = canvas_size*n13/(n17+n11+n13)
+x17 = x - r17
+y17 = y
+x11 = x + r11
+y11 = y
+x13 = x - r13
+y13 = y
+m = (0.8*canvas.width)/(n17+n11+n13)
+
 # 齒數
-n = 17
+# n = 53
 # 壓力角
 pa = 20
-Spur(ctx).Gear(x, y, r, n, pa, "blue")
+#gear17
+ctx.save()
+ctx.translate(x17, y17)
+ctx.rotate(math.pi/2)
+ctx.translate(-x17, -y17)
+ctx.restore()
+
+#gear11
+ctx.save()
+ctx.translate(x11, y11)
+ctx.rotate(-math.pi/2-math.pi/n11)
+ctx.translate(-x11, -y11)
+ctx.restore()
+
+#gear13
+ctx.save()
+ctx.translate(x13, y13)
+ctx.rotate(-math.pi/2-math.pi/n13+(math.pi+math.pi/n_g2)*n11/n13)
+ctx.translate(-x13, -y13)
+ctx.restore()
+
+#gear1 = Spur(ctx).Gear(x,y,r,n,pa,"blue")
+gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa,"purple")
+gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa,"blue")
+gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa,"red")
+#Spur(ctx).Gear(x, y, r, n, pa, "blue")
 # 以下列出 W11 2B 未出席人數
 data = open("./../data/w11/2b0503.txt", encoding="utf-8").read()
 count = 0

@@ -14,13 +14,13 @@
 
         <meta name="author" content="40423104-YanSyuan" />
         <meta name="keywords" content="正齒輪" />
-        <meta name="description" content="正齒輪傳動" />
+        <meta name="description" content="正齒輪傳動 從單一 2D 正齒輪繪圖到齒輪組嚙合" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (40423104)" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="2D 正齒輪傳動"/>
         <meta property="og:url" content="./正齒輪.html"/>
-        <meta property="og:description" content="正齒輪傳動"/>
+        <meta property="og:description" content="正齒輪傳動 從單一 2D 正齒輪繪圖到齒輪組嚙合"/>
         <meta property="article:published_time" content="2017-05-11" />
             <meta property="article:section" content="About" />
             <meta property="article:tag" content="正齒輪" />
@@ -157,8 +157,10 @@
 </footer><!-- /.post-info -->                    </div>
                 </div>
                 <h4>正齒輪傳動</h4>
+<p>從單一 2D 正齒輪繪圖到齒輪組嚙合</p>
 
 
+<p>利用漸開線原理, 以 Brython 繪製單一正齒輪廓:</p>
 <!-- 導入 Brython 標準程式庫 -->
 
 <script src="../data/Brython-3.3.1/brython.js"></script>
@@ -301,16 +303,63 @@ class Spur(object):
             # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
-canvas = doc['onegear']
+
+
+# 準備在 id="gear" 的 canvas 中繪圖
+canvas = doc["gear"]
 ctx = canvas.getContext("2d")
+
+# x = (canvas.width)/2
+# y = (canvas.height)/2
+# r = 0.8*(canvas.height/2)
 x = (canvas.width)/2
 y = (canvas.height)/2
-r = 0.8*(canvas.height/2)
+# r17,r11
+n17 = 17
+n11 = 11
+n13 = 13
+canvas_size = canvas.height*0.4
+r17 = canvas_size*n17/(n17+n11+n13)
+r11 = canvas_size*n11/(n17+n11+n13)
+r11 = canvas_size*n13/(n17+n11+n13)
+x17 = x - r17
+y17 = y
+x11 = x + r11
+y11 = y
+x13 = x - r13
+y13 = y
+m = (0.8*canvas.width)/(n17+n11+n13)
+
 # 齒數
-n = 17
+# n = 53
 # 壓力角
 pa = 20
-Spur(ctx).Gear(x, y, r, n, pa, "blue")
+#gear17
+ctx.save()
+ctx.translate(x17, y17)
+ctx.rotate(math.pi/2)
+ctx.translate(-x17, -y17)
+ctx.restore()
+
+#gear11
+ctx.save()
+ctx.translate(x11, y11)
+ctx.rotate(-math.pi/2-math.pi/n11)
+ctx.translate(-x11, -y11)
+ctx.restore()
+
+#gear13
+ctx.save()
+ctx.translate(x13, y13)
+ctx.rotate(-math.pi/2-math.pi/n13+(math.pi+math.pi/n_g2)*n11/n13)
+ctx.translate(-x13, -y13)
+ctx.restore()
+
+#gear1 = Spur(ctx).Gear(x,y,r,n,pa,"blue")
+gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa,"purple")
+gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa,"blue")
+gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa,"red")
+#Spur(ctx).Gear(x, y, r, n, pa, "blue")
 # 以下列出 W11 2B 未出席人數
 data = open("./../data/w11/2b0503.txt", encoding="utf-8").read()
 count = 0
