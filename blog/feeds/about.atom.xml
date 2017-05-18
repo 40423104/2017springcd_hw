@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (40423104)</title><link href="./" rel="alternate"></link><link href="./feeds/about.atom.xml" rel="self"></link><id>./</id><updated>2017-05-11T17:00:00+08:00</updated><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-11T17:00:00+08:00</published><updated>2017-05-11T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (40423104)</title><link href="./" rel="alternate"></link><link href="./feeds/about.atom.xml" rel="self"></link><id>./</id><updated>2017-05-18T17:00:00+08:00</updated><entry><title>W12</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AAW12.html" rel="alternate"></link><published>2017-05-18T17:00:00+08:00</published><updated>2017-05-18T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-18:./正齒輪W12.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
+&lt;p&gt;從單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
+
+
+&lt;p&gt;本週起各組將進行期末協同實習專案規劃與執行, 請各組在上課時段準備以 oral presentation、text presentation、theoretical presentation 逐步朝期末考週 physical presentation 的目標邁進.&lt;/p&gt;
+&lt;p&gt;oral presentation: 口語說明進度, 規劃細節, 分工情形與問題討論等&lt;/p&gt;
+&lt;p&gt;text presentation: 以 github pages 中的 blog 與 Fossil SCM 倉儲 wiki 紀錄每週專題執行情形, 並利用 github 與 Fossil SCM 倉儲管理所衍生的檔案.&lt;/p&gt;
+&lt;p&gt;theoretical presentation: 利用 Solvespace、OnShape、V-rep 與 Brython 進行各種系統評估模擬&lt;/p&gt;
+&lt;p&gt;physical presentation: 在期末考週必須完成實體模型製作, 並以 video 影片展示各階段的準備工作與執行結果.&lt;/p&gt;
+&lt;p&gt;為何需要減速機?&lt;/p&gt;
+&lt;p&gt;何謂漸開線?&lt;/p&gt;
+&lt;p&gt;如何畫漸開線正齒輪輪廓?&lt;/p&gt;
+&lt;p&gt;如何模擬 2D 正齒輪組囓合？&lt;/p&gt;
+&lt;p&gt;如何模擬 3D 正齒輪組囓合？&lt;/p&gt;
+&lt;p&gt;如何將齒輪減速機構納入四足行走機構?&lt;/p&gt;
+&lt;p&gt;如何以 2D 動畫模擬齒輪囓合傳動?&lt;/p&gt;
+&lt;p&gt;如何以 3D 動畫模擬齒輪囓合傳動?&lt;/p&gt;
+&lt;p&gt;如何模擬四足機構行走?&lt;/p&gt;
+&lt;p&gt;如何列印齒輪組零件?&lt;/p&gt;
+&lt;p&gt;如何列印連桿機構?&lt;/p&gt;
+&lt;p&gt;如何組立齒輪組與行走機構?&lt;/p&gt;
+&lt;p&gt;如何控制馬達?&lt;/p&gt;
+&lt;p&gt;http://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/14856/One-Company-Needs-to-Buy-OnshapeHeres-Why.aspx&lt;/p&gt;
+&lt;p&gt;3個正齒輪固定齒數囓合繪圖&lt;/p&gt;
+&lt;p&gt;寫成 Fossil SCM 網頁互動式&lt;/p&gt;</summary><category term="正齒輪W12"></category></entry><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-11T17:00:00+08:00</published><updated>2017-05-11T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
 &lt;p&gt;從單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
 
 
@@ -182,6 +206,7 @@ ctx.save()
 ctx.translate(x17, y17)
 ctx.rotate(math.pi/2)
 ctx.translate(-x17, -y17)
+gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa,"purple",rot)
 ctx.restore()
 
 #gear11
@@ -189,19 +214,19 @@ ctx.save()
 ctx.translate(x11, y11)
 ctx.rotate(-math.pi/2-math.pi/n11)
 ctx.translate(-x11, -y11)
+gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa,"blue",rot)
 ctx.restore()
 
 #gear13
 ctx.save()
 ctx.translate(x13, y13)
-ctx.rotate(-math.pi/2-math.pi/n13+(math.pi+math.pi/n_g2)*n11/n13)
+ctx.rotate(--90*deg-math.pi/n13+(-90*deg-math.pi/n11)*n11/n13,rot)
 ctx.translate(-x13, -y13)
+gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa,"red")
 ctx.restore()
 
 #gear1 = Spur(ctx).Gear(x,y,r,n,pa,"blue")
-gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa,"purple")
-gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa,"blue")
-gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa,"red")
+
 #Spur(ctx).Gear(x, y, r, n, pa, "blue")
 # 以下列出 W11 2B 未出席人數
 data = open("./../data/w11/2b0503.txt", encoding="utf-8").read()
