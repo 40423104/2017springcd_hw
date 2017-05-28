@@ -308,10 +308,11 @@ class Spur(object):
 # 準備在 id="onegear" 的 canvas 中繪圖
 canvas = doc['onegear']
 ctx = canvas.getContext("2d")
-# x = (canvas.width)/2
-# y = (canvas.height)/2
-# r = 0.8*(canvas.height/2)
-x = (canvas.width)/2
+m = (0.8*canvas.width)/(n17+n11+n13)
+# 壓力角
+pa = 20
+r = 0.8*(canvas.height/2
+x = (canvas.width)/(2*(n17+n11+n13+n15))
 y = (canvas.height)/2
 y1=(canvas.height)/1.435
 # 齒數
@@ -320,21 +321,18 @@ n11 = 11
 n13 = 13
 n15 = 15
 canvas_size = canvas.height*0.4
-r17 = canvas_size*n17/(n17+n11+n13+n15)
-r11 = canvas_size*n11/(n17+n11+n13+n15)
-r13 = canvas_size*n13/(n17+n11+n13+n15)
-r15 = canvas_size*n14/(n17+n11+n13+n15)
-x17 = x-5 - r17
+r17 = r*n17
+r11 = r*n11
+r13 = r*n13
+r15 = r*n14
+x17 = x/5 + r17
 y17 = y
-x11 = x-5 + r11
+x11 = x/5 + r17+r11
 y11 = y
-x13 = x-5+ 2*r11 + r13
+x13 = x/5+ r17 + r11 + r13
 y13 = y
-x15 = x-5+ 2*r11 + r13
+x15 = x/5+ r17 + r11 + r13 +r15
 y15 = y1
-m = (0.8*canvas.width)/(n17+n11+n13)
-# 壓力角
-pa = 20
 
 #gear17
 ctx.save()
