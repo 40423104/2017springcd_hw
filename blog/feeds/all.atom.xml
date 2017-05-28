@@ -45,9 +45,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
-&lt;canvas id="onegear" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;canvas id="gear" width="800" height="600"&gt;&lt;/canvas&gt;
 
-&lt;div id="onegear_div" width="800" height="20"&gt;&lt;/div&gt;
+&lt;div id="gear_div" width="800" height="20"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -173,34 +173,36 @@ class Spur(object):
 
 
 # 準備在 id="gear" 的 canvas 中繪圖
-canvas = doc["gear"]
+canvas = doc['gear']
 ctx = canvas.getContext("2d")
-
 # x = (canvas.width)/2
 # y = (canvas.height)/2
 # r = 0.8*(canvas.height/2)
 x = (canvas.width)/2
 y = (canvas.height)/2
-# r17,r11
+y1=(canvas.height)/1.435
+# 齒數
 n17 = 17
 n11 = 11
 n13 = 13
+n15 = 15
 canvas_size = canvas.height*0.4
-r17 = canvas_size*n17/(n17+n11+n13)
-r11 = canvas_size*n11/(n17+n11+n13)
-r11 = canvas_size*n13/(n17+n11+n13)
-x17 = x - r17
+r17 = canvas_size*n17/(n17+n11+n13+n15)
+r11 = canvas_size*n11/(n17+n11+n13+n15)
+r13 = canvas_size*n13/(n17+n11+n13+n15)
+r15 = canvas_size*n14/(n17+n11+n13+n15)
+x17 = x-5 - r17
 y17 = y
-x11 = x + r11
+x11 = x-5 + r11
 y11 = y
-x13 = x - r13
+x13 = x-5+ 2*r11 + r13
 y13 = y
+x15 = x-5+ 2*r11 + r13
+y15 = y1
 m = (0.8*canvas.width)/(n17+n11+n13)
-
-# 齒數
-# n = 53
 # 壓力角
 pa = 20
+
 #gear17
 ctx.save()
 ctx.translate(x17, y17)
@@ -220,26 +222,21 @@ ctx.restore()
 #gear13
 ctx.save()
 ctx.translate(x13, y13)
-ctx.rotate(--90*deg-math.pi/n13+(-90*deg-math.pi/n11)*n11/n13,rot)
+ctx.rotate(-90*deg-math.pi/n13+(-90*deg-math.pi/n11)*n11/n13,rot)
 ctx.translate(-x13, -y13)
-gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa,"red")
+gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa,"red",rot)
 ctx.restore()
 
-#gear1 = Spur(ctx).Gear(x,y,r,n,pa,"blue")
+#gear15
+ctx.save()
+ctx.translate(x15, y15)
+ctx.rotate(-90*deg-math.pi/n13-90*deg-math.pi/n11+(90*deg-math.pi/n15)*n11/n13/n15,rot)
+ctx.translate(-x13, -y13)
+gear15 = Spur(ctx).Gear(x15, y15, r15, n15, pa,"green",rot)
+ctx.restore()
 
-#Spur(ctx).Gear(x, y, r, n, pa, "blue")
-# 以下列出 W11 2B 未出席人數
-data = open("./../data/w11/2b0503.txt", encoding="utf-8").read()
-count = 0
-# 去掉前面兩列
-student = data.split("\n")[2:]
-for i in range(len(student)):
-    each = student[i].split("\t")
-    if each[1] != "出席":
-        count = count + 1
-#print(count)
-div = doc["onegear_div"]
-div &lt;= "2b: " +  str(count) + "/" + str(len(student))
+
+div = doc["gear_div"]
 &lt;/script&gt;
 
 &lt;!-- 以下處理 Cango Spur Gear --&gt;
