@@ -153,7 +153,9 @@
 
 <span class="label label-default">Tags</span>
 	<a href="./tag/zheng-chi-lun.html">正齒輪</a>
-    
+    <span class="label label-default">Lang</span>
+	<a href="./正齒輪.html">en</a>
+
 </footer><!-- /.post-info -->                    </div>
                 </div>
                 <h4>正齒輪傳動</h4>
@@ -178,9 +180,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <!-- 以下實際利用  Brython 繪圖-->
 
-<canvas id="gear" width="800" height="600"></canvas>
+<canvas id="onegear" width="800" height="600"></canvas>
 
-<div id="gear_div" width="800" height="20"></div>
+<div id="onegear_div" width="800" height="20"></div>
 
 <script type="text/python3">
 from browser import document as doc
@@ -305,8 +307,8 @@ class Spur(object):
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
 
 
-# 準備在 id="gear" 的 canvas 中繪圖
-canvas = doc['gear']
+# 準備在 id="onegear" 的 canvas 中繪圖
+canvas = doc['onegear']
 ctx = canvas.getContext("2d")
 # x = (canvas.width)/2
 # y = (canvas.height)/2
@@ -368,8 +370,6 @@ ctx.translate(-x13, -y13)
 gear15 = Spur(ctx).Gear(x15, y15, r15, n15, pa,"green",rot)
 ctx.restore()
 
-
-div = doc["gear_div"]
 </script>
             </div>
             <!-- /.entry-content -->
@@ -396,6 +396,11 @@ div = doc["gear_div"]
                         </a>
                     </li>
                     <li class="list-group-item">
+                        <a href="./正齒輪.html">
+                            2D 正齒輪傳動
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="./加減乘除查驗.html">
                             W10-加減乘除查驗
                         </a>
@@ -403,11 +408,6 @@ div = doc["gear_div"]
                     <li class="list-group-item">
                         <a href="./期中.html">
                             期中協同
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="./V-rep操作.html">
-                            V-rep模擬操作(祥細)
                         </a>
                     </li>
                 </ul>
