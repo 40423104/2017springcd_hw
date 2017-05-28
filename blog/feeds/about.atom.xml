@@ -23,7 +23,7 @@
 &lt;p&gt;如何控制馬達?&lt;/p&gt;
 &lt;p&gt;http://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/14856/One-Company-Needs-to-Buy-OnshapeHeres-Why.aspx&lt;/p&gt;
 &lt;p&gt;3個正齒輪固定齒數囓合繪圖&lt;/p&gt;
-&lt;p&gt;寫成 Fossil SCM 網頁互動式&lt;/p&gt;</summary><category term="正齒輪W12"></category></entry><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-11T17:00:00+08:00</published><updated>2017-05-11T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
+&lt;p&gt;寫成 Fossil SCM 網頁互動式&lt;/p&gt;</summary><category term="正齒輪W12"></category></entry><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-11T14:00:00+08:00</published><updated>2017-05-11T14:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
 &lt;p&gt;從單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
 
 
@@ -235,7 +235,7 @@ ctx.translate(-x13, -y13)
 gear15 = Spur(ctx).Gear(x15, y15, r15, n15, pa,"green",rot)
 ctx.restore()
 
-&lt;/script&gt;</summary><category term="正齒輪"></category></entry><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-11T17:00:00+08:00</published><updated>2017-05-11T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
+&lt;/script&gt;</summary><category term="正齒輪"></category></entry><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AAW.html" rel="alternate"></link><published>2017-05-11T14:00:00+08:00</published><updated>2017-05-11T14:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪W.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
 &lt;p&gt;從單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
 
 
@@ -447,7 +447,7 @@ ctx.translate(-x13, -y13)
 gear15 = Spur(ctx).Gear(x15, y15, r15, n15, pa,"green",rot)
 ctx.restore()
 
-&lt;/script&gt;</summary><category term="正齒輪"></category></entry><entry><title>W10-加減乘除查驗</title><link href="./%E5%8A%A0%E6%B8%9B%E4%B9%98%E9%99%A4%E6%9F%A5%E9%A9%97.html" rel="alternate"></link><published>2017-04-27T17:00:00+08:00</published><updated>2017-04-27T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-27:./加減乘除查驗.html</id><summary type="html">&lt;h4&gt;利用程式做加減乘除的運算&lt;/h4&gt;
+&lt;/script&gt;</summary><category term="正齒輪W"></category></entry><entry><title>W10-加減乘除查驗</title><link href="./%E5%8A%A0%E6%B8%9B%E4%B9%98%E9%99%A4%E6%9F%A5%E9%A9%97.html" rel="alternate"></link><published>2017-04-27T17:00:00+08:00</published><updated>2017-04-27T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-04-27:./加減乘除查驗.html</id><summary type="html">&lt;h4&gt;利用程式做加減乘除的運算&lt;/h4&gt;
 
 
 &lt;h3&gt;1.先建立一個較m1的資料夾(配合程式)&lt;/h3&gt;
