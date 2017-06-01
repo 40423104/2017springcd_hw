@@ -19,9 +19,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
-&lt;canvas id="gearW15" width="800" height="300"&gt;&lt;/canvas&gt;
+&lt;canvas id="gearW15" width="800" height="600"&gt;&lt;/canvas&gt;
 
-&lt;div id="gearW15_div" width="800" height="20"&gt;&lt;/div&gt;
+&lt;div id="gearW15_div" width="800" height="10"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
