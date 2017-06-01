@@ -240,8 +240,8 @@ class Spur(object):
         # tan(pa*deg)-pa*deg 為漸開線函數
         sigma=math.pi/(2*n)+math.tan(pa*deg)-pa*deg
         for j in range(n):
-            ang=-2.*j*math.pi/n+sigma
-            ang2=2.*j*math.pi/n+sigma
+            ang=-1.*j*math.pi/n+sigma
+            ang2=1.*j*math.pi/n+sigma
             lxd=midx+rd*math.sin(ang2-2.*math.pi/n)
             lyd=midy-rd*math.cos(ang2-2.*math.pi/n)
             for i in range(imax+1):
@@ -257,7 +257,7 @@ class Spur(object):
                 xd=rd*math.sin(-ang)
                 yd=rd*math.cos(-ang)
                 # i=0 時, 繪線起點由齒根圓上的點, 作為起點
-                if(i==180):
+                if(i==0):
                     last_x = midx+xd
                     last_y = midy-yd
                 # 由左側齒根圓作為起點, 除第一點 (xd,yd) 齒根圓上的起點外, 其餘的 (xpt,ypt)則為漸開線上的分段點
