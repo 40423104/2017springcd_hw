@@ -257,7 +257,7 @@ class Spur(object):
                 xd=rd*math.sin(-ang)
                 yd=rd*math.cos(-ang)
                 # i=0 時, 繪線起點由齒根圓上的點, 作為起點
-                if(i==0):
+                if(i==180):
                     last_x = midx+xd
                     last_y = midy-yd
                 # 由左側齒根圓作為起點, 除第一點 (xd,yd) 齒根圓上的起點外, 其餘的 (xpt,ypt)則為漸開線上的分段點
