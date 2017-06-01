@@ -19,9 +19,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
-&lt;canvas id="onegear" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;canvas id="gearW15" width="800" height="600"&gt;&lt;/canvas&gt;
 
-&lt;div id="onegear_div" width="800" height="20"&gt;&lt;/div&gt;
+&lt;div id="gearW15_div" width="800" height="20"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -33,7 +33,7 @@ class Spur(object):
     def __init__(self, ctx):
         self.ctx = ctx
 
-    def create_line(self, x1, y1, x2, y2, width=3, fill="red"):
+    def create_line(self, x1, y1, x2, y2, width=3, fill="blue"):
         self.ctx.beginPath()
         self.ctx.lineWidth = width
         self.ctx.moveTo(x1, y1)
@@ -144,7 +144,7 @@ class Spur(object):
             # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
-canvas = doc['onegear']
+canvas = doc['gearW15']
 ctx = canvas.getContext("2d")
 x = (canvas.width)/2
 y = (canvas.height)/2
@@ -153,7 +153,8 @@ r = 0.8*(canvas.height/2)
 n = 36
 # 壓力角
 pa = 20
-Spur(ctx).Gear(x, y, r, n, pa, "blue")</summary><category term="W15"></category></entry><entry><title>W13</title><link href="./W13.html" rel="alternate"></link><published>2017-05-25T17:00:00+08:00</published><updated>2017-05-25T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-25:./W13.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+Spur(ctx).Gear(x, y, r, n, pa, "blue")
+&lt;/script&gt;</summary><category term="W15"></category></entry><entry><title>W13</title><link href="./W13.html" rel="alternate"></link><published>2017-05-25T17:00:00+08:00</published><updated>2017-05-25T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-25:./W13.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;整理&lt;/p&gt;</summary><category term="W13"></category></entry><entry><title>W12</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AAW12.html" rel="alternate"></link><published>2017-05-18T17:00:00+08:00</published><updated>2017-05-18T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-18:./正齒輪W12.html</id><summary type="html">&lt;h4&gt;為何需要減速機?何謂漸開線?如何畫漸開線正齒輪輪廓?如何模擬 2D 正齒輪組囓合？如何模擬 3D 正齒輪組囓合？如何將齒輪減速機構納入四足行走機構?如何以 2D 動畫模擬齒輪囓合傳動?如何以 3D 動畫模擬齒輪囓合傳動?如何模擬四足機構行走?如何列印齒輪組零件?如何列印連桿機構?如何組立齒輪組與行走機構?如何控制馬達?&lt;/h4&gt;
 &lt;h3&gt;3個正齒輪固定齒數囓合繪圖&lt;/h3&gt;
