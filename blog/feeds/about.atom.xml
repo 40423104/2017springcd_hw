@@ -331,12 +331,12 @@ ctx.moveTo(0,400)
 ctx.lineTo(800,400)
 ctx.stroke()
 
-ctx.beginPath()
-ctx.lineWidth = "395"
-ctx.strokeStyle = "white"
-ctx.moveTo(395,0)
-ctx.lineTo(395,600)
-ctx.stroke()
+#ctx.beginPath()
+#ctx.lineWidth = "395"
+#ctx.strokeStyle = "white"
+#ctx.moveTo(395,0)
+#ctx.lineTo(395,600)
+#ctx.stroke()
 
 
 
