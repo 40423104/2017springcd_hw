@@ -179,7 +179,7 @@ ctx.lineTo(800,600)
 ctx.stroke()
 
 ctx.beginPath()
-ctx.fillStyle = "#E63F00"
+ctx.fillStyle = "#BA55D3"
 ctx.font = "30px ScriptS"
 ctx.fillText("40423104", (canvas.width)/2-60, (canvas.height)/2+25)
 ctx.stroke()
@@ -270,7 +270,7 @@ class Spur(object):
                 xd=rd*math.sin(-ang)
                 yd=rd*math.cos(-ang)
                 # i=0 時, 繪線起點由齒根圓上的點, 作為起點
-                if(i==180):
+                if(i==0):
                     last_x = midx+xd
                     last_y = midy-yd
                 # 由左側齒根圓作為起點, 除第一點 (xd,yd) 齒根圓上的起點外, 其餘的 (xpt,ypt)則為漸開線上的分段點
@@ -323,6 +323,21 @@ n = 36
 # 壓力角
 pa = 20
 Spur(ctx).Gear(x, y, r, n, pa, "blue")
+
+ctx.beginPath()
+ctx.lineWidth = "600"
+ctx.strokeStyle = "white"
+ctx.moveTo(0,600)
+ctx.lineTo(800,600)
+ctx.stroke()
+
+
+ctx2.beginPath();
+ctx2.arc(400,300,400,10,math.pi*2, True);
+ctx2.fillStyle="#FF0000"
+cxt.closePath();
+ctx2.fill();
+
 
 &lt;/script&gt;</summary><category term="W15"></category></entry><entry><title>W13</title><link href="./W13.html" rel="alternate"></link><published>2017-05-25T17:00:00+08:00</published><updated>2017-05-25T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-25:./W13.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
