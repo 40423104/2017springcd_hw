@@ -21,7 +21,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;canvas id="gearW15" width="800" height="600"&gt;&lt;/canvas&gt;
 
-&lt;div id="gearW15_div" width="800" height="10"&gt;&lt;/div&gt;
+&lt;div id="gearW15_div" width="800" height="20"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -85,9 +85,9 @@ class Spur(object):
         sigma=math.pi/(2*n)+math.tan(pa*deg)-pa*deg
         for j in range(n):
             ang=-2.*j*math.pi/n+sigma
-            ang2=2.*j*math.pi/n+sigma
+
             lxd=midx+rd*math.sin(ang2-2.*math.pi/n)
-            lyd=midy-rd*math.cos(ang2-2.*math.pi/n)
+
             for i in range(imax+1):
                 # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
                 if rd&gt;rb:
