@@ -539,13 +539,13 @@ r17 = canvas_size*n17/(n17+n11+n13)
 r11 = canvas_size*n11/(n17+n11+n13)
 r13 = canvas_size*n13/(n17+n11+n13)
 r15 = canvas_size*n15/(n17+n11+n13)
-x17 = x-5 - r17
+x17 = x - r17-r11
 y17 = y
-x11 = x-5 +r11
+x11 = x
 y11 = y
-x13 = x-5+ r17 + r11 + r13
+x13 = x + r11+r13
 y13 = y
-x15 = x/5+ r17 + r11 + r13 +r15
+x15 = x + r11+r13
 y15 = y1
 
 #gear17
