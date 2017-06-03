@@ -525,7 +525,7 @@ ctx = canvas.getContext("2d")
 m = (0.8*canvas.width)/(n17+n11+n13)
 # 壓力角
 pa = 20
-r = 0.8*(canvas.height/2
+canvas_size = canvas.height*0.4
 x = (canvas.width)/(2*(n17+n11+n13+n15))
 y = (canvas.height)/2
 y1=(canvas.height)/1.435
@@ -535,10 +535,10 @@ n11 = 11
 n13 = 13
 n15 = 15
 canvas_size = canvas.height*0.4
-r17 = r*n17
-r11 = r*n11
-r13 = r*n13
-r15 = r*n14
+r17 = canvas_size*n17/(n17+n11+n13)
+r11 = canvas_size*n11/(n17+n11+n13)
+r13 = canvas_size*n13/(n17+n11+n13)
+r15 = canvas_size*n15/(n17+n11+n13)
 x17 = x/5 + r17
 y17 = y
 x11 = x/5 + r17+r11
@@ -553,7 +553,7 @@ ctx.save()
 ctx.translate(x17, y17)
 ctx.rotate(math.pi/2)
 ctx.translate(-x17, -y17)
-gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa,"purple",rot)
+gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa,"purple")
 ctx.restore()
 
 #gear11
@@ -561,7 +561,7 @@ ctx.save()
 ctx.translate(x11, y11)
 ctx.rotate(-math.pi/2-math.pi/n11)
 ctx.translate(-x11, -y11)
-gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa,"blue",rot)
+gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa,"blue")
 ctx.restore()
 
 #gear13
@@ -569,7 +569,7 @@ ctx.save()
 ctx.translate(x13, y13)
 ctx.rotate(-90*deg-math.pi/n13+(-90*deg-math.pi/n11)*n11/n13,rot)
 ctx.translate(-x13, -y13)
-gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa,"red",rot)
+gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa,"red")
 ctx.restore()
 
 #gear15
@@ -577,7 +577,7 @@ ctx.save()
 ctx.translate(x15, y15)
 ctx.rotate(-90*deg-math.pi/n13-90*deg-math.pi/n11+(90*deg-math.pi/n15)*n11/n13/n15,rot)
 ctx.translate(-x13, -y13)
-gear15 = Spur(ctx).Gear(x15, y15, r15, n15, pa,"green",rot)
+gear15 = Spur(ctx).Gear(x15, y15, r15, n15, pa,"green")
 ctx.restore()
 
 &lt;/script&gt;</summary><category term="正齒輪"></category></entry><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AAW.html" rel="alternate"></link><published>2017-05-11T14:00:00+08:00</published><updated>2017-05-11T14:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪W.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
