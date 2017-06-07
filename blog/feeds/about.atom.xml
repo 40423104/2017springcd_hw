@@ -829,7 +829,9 @@ def draw():
 set_interval(draw, 2)
 &lt;/script&gt;
 
-&lt;p&gt;如何以 3D 動畫模擬齒輪囓合傳動?&lt;/p&gt;
+&lt;h3&gt;如何以 3D 動畫模擬齒輪囓合傳動?&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/220595383" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/220595383"&gt;虎尾科技大學 機械設計工程系-40423104-W12-3D 動畫模擬齒輪&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;40423104-Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;如何模擬四足機構行走?&lt;/p&gt;
 &lt;p&gt;如何列印齒輪組零件?&lt;/p&gt;
 &lt;p&gt;如何列印連桿機構?&lt;/p&gt;
@@ -1047,7 +1049,13 @@ ctx.translate(-x13, -y13)
 gear15 = Spur(ctx).Gear(x15, y15, r15, n15, pa,"green")
 ctx.restore()
 
-&lt;/script&gt;</summary><category term="正齒輪"></category></entry><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AAW.html" rel="alternate"></link><published>2017-05-11T14:00:00+08:00</published><updated>2017-05-11T14:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪W.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
+&lt;/script&gt;
+
+&lt;p&gt;(1) on shape:
+  看完文章後了解on shape功能在產品設計中的應用外，可發現on shape在協同上的重視，如:追隨模式，方便讓合作夥伴與作者同步討論外，也能對產品特徵做及時修改，以及使用導入DXF檔的功能，能讓2D草圖匯入後，方便對照進行3D建模，建好的產品儲存後，可以去看時間軸了解產品變化。
+(2) an Introduction to:
+  在強調速度與創新的現代社會中，越快抓住市場趨勢改變的人就越有優勢，因此敏捷的產品設計在這時代是不可或缺的能力，由此可見設計使用的軟體越偏向快速、成本低、功能完備、方便討論的趨勢，若能縮短產品設計與發佈的時間，越能搶佔市場優勢，成為新潮產品，並獨佔專利權，團隊合作方面也不如以往，一人一台電腦CAD畫圖階段性接著畫，現在為節省時間，強調同步處理也就說到了，前面所提到的on shape，此軟體在現在要求敏捷產品設計的社會中，可發現在協同上的便利，一方面讓團隊能隨時注意組員畫圖進度若要組裝可以馬上應用外，一方面因為是網頁式開啟，比起以往需要帶著軟體到處跑，現在只需要有網路皆可開啟討論。
+總心得:看完文章後了解了on shpae的便利性並對他的再產品設計中的地位有不同的認識，並也了解到了現代產品設計的趨勢與合作團隊模式的改變，或許現在的on shape還不能完全取代許多繪圖軟體，但相信在未來一步步改善後，非常有機會成為未來產品設計的主流。&lt;/p&gt;</summary><category term="正齒輪"></category></entry><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AAW.html" rel="alternate"></link><published>2017-05-11T14:00:00+08:00</published><updated>2017-05-11T14:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪W.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
 &lt;p&gt;從單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
 
 
