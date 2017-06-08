@@ -507,7 +507,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <!-- 以下實際利用  Brython 繪圖-->
 
-<canvas id='gear3' width='1200' height='800'></canvas>
+<canvas id='gear3' width='1600' height='1000'></canvas>
 
 <script type="text/python3">
 # 導入 browser 模組中的 document, 並設為 doc 變數
@@ -686,15 +686,15 @@ y4 = y1
 
 # 第5齒輪的圓心座標
 x5 = x1 + rp1 + 2*rp2 + 2*rp3+rp4
-y5 = y4+rp4+rp5
+y5 = y4 + rp4 + rp5
 
 # 第6齒輪的圓心座標
 x6 =x1 + rp1 + 2*rp2 + 2*rp3+rp4
-y6 = y5+rp5+rp6
+y6 = y5 + rp5 + rp6
 
 # 第7齒輪的圓心座標
 x7 =x6-rp6-rp7
-y7 = y5+rp5+rp6
+y7 = y5 + rp5 + rp6
 
 # 第8齒輪的圓心座標
 x8 = x7-rp7-rp8
