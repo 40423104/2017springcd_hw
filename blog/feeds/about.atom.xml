@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (40423104)</title><link href="./" rel="alternate"></link><link href="./feeds/about.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T17:00:00+08:00</updated><entry><title>W15 正齒輪協同練習</title><link href="./W15.html" rel="alternate"></link><published>2017-06-01T17:00:00+08:00</published><updated>2017-06-01T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-06-01:./W15.html</id><summary type="html">&lt;ol&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2017Spring 協同產品設計實習 (40423104)</title><link href="./" rel="alternate"></link><link href="./feeds/about.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T17:00:00+08:00</updated><entry><title>W15 正齒輪協同練習</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA%E5%8D%94%E5%90%8C%E7%B7%B4%E7%BF%92.html" rel="alternate"></link><published>2017-06-01T17:00:00+08:00</published><updated>2017-06-01T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-06-01:./正齒輪協同練習.html</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;請以 W15 練習為網誌標題, 800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 畫素, 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓.&lt;/p&gt;
 &lt;/li&gt;
@@ -333,7 +333,7 @@ ctx.stroke()
 
 &lt;/script&gt;
 
-&lt;/script&gt;</summary><category term="W15"></category></entry><entry><title>W13</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AAW13.html" rel="alternate"></link><published>2017-05-25T17:00:00+08:00</published><updated>2017-05-25T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-25:./正齒輪W13.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/script&gt;</summary><category term="正齒輪協同練習-W15"></category></entry><entry><title>W13-正齒輪齒數囓合繪圖</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA%E9%BD%92%E6%95%B8%E5%9B%93%E5%90%88%E7%B9%AA%E5%9C%96.html" rel="alternate"></link><published>2017-05-25T17:00:00+08:00</published><updated>2017-05-25T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-25:./正齒輪齒數囓合繪圖.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -561,7 +561,7 @@ input3 = html.INPUT(type="text", id="n3", name="n3", value="19")
 div &lt;= input1 + html.BR() + input2 + html.BR() + input3
 '''
 doc['button'].bind('click',setgearnumber)
-&lt;/script&gt;</summary><category term="正齒輪W13"></category></entry><entry><title>W12關於2D與3D傳動正齒輪</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AAW12.html" rel="alternate"></link><published>2017-05-18T17:00:00+08:00</published><updated>2017-05-18T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-18:./正齒輪W12.html</id><summary type="html">&lt;h4&gt;為何需要減速機?何謂漸開線?如何畫漸開線正齒輪輪廓?如何模擬 2D 正齒輪組囓合？如何模擬 3D 正齒輪組囓合？如何將齒輪減速機構納入四足行走機構?如何以 2D 動畫模擬齒輪囓合傳動?如何以 3D 動畫模擬齒輪囓合傳動?如何模擬四足機構行走?如何列印齒輪組零件?如何列印連桿機構?如何組立齒輪組與行走機構?如何控制馬達?&lt;/h4&gt;
+&lt;/script&gt;</summary><category term="正齒輪齒數囓合繪圖-W13"></category></entry><entry><title>W12-2D與3D傳動正齒輪</title><link href="./2D%E8%88%873D%E5%82%B3%E5%8B%95%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-18T17:00:00+08:00</published><updated>2017-05-18T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-18:./2D與3D傳動正齒輪.html</id><summary type="html">&lt;h4&gt;為何需要減速機?何謂漸開線?如何畫漸開線正齒輪輪廓?如何模擬 2D 正齒輪組囓合？如何模擬 3D 正齒輪組囓合？如何將齒輪減速機構納入四足行走機構?如何以 2D 動畫模擬齒輪囓合傳動?如何以 3D 動畫模擬齒輪囓合傳動?如何模擬四足機構行走?如何列印齒輪組零件?如何列印連桿機構?如何組立齒輪組與行走機構?如何控制馬達?&lt;/h4&gt;
 &lt;h3&gt;3個正齒輪固定齒數囓合繪圖&lt;/h3&gt;
 &lt;h3&gt;寫成 Fossil SCM 網頁互動式&lt;/h3&gt;
 
@@ -1252,7 +1252,7 @@ div = doc["onegear_div"]
 div &lt;=  str(canvas.width) + "|" + str(canvas.height)
 &lt;/script&gt;
 
-&lt;p&gt;寫成 Fossil SCM 網頁互動式&lt;/p&gt;</summary><category term="正齒輪W12"></category></entry><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-11T14:00:00+08:00</published><updated>2017-05-11T14:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
+&lt;p&gt;寫成 Fossil SCM 網頁互動式&lt;/p&gt;</summary><category term="2D與3D傳動正齒輪-W12"></category></entry><entry><title>W11-2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-11T14:00:00+08:00</published><updated>2017-05-11T14:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
 &lt;p&gt;從單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
 
 
@@ -1664,7 +1664,7 @@ div &lt;=  str(canvas.width) + "|" + str(canvas.height)
   看完文章後了解on shape功能在產品設計中的應用外，可發現on shape在協同上的重視，如:追隨模式，方便讓合作夥伴與作者同步討論外，也能對產品特徵做及時修改，以及使用導入DXF檔的功能，能讓2D草圖匯入後，方便對照進行3D建模，建好的產品儲存後，可以去看時間軸了解產品變化。
 (2) an Introduction to:
   在強調速度與創新的現代社會中，越快抓住市場趨勢改變的人就越有優勢，因此敏捷的產品設計在這時代是不可或缺的能力，由此可見設計使用的軟體越偏向快速、成本低、功能完備、方便討論的趨勢，若能縮短產品設計與發佈的時間，越能搶佔市場優勢，成為新潮產品，並獨佔專利權，團隊合作方面也不如以往，一人一台電腦CAD畫圖階段性接著畫，現在為節省時間，強調同步處理也就說到了，前面所提到的on shape，此軟體在現在要求敏捷產品設計的社會中，可發現在協同上的便利，一方面讓團隊能隨時注意組員畫圖進度若要組裝可以馬上應用外，一方面因為是網頁式開啟，比起以往需要帶著軟體到處跑，現在只需要有網路皆可開啟討論。
-總心得:看完文章後了解了on shpae的便利性並對他的再產品設計中的地位有不同的認識，並也了解到了現代產品設計的趨勢與合作團隊模式的改變，或許現在的on shape還不能完全取代許多繪圖軟體，但相信在未來一步步改善後，非常有機會成為未來產品設計的主流。&lt;/p&gt;</summary><category term="正齒輪"></category></entry><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AAW.html" rel="alternate"></link><published>2017-05-11T14:00:00+08:00</published><updated>2017-05-11T14:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪W.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
+總心得:看完文章後了解了on shpae的便利性並對他的再產品設計中的地位有不同的認識，並也了解到了現代產品設計的趨勢與合作團隊模式的改變，或許現在的on shape還不能完全取代許多繪圖軟體，但相信在未來一步步改善後，非常有機會成為未來產品設計的主流。&lt;/p&gt;</summary><category term="正齒輪-W11"></category></entry><entry><title>2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AAW.html" rel="alternate"></link><published>2017-05-11T14:00:00+08:00</published><updated>2017-05-11T14:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪W.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
 &lt;p&gt;從單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
 
 
