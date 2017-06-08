@@ -641,21 +641,21 @@ ctx = canvas.getContext("2d")
 # 壓力角 pa 單位為角度
 pa = 20
 # 第1齒輪齒數
-n1 = 16
+n1 = 12
 # 第2齒輪齒數
-n2 = 18
+n2 = 14
 # 第3齒輪齒數
-n3 = 20
+n3 = 16
 # 第4齒輪齒數
-n4 = 25
+n4 = 20
 # 第5齒輪齒數
-n5 = 24
+n5 = 22
 # 第6齒輪齒數
-n6 = 13
+n6 = 24
 # 第7齒輪齒數
-n7 = 23
+n7 = 26
 # 第8齒輪齒數
-n8 = 15
+n8 = 28
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
 m = (0.6*canvas.width)/(n1+n2+n3+n4)
 # 根據模數 m, 計算各齒輪的節圓半徑
@@ -751,7 +751,7 @@ ctx.translate(x3, y3)
 ctx.rotate(-math.pi/2-math.pi/n3+(math.pi+math.pi/n2)*n2/n3)
 # put it back
 ctx.translate(-x3, -y3)
-Spur(ctx).Gear(x3, y3, rp3, n3, pa, "black")
+Spur(ctx).Gear(x3, y3, rp3, n3, pa, "blue")
 ctx.restore()
 
 ctx.beginPath()
