@@ -365,7 +365,7 @@
 </v>
 <v t="leo.20170608093444.1" a="E"><vh>W16</vh>
 <v t="leo.20170608093444.2" a="E"><vh>標題</vh>
-<v t="leo.20170608093444.3"><vh>第九週</vh></v>
+<v t="leo.20170608093444.3"><vh>第16週</vh></v>
 </v>
 <v t="leo.20170608093444.4" a="E"><vh>標題</vh>
 <v t="leo.20170608093444.5"><vh>內容</vh></v>
@@ -373,8 +373,11 @@
 <v t="leo.20170608093444.6" a="E"><vh>評分依據</vh>
 <v t="leo.20170608093444.7"><vh>影片</vh></v>
 </v>
-<v t="leo.20170608093444.8" a="E"><vh>評分依據</vh>
+<v t="leo.20170608093444.8"><vh>評分依據</vh>
 <v t="leo.20170608093444.9"><vh>影片</vh></v>
+</v>
+<v t="leo.20170608094117.1" a="E"><vh>評分依據</vh>
+<v t="leo.20170608094117.2"><vh>影片</vh></v>
 </v>
 </v>
 </v>
@@ -1941,7 +1944,8 @@ L型桿件:6mmx40mm
 
 						
 </t>
-<t tx="leo.20170608093444.7">###</t>
+<t tx="leo.20170608093444.7">###3D 動畫模擬齒輪囓合傳動?
+&lt;iframe src="https://player.vimeo.com/video/220595383" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20170608093444.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1952,7 +1956,26 @@ L型桿件:6mmx40mm
 
 						
 </t>
-<t tx="leo.20170608093444.9">##</t>
+<t tx="leo.20170608093444.9">####齒輪繪製
+&lt;iframe src="https://player.vimeo.com/video/220592224" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20170608094117.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170608094117.2">####齒輪組裝模擬
+&lt;iframe src="https://player.vimeo.com/video/220593953" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
