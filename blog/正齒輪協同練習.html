@@ -755,7 +755,7 @@ Spur(ctx).Gear(x3, y3, rp3, n3, pa, "black")
 ctx.restore()
 
 ctx.beginPath()
-ctx.fillStyle = "#0000FF"
+ctx.fillStyle = "#BA55D3"
 ctx.font = "20px ScriptS"
 ctx.fillText("40423104 ",x3-20, y3)
 ctx.stroke()
@@ -765,14 +765,14 @@ ctx.save()
 # translate to the origin of second gear
 ctx.translate(x4, y4)
 # rotate to engage
-ctx.rotate(math.pi/2-math.pi/n4+(math.pi+math.pi/n_g3)*n3/n4*2)
+ctx.rotate(math.pi/2-math.pi/n4+(math.pi+math.pi/n3)*n3/n4*2)
 # put it back
 ctx.translate(-x4, -y4)
 Spur(ctx).Gear(x4, y4, rp4, n4, pa, "green")
 ctx.restore()
 
 ctx.beginPath()
-ctx.fillStyle = "#0000FF"
+ctx.fillStyle = "#BA55D3"
 ctx.font = "20px ScriptS"
 ctx.fillText("40423157 ",x4-20, y4)
 ctx.stroke()
@@ -808,7 +808,7 @@ Spur(ctx).Gear(x6, y6, rp6, n6, pa, "black")
 ctx.restore()
 
 ctx.beginPath()
-ctx.fillStyle = "#0000FF"
+ctx.fillStyle = "#BA55D3"
 ctx.font = "20px ScriptS"
 ctx.fillText("40423117 ",x6-20, y6)
 ctx.stroke()
@@ -822,7 +822,7 @@ ctx.translate(x7, y7)
 ctx.rotate(-math.pi/2-math.pi/n7+(math.pi+math.pi/n6)*n6/n7)
 # put it back
 ctx.translate(-x7, -y7)
-Spur(ctx).Gear(x7, y7, rp7, n7, pa, "purple")
+Spur(ctx).Gear(x7, y7, rp7, n7, pa, "rad")
 ctx.restore()
 
 ctx.beginPath()
