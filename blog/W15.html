@@ -473,30 +473,22 @@ class Spur(object):
 canvas = doc['gearone']
 ctx = canvas.getContext("2d")
 x = (canvas.width)/2
-y = (canvas.height)/2
-r = 0.8*(canvas.height/2)
+y = (canvas.height)/2+2400
+r = 8*(canvas.height/2)
 # 齒數
-n = 36
+n = 20
 # 壓力角
 pa = 20
-Spur(ctx).Gear(x, y, r, n, pa, "blue")
+Spur(ctx).Gear(x, y, r, n, pa, "black")
 
 ctx.beginPath()
-ctx.lineWidth = "600"
-ctx.strokeStyle = "white"
-ctx.moveTo(0,400)
-ctx.lineTo(800,400)
+ctx.fillStyle = "#BA55D3"
+ctx.font = "30px ScriptS"
+ctx.fillText("40423104", (canvas.width)/2-60, (canvas.height)/2+25)
 ctx.stroke()
 
-#ctx.beginPath()
-#ctx.lineWidth = "395"
-#ctx.strokeStyle = "white"
-#ctx.moveTo(395,0)
-#ctx.lineTo(395,600)
-#ctx.stroke()
 
-
-
+</script>
 
 </script>
             </div>
@@ -519,13 +511,13 @@ ctx.stroke()
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./W13.html">
+                        <a href="./正齒輪W13.html">
                             W13
                         </a>
                     </li>
                     <li class="list-group-item">
                         <a href="./正齒輪W12.html">
-                            W12
+                            W12關於2D與3D傳動正齒輪
                         </a>
                     </li>
                     <li class="list-group-item">
