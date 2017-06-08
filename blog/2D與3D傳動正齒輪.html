@@ -668,9 +668,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <!-- 以下實際利用  Brython 繪圖-->
 
-<canvas id="onegear" width="800" height="600"></canvas>
+<canvas id="gear2" width="800" height="600"></canvas>
 
-<div id="onegear_div" width="800" height="20"></div>
+<div id="gear_2div" width="800" height="20"></div>
 
 <script type="text/python3">
 from browser import document as doc
@@ -793,7 +793,7 @@ class Spur(object):
             # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
-canvas = doc['onegear']
+canvas = doc['gear2']
 ctx = canvas.getContext("2d")
 x = (canvas.width)/2
 y = (canvas.height)/2

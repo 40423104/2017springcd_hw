@@ -363,6 +363,20 @@
 <v t="leo.20170427052734.31"><vh>影片</vh></v>
 </v>
 </v>
+<v t="leo.20170608093444.1" a="E"><vh>W16</vh>
+<v t="leo.20170608093444.2" a="E"><vh>標題</vh>
+<v t="leo.20170608093444.3"><vh>第九週</vh></v>
+</v>
+<v t="leo.20170608093444.4" a="E"><vh>標題</vh>
+<v t="leo.20170608093444.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170608093444.6" a="E"><vh>評分依據</vh>
+<v t="leo.20170608093444.7"><vh>影片</vh></v>
+</v>
+<v t="leo.20170608093444.8" a="E"><vh>評分依據</vh>
+<v t="leo.20170608093444.9"><vh>影片</vh></v>
+</v>
+</v>
 </v>
 </v>
 </v>
@@ -1892,6 +1906,53 @@ L型桿件:6mmx40mm
 &lt;p&gt;其中一個是Flux連接。&lt;/p&gt;
 &lt;p&gt;Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that.&lt;/p&gt;
 &lt;p&gt;Flux是我們剛剛為低頻電磁學採集的電磁學代碼，所以我們可以採用一個Flux數據庫，並把它放入Hyperstudy進行研究。&lt;/p&gt;</t>
+<t tx="leo.20170608093444.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170608093444.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170608093444.3"># 期末自我評分</t>
+<t tx="leo.20170608093444.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170608093444.5">##自我評分與評分依據</t>
+<t tx="leo.20170608093444.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170608093444.7">###</t>
+<t tx="leo.20170608093444.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170608093444.9">##</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
