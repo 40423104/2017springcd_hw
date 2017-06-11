@@ -708,9 +708,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 }
 &lt;/script&gt;
 
-&lt;canvas id="onegear" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;canvas id="gearW13" width="800" height="600"&gt;&lt;/canvas&gt;
 
-&lt;div id="onegear_div" width="800" height="20"&gt;&lt;/div&gt;
+&lt;div id="gearW13_div" width="800" height="20"&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;input id="n1" value="13"&gt;&lt;/input&gt;&lt;br /&gt;
 &lt;input id="n2" value="11"&gt;&lt;/input&gt;&lt;br /&gt;
@@ -839,7 +839,7 @@ class Spur(object):
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
 
-canvas = doc['onegear']
+canvas = doc['gearW13']
 ctx = canvas.getContext("2d")
 
 # 以 button 驅動的事件函式
@@ -911,7 +911,7 @@ def setgearnumber(e):
 setgearnumber(True)
 
 '''
-div = doc["onegear_div"]
+div = doc["gearW13_div"]
 form = html.FORM()
 input1 = html.INPUT(type="text", id="n1", name="n1", value="13")
 input2 = html.INPUT(type="text", id="n2", name="n2", value="11")
@@ -944,9 +944,9 @@ doc['button'].bind('click',setgearnumber)
 
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
-&lt;canvas id="onegear1" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;canvas id="gearW12" width="800" height="600"&gt;&lt;/canvas&gt;
 
-&lt;div id="onegear1_div" width="800" height="20"&gt;&lt;/div&gt;
+&lt;div id="gearW12_div" width="800" height="20"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -1069,7 +1069,7 @@ class Spur(object):
             # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
-canvas = doc['onegear1']
+canvas = doc['gearW12']
 ctx = canvas.getContext("2d")
 x = (canvas.width)/2
 y = (canvas.height)/2
@@ -1099,9 +1099,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
-&lt;canvas id="gear1" width="600" height="600"&gt;&lt;/canvas&gt;
+&lt;canvas id="gear12" width="600" height="600"&gt;&lt;/canvas&gt;
 
-&lt;div id="gear1_div" width="800" height="20"&gt;&lt;/div&gt;
+&lt;div id="gear12_div" width="800" height="20"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -1226,7 +1226,7 @@ class Spur(object):
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
 
-canvas = doc['gear1']
+canvas = doc['gear12']
 ctx = canvas.getContext("2d")
 x = (canvas.width)/2
 y = (canvas.height)/2
@@ -1270,7 +1270,7 @@ ctx.translate(-x13, -y13)
 Spur(ctx).Gear(x13, y13, r13, n13, pa, "black")
 ctx.restore()
 
-div = doc["onegear1_div"]
+div = doc["gear12_div"]
 
 &lt;/script&gt;
 
@@ -1401,9 +1401,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
-&lt;canvas id="gear2" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;canvas id="gear04" width="800" height="600"&gt;&lt;/canvas&gt;
 
-&lt;div id="gear2_div" width="800" height="20"&gt;&lt;/div&gt;
+&lt;div id="gear04_div" width="800" height="20"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -1526,7 +1526,7 @@ class Spur(object):
             # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
-canvas = doc['gear2']
+canvas = doc['gear04']
 ctx = canvas.getContext("2d")
 x = (canvas.width)/2
 y = (canvas.height)/2
@@ -1576,7 +1576,7 @@ ctx.rotate(-90*deg-math.pi/n13+(180*deg+math.pi/n11)*n11/n13)
 ctx.translate(-x13, -y13)
 gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa, "blue", rot)
 ctx.restore()
-div = doc["onegear_div"]
+div = doc["gear04_div"]
 div &lt;=  str(canvas.width) + "|" + str(canvas.height)
 &lt;/script&gt;
 
@@ -1602,9 +1602,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
-&lt;canvas id="onegear2" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;canvas id="gearW11" width="800" height="600"&gt;&lt;/canvas&gt;
 
-&lt;div id="onegear2_div" width="800" height="20"&gt;&lt;/div&gt;
+&lt;div id="gearW11_div" width="800" height="20"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -1729,8 +1729,8 @@ class Spur(object):
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
 
 
-# 準備在 id="onegear2" 的 canvas 中繪圖
-canvas = doc['onegear2']
+# 準備在 id="gearW11" 的 canvas 中繪圖
+canvas = doc['gearW11']
 ctx = canvas.getContext("2d")
 m = (0.8*canvas.width)/(n17+n11+n13)
 # 壓力角
@@ -1809,9 +1809,9 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
-&lt;canvas id="onegear3" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;canvas id="gear11" width="800" height="600"&gt;&lt;/canvas&gt;
 
-&lt;div id="onegear3_div" width="800" height="20"&gt;&lt;/div&gt;
+&lt;div id="gear11_div" width="800" height="20"&gt;&lt;/div&gt;
 
 &lt;script type="text/python3"&gt;
 from browser import document as doc
@@ -1934,7 +1934,7 @@ class Spur(object):
             # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
-canvas = doc['onegear3']
+canvas = doc['gear11']
 ctx = canvas.getContext("2d")
 x = (canvas.width)/2
 y = (canvas.height)/2
@@ -1984,7 +1984,7 @@ ctx.rotate(-90*deg-math.pi/n13+(180*deg+math.pi/n11)*n11/n13)
 ctx.translate(-x13, -y13)
 gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa, "blue", rot)
 ctx.restore()
-div = doc["onegear3_div"]
+div = doc["gear11_div"]
 div &lt;=  str(canvas.width) + "|" + str(canvas.height)
 &lt;/script&gt;
 
