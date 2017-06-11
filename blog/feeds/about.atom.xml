@@ -1580,7 +1580,7 @@ div = doc["gear04_div"]
 div &lt;=  str(canvas.width) + "|" + str(canvas.height)
 &lt;/script&gt;
 
-&lt;p&gt;寫成 Fossil SCM 網頁互動式&lt;/p&gt;</summary><category term="2D與3D傳動正齒輪-W12"></category></entry><entry><title>W12-2D與3D傳動正齒輪</title><link href="./2D%E8%88%873D%E5%82%B3%E5%8B%95%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-18T17:00:00+08:00</published><updated>2017-05-18T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-18:./2D與3D傳動正齒輪.html</id><summary type="html">&lt;h4&gt;為何需要減速機?何謂漸開線?如何畫漸開線正齒輪輪廓?如何模擬 2D 正齒輪組囓合？如何模擬 3D 正齒輪組囓合？如何將齒輪減速機構納入四足行走機構?如何以 2D 動畫模擬齒輪囓合傳動?如何以 3D 動畫模擬齒輪囓合傳動?如何模擬四足機構行走?如何列印齒輪組零件?如何列印連桿機構?如何組立齒輪組與行走機構?如何控制馬達?&lt;/h4&gt;
+&lt;p&gt;寫成 Fossil SCM 網頁互動式&lt;/p&gt;</summary><category term="2D與3D傳動正齒輪-W12"></category></entry><entry><title>W12-2D與3D傳動正齒輪</title><link href="./2D%E8%88%873D%E5%82%B3%E5%8B%95%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-18T14:00:00+08:00</published><updated>2017-05-18T14:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-18:./2D與3D傳動正齒輪.html</id><summary type="html">&lt;h4&gt;為何需要減速機?何謂漸開線?如何畫漸開線正齒輪輪廓?如何模擬 2D 正齒輪組囓合？如何模擬 3D 正齒輪組囓合？如何將齒輪減速機構納入四足行走機構?如何以 2D 動畫模擬齒輪囓合傳動?如何以 3D 動畫模擬齒輪囓合傳動?如何模擬四足機構行走?如何列印齒輪組零件?如何列印連桿機構?如何組立齒輪組與行走機構?如何控制馬達?&lt;/h4&gt;
 &lt;h3&gt;3個正齒輪固定齒數囓合繪圖&lt;/h3&gt;
 &lt;h3&gt;寫成 Fossil SCM 網頁互動式&lt;/h3&gt;
 
@@ -2241,7 +2241,7 @@ div = doc["gear04_div"]
 div &lt;=  str(canvas.width) + "|" + str(canvas.height)
 &lt;/script&gt;
 
-&lt;p&gt;寫成 Fossil SCM 網頁互動式&lt;/p&gt;</summary><category term="2D與3D傳動正齒輪-W12"></category></entry><entry><title>W11-2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-11T14:00:00+08:00</published><updated>2017-05-11T14:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
+&lt;p&gt;寫成 Fossil SCM 網頁互動式&lt;/p&gt;</summary><category term="2D與3D傳動正齒輪-W12"></category></entry><entry><title>W11-2D 正齒輪傳動</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA.html" rel="alternate"></link><published>2017-05-11T18:00:00+08:00</published><updated>2017-05-11T18:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-05-11:./正齒輪.html</id><summary type="html">&lt;h4&gt;正齒輪傳動&lt;/h4&gt;
 &lt;p&gt;從單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
 
 
