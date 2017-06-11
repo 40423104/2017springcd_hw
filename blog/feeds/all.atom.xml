@@ -936,7 +936,12 @@ doc['button'].bind('click',setgearnumber)
 &lt;p&gt;假如將一條線繞著一個多邊形， 一頭固定，一頭向外拉開，則拉開的這個線頭所走的軌跡，就是漸開線。
 亦可為繞於一多邊形或圓形之緊索上之一點，該點向外伸開時所形成之軌跡。&lt;/p&gt;
 &lt;h3&gt;如何畫漸開線正齒輪輪廓?&lt;/h3&gt;
-&lt;p&gt;自訂模數、齒數、壓力角，利用程式繪製節圓、齒頂圓、齒根圓及基圓等&lt;/p&gt;
+&lt;p&gt;自訂模數、齒數、壓力角，利用程式繪製節圓、齒頂圓、齒根圓及基圓等
+&lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
 &lt;canvas id="onegear1" width="800" height="600"&gt;&lt;/canvas&gt;
@@ -1416,9 +1421,9 @@ set_interval(draw, 2)
 &lt;p&gt;http://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/14856/One-Company-Needs-to-Buy-OnshapeHeres-Why.aspx&lt;/p&gt;
 &lt;p&gt;3個正齒輪固定齒數囓合繪圖
 &lt;!-- 導入 Brython 標準程式庫 --&gt;&lt;/p&gt;
-&lt;script src="/mde2a2/raw/Brython-3.3.1/brython.js?name=38acf95eafd1a3cd6b4429cb357536db72bbdd94"&gt;&lt;/script&gt;
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
 
-&lt;script src="/mde2a2/raw/Brython-3.3.1/brython_stdlib.js?name=1e4caae7eb37d66564cd620d8bb62642248e31fe"&gt;&lt;/script&gt;
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
 
 &lt;!-- 啟動 Brython --&gt;
 
