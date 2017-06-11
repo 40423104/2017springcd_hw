@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>W13-正齒輪齒數囓合繪圖 - 2017Spring 協同產品設計實習 (40423104)</title>
+    <title>W5-V-rep模擬 - 2017Spring 協同產品設計實習 (40423104)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,19 +10,20 @@
 
 
 
-<link rel="canonical" href="./正齒輪齒數囓合繪圖.html">
+<link rel="canonical" href="./V-rep.html">
 
         <meta name="author" content="40423104-YanSyuan" />
-        <meta name="keywords" content="正齒輪齒數囓合繪圖-W13" />
+        <meta name="keywords" content="V-rep-W5" />
+        <meta name="description" content="利用V-rep 將單連桿機構導入，在進行模擬 簡單介紹 Git Hub 改版問題" />
 
         <meta property="og:site_name" content="2017Spring 協同產品設計實習 (40423104)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="W13-正齒輪齒數囓合繪圖"/>
-        <meta property="og:url" content="./正齒輪齒數囓合繪圖.html"/>
-        <meta property="og:description" content=""/>
-        <meta property="article:published_time" content="2017-05-25" />
+        <meta property="og:title" content="W5-V-rep模擬"/>
+        <meta property="og:url" content="./V-rep.html"/>
+        <meta property="og:description" content="利用V-rep 將單連桿機構導入，在進行模擬 簡單介紹 Git Hub 改版問題"/>
+        <meta property="article:published_time" content="2017-03-23" />
             <meta property="article:section" content="About" />
-            <meta property="article:tag" content="正齒輪齒數囓合繪圖-W13" />
+            <meta property="article:tag" content="V-rep-W5" />
             <meta property="article:author" content="40423104-YanSyuan" />
 
 
@@ -130,10 +131,10 @@
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./正齒輪齒數囓合繪圖.html"
+                    <a href="./V-rep.html"
                        rel="bookmark"
-                       title="Permalink to W13-正齒輪齒數囓合繪圖">
-                        W13-正齒輪齒數囓合繪圖
+                       title="Permalink to W5-V-rep模擬">
+                        W5-V-rep模擬
                     </a>
                 </h1>
             </header>
@@ -143,7 +144,7 @@
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-05-25T17:00:00+08:00"> Thu 25 May 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-03-23T15:00:00+08:00"> Thu 23 March 2017</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423104-yansyuan.html"><i class="fa fa-user"></i> 40423104-YanSyuan</a>
@@ -151,239 +152,258 @@
 
 
 <span class="label label-default">Tags</span>
-	<a href="./tag/zheng-chi-lun-chi-shu-nie-he-hui-tu-w13.html">正齒輪齒數囓合繪圖-W13</a>
+	<a href="./tag/v-rep-w5.html">V-rep-W5</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <!-- PELICAN_END_SUMMARY -->
+                <h4>利用V-rep 將單連桿機構導入，在進行模擬</h4>
+<h4>簡單介紹 Git Hub 改版問題</h4>
 
-<!-- 導入 Brython 標準程式庫 -->
 
-<script src="./../data/Brython-3.3.1/brython.js"></script>
+<h3>單連桿影片</h3>
+<p><iframe src="https://player.vimeo.com/video/214560619" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214560619">虎尾科技大學 機械設計工程系-40423104-W5-單連趕v-rep模擬</a> from <a href="https://vimeo.com/user44900188">40423104-Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<h3>Git Hub 改版問題</h3>
+<p><pre>可進入<a href="https://help.github.com/articles/page-build-failed-tag-not-properly-terminated/">看解決方法</pre>
+<pre>進入自己倉儲資料夾</pre>
+<a href="http://imgur.com/LzpsaMx"><img src="http://i.imgur.com/LzpsaMx.png" title="source: imgur.com" /></a>
+<pre>在 SciTE 下編輯</pre>
+<a href="http://imgur.com/bAvaxEU"><img src="http://i.imgur.com/bAvaxEU.png" title="source: imgur.com" /></a></p>
+<pre>將所有"{"改成"{{"，以下為修改後的程式碼</pre>
 
-<script src="./../data/Brython-3.3.1/brython_stdlib.js"></script>
+<pre># Liquid-style Tags
+*Author: Jake Vanderplas <jakevdp@cs.washington.edu>*
 
-<!-- 啟動 Brython -->
+This plugin allows liquid-style tags to be inserted into markdown within
+Pelican documents. Liquid uses tags bounded by ``{{% ... %}}``, and is used
+to extend markdown in other blogging platforms such as octopress.
 
-<script>
-window.onload=function(){
-// 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
-}
-</script>
+This set of extensions does not actually interface with liquid, but allows
+users to define their own liquid-style tags which will be inserted into
+the markdown preprocessor stream.  There are several built-in tags, which
+can be added as follows.
 
-<canvas id="gearW13" width="800" height="600"></canvas>
+First, in your pelicanconf.py file, add the plugins you want to  use:
 
-<div id="gearW13_div" width="800" height="20"></div>
+    PLUGIN_PATH = '/path/to/pelican-plugins'
+    PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
+               'liquid_tags.youtube', 'liquid_tags.vimeo',
+               'liquid_tags.include_code', 'liquid_tags.notebook']
 
-<p><input id="n1" value="13"></input><br />
-<input id="n2" value="11"></input><br />
-<input id="n3" value="17"></input><br />
-<button id="button">Set Number of Gears</button></p>
+There are several options available
 
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-# deg 為角度轉為徑度的轉換因子
-deg = math.pi/180.
-# 定義 Spur 類別
-class Spur(object):
-    def __init__(self, ctx):
-        self.ctx = ctx
+## Image Tag
+To insert a sized and labeled image in your document, enable the
+``liquid_tags.img`` plugin and use the following:
 
-    def create_line(self, x1, y1, x2, y2, width=3, fill="red"):
-        self.ctx.beginPath()
-        self.ctx.lineWidth = width
-        self.ctx.moveTo(x1, y1)
-        self.ctx.lineTo(x2, y2)
-        self.ctx.strokeStyle = fill
-        self.ctx.stroke()
-    #
-    # 定義一個繪正齒輪的繪圖函式
-    # midx 為齒輪圓心 x 座標
-    # midy 為齒輪圓心 y 座標
-    # rp 為節圓半徑, n 為齒數
-    # pa 為壓力角 (deg)
-    # 已經針對 n 大於等於 52 齒時的繪圖錯誤修正, 因為 base circle 與齒根圓大小必須進行判斷
-    def Gear(self, midx, midy, rp, n=20, pa=20, color="black"):
-        # 齒輪漸開線分成 15 線段繪製
-        imax = 15
-        # 在輸入的畫布上繪製直線, 由圓心到節圓 y 軸頂點畫一直線
-        self.create_line(midx, midy, midx, midy-rp)
-        # 畫出 rp 圓, 畫圓函式尚未定義
-        #create_oval(midx-rp, midy-rp, midx+rp, midy+rp, width=2)
-        # a 為模數 (代表公制中齒的大小), 模數為節圓直徑(稱為節徑)除以齒數
-        # 模數也就是齒冠大小
-        a=2*rp/n
-        # d 為齒根大小, 為模數的 1.157 或 1.25倍, 這裡採 1.25 倍
-        d=2.5*rp/n
-        # ra 為齒輪的外圍半徑
-        ra=rp+a
-        # 畫出 ra 圓, 畫圓函式尚未定義
-        #create_oval(midx-ra, midy-ra, midx+ra, midy+ra, width=1)
-        # rb 則為齒輪的基圓半徑
-        # 基圓為漸開線長齒之基準圓
-        rb=rp*math.cos(pa*deg)
-        # 畫出 rb 圓 (基圓), 畫圓函式尚未定義
-        #create_oval(midx-rb, midy-rb, midx+rb, midy+rb, width=1)
-        # rd 為齒根圓半徑
-        rd=rp-d
-        # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
-        # 畫出 rd 圓 (齒根圓), 畫圓函式尚未定義
-        #create_oval(midx-rd, midy-rd, midx+rd, midy+rd, width=1)
-        # dr 則為基圓到齒頂圓半徑分成 imax 段後的每段半徑增量大小
-        # 將圓弧分成 imax 段來繪製漸開線
-        # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
-        if rd>rb:
-            dr = (ra-rd)/imax
-        else:
-            dr=(ra-rb)/imax
-        # tan(pa*deg)-pa*deg 為漸開線函數
-        sigma=math.pi/(2*n)+math.tan(pa*deg)-pa*deg
-        for j in range(n):
-            ang=-2.*j*math.pi/n+sigma
-            ang2=2.*j*math.pi/n+sigma
-            lxd=midx+rd*math.sin(ang2-2.*math.pi/n)
-            lyd=midy-rd*math.cos(ang2-2.*math.pi/n)
-            for i in range(imax+1):
-                # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
-                if rd>rb:
-                    r=rd+i*dr
-                else:
-                    r=rb+i*dr
-                theta=math.sqrt((r*r)/(rb*rb)-1.)
-                alpha=theta-math.atan(theta)
-                xpt=r*math.sin(alpha-ang)
-                ypt=r*math.cos(alpha-ang)
-                xd=rd*math.sin(-ang)
-                yd=rd*math.cos(-ang)
-                # i=0 時, 繪線起點由齒根圓上的點, 作為起點
-                if(i==0):
-                    last_x = midx+xd
-                    last_y = midy-yd
-                # 由左側齒根圓作為起點, 除第一點 (xd,yd) 齒根圓上的起點外, 其餘的 (xpt,ypt)則為漸開線上的分段點
-                self.create_line((midx+xpt),(midy-ypt),(last_x),(last_y),fill=color)
-                # 最後一點, 則為齒頂圓
-                if(i==imax):
-                    lfx=midx+xpt
-                    lfy=midy-ypt
-                last_x = midx+xpt
-                last_y = midy-ypt
-            # the line from last end of dedendum point to the recent
-            # end of dedendum point
-            # lxd 為齒根圓上的左側 x 座標, lyd 則為 y 座標
-            # 下列為齒根圓上用來近似圓弧的直線
-            self.create_line((lxd),(lyd),(midx+xd),(midy-yd),fill=color)
-            for i in range(imax+1):
-                # 當 rd 大於 rb 時, 漸開線並非畫至 rb, 而是 rd
-                if rd>rb:
-                    r=rd+i*dr
-                else:
-                    r=rb+i*dr
-                theta=math.sqrt((r*r)/(rb*rb)-1.)
-                alpha=theta-math.atan(theta)
-                xpt=r*math.sin(ang2-alpha)
-                ypt=r*math.cos(ang2-alpha)
-                xd=rd*math.sin(ang2)
-                yd=rd*math.cos(ang2)
-                # i=0 時, 繪線起點由齒根圓上的點, 作為起點
-                if(i==0):
-                    last_x = midx+xd
-                    last_y = midy-yd
-                # 由右側齒根圓作為起點, 除第一點 (xd,yd) 齒根圓上的起點外, 其餘的 (xpt,ypt)則為漸開線上的分段點
-                self.create_line((midx+xpt),(midy-ypt),(last_x),(last_y),fill=color)
-                # 最後一點, 則為齒頂圓
-                if(i==imax):
-                    rfx=midx+xpt
-                    rfy=midy-ypt
-                last_x = midx+xpt
-                last_y = midy-ypt
-            # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
-            # 下列為齒頂圓上用來近似圓弧的直線
-            self.create_line(lfx,lfy,rfx,rfy,fill=color)
+    {{% img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}}
 
-canvas = doc['gearW13']
-ctx = canvas.getContext("2d")
+### Base64 Image (inline image) tag
 
-# 以 button 驅動的事件函式
-def setgearnumber(e):
-    ctx.clearRect(0, 0, canvas.width, canvas.height)
-    x = (canvas.width)/2
-    y = (canvas.height)/2
-    if doc["n1"].value.isdigit():
-        n17 = int(doc["n1"].value)
-    else:
-        n17 = 17
+There is one more tag for image: ``b64img``. It is based on ``img`` tag, but instead of inserting link on image it acutally reads image and inserts it as base64 text into ``<img src=`` attribute.
 
-    if doc["n2"].value.isdigit():
-        n11 = int(doc["n2"].value)
-    else:
-        n11 = 11
+To use it:
 
-    if doc["n3"].value.isdigit():
-        n13 = int(doc["n3"].value)
-    else:
-        n13 = 13
+1. Enable ``liquid_tags.b64img``
+1. Insert tag as you'd insert image one: ``{{% b64img [class name(s)] path/to/image [width [height]] [title text | "title text" ["alt text"]] %}}``
 
-    # 只使用畫布高度的 80%
-    canvas_size = canvas.height*0.4
-    r17 = canvas_size*n17/(n17+n11+n13)
-    r11 = canvas_size*n11/(n17+n11+n13)
-    r13 = canvas_size*n13/(n17+n11+n13)
-    # 計算各齒輪中心座標
-    x17 = x - r17-r11
-    y17 = y
+Images are read on compilation phase so you can use any local path (just be sure that image will remain there on next compilation)
 
-    x11 = x 
-    y11 = y
+## Instagram Tag
+To insert a sized and labeled Instagram image in your document by its shortcode (such as ``pFI0CAIZna``), enable the ``liquid_tags.gram`` plugin and use the following:
 
-    x13 = x + r11+r13
-    y13 = y
+    {{% gram shortcode [size] [width] [class name(s)] [title text | "title text" ["alt text"]] %}}
 
-    pa = 20
-    # 開始繪製齒輪
-    # 儲存原有的座標系統
-    ctx.save()
-    # 平移到齒輪圓心
-    ctx.translate(x17, y17)
-    # 以齒輪圓心旋轉 90 度, 讓紅色標線在齒輪右側保持水平
-    ctx.rotate(90*deg)
-    # 平移回原來的座標原點
-    ctx.translate(-x17, -y17)
-    gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa, "blue")
-    # 回復原有的座標系統
-    ctx.restore()
+You can specify a size with `t`, `m`, or `l`.
 
-    ctx.save()
-    ctx.translate(x11, y11)
-    # 中間齒輪轉動 -90 度加上一齒, 可以與左側齒輪囓合
-    ctx.rotate(-90*deg-math.pi/n11)
-    ctx.translate(-x11, -y11)
-    gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa, "blue")
-    ctx.restore()
+## Flickr Tag
+To insert a Flickr image to a post, follow these steps:
 
-    ctx.save()
-    ctx.translate(x13, y13)
-    # 右側齒輪轉動 -90 度加上一齒, 可以與原來標線在左側水平的中間齒輪囓合, 但是目前中間齒輪的標線已經轉了 180 度加或減一次
-    # 必須配合兩齒的速比轉換旋轉角, 以便讓中間齒輪與右側齒輪囓合
-    ctx.rotate(-90*deg-math.pi/n13+(180*deg+math.pi/n11)*n11/n13)
-    ctx.translate(-x13, -y13)
-    gear13 = Spur(ctx).Gear(x13, y13, r13, n13, pa, "blue")
-    ctx.restore()
+1. Enable ``liquid_tags.flickr``
+2. [Get an API key from Flickr](https://www.flickr.com/services/apps/create/apply)
+3. Add FLICKR_API_KEY to your config
+4. Add this to your document:
 
-setgearnumber(True)
+    ``{{% flickr image_id [small|medium|large] ["alt text"|'alt text'] %}}``
 
-'''
-div = doc["gearW13_div"]
-form = html.FORM()
-input1 = html.INPUT(type="text", id="n1", name="n1", value="13")
-input2 = html.INPUT(type="text", id="n2", name="n2", value="11")
-input3 = html.INPUT(type="text", id="n3", name="n3", value="19")
-div <= input1 + html.BR() + input2 + html.BR() + input3
-'''
-doc['button'].bind('click',setgearnumber)
-</script>
+## Giphy Tag
+To insert a gif from Giphy in your document by its id (such as ``aMSJFS6oFX0fC``), enable the ``liquid_tags.giphy`` plugin and use the following:
+
+    {{% giphy gif_id ["alt text"|'alt text'] %}}
+
+IMPORTANT: You have to request a production API key from giphy [here](https://api.giphy.com/submit).
+For the first runs you could also use the public beta key you can get [here](https://github.com/giphy/GiphyAPI).
+
+## Soundcloud Tag
+To insert a Soundcloud Widget to a post, follow these steps:
+
+1. Enable ``liquid_tags.soundcloud``
+2. Add this to your document:
+
+    ``{{% soundcloud track_url %}}``
+
+## Youtube Tag
+To insert youtube video into a post, enable the
+``liquid_tags.youtube`` plugin, and add to your document:
+
+    {{% youtube youtube_id [width] [height] %}}
+
+The width and height are in pixels, and can be optionally specified.  If they
+are not, then the dimensions will be 640 (wide) by 390 (tall).
+
+If you're experiencing issues with code generating (i.e. missing closing tags), add `SUMMARY_MAX_LENGTH = None` to your config.
+
+## Vimeo Tag
+To insert a Vimeo video into a post, enable the
+``liquid_tags.vimeo`` plugin, and add to your document:
+
+    {{% vimeo vimeo_id [width] [height] %}}
+
+The width and height are in pixels, and can be optionally specified.  If they
+are not, then the dimensions will be 640 (wide) by 390 (tall).
+
+If you're experiencing issues with code generating (i.e. missing closing tags), add `SUMMARY_MAX_LENGTH = None` to your config.
+
+## Video Tag
+To insert flash/HTML5-friendly video into a post, enable the
+``liquid_tags.video`` plugin, and add to your document:
+
+    {{% video /url/to/video.mp4 [width] [height] [/path/to/poster.png] %}}
+
+The width and height are in pixels, and can be optionally specified.  If they
+are not, then the original video size will be used.  The poster is an image
+which is used as a preview of the video.
+
+To use a video from file, make sure it's in a static directory and put in
+the appropriate url.
+
+## Audio Tag
+To insert HTML5 audio into a post, enable the ``liquid_tags.audio`` plugin,
+and add to your document:
+
+    {{% audio url/to/audio [url/to/audio] [url/to/audio] %}}
+
+Up to 3 audio urls are possible. So you can add different versions of
+the audio file you want to post because not every browser support every
+file format.
+
+To use a audio from file, make sure it's in a static directory and put in
+the appropriate url.
+
+## Include Code
+To include code from a file in your document with a link to the original
+file, enable the ``liquid_tags.include_code`` plugin, and add to your
+document:
+
+    {{% include_code /path/to/code.py [lang:python] [lines:X-Y] [:hidefilename:] [title] %}}
+
+All arguments are optional but their order must be kept. `:hidefilename:` is
+only allowed if a title is also given.
+
+    {{% include_code /path/to/code.py lines:1-10 :hidefilename: Test Example %}}
+
+This example will show the first 10 lines of the file while hiding the actual
+filename.
+
+The script must be in the ``code`` subdirectory of your content folder:
+this default location can be changed by specifying
+
+    CODE_DIR = 'code'
+
+within your configuration file. Additionally, in order for the resulting
+hyperlink to work, this directory must be listed under the STATIC_PATHS
+setting, e.g.:
+
+    STATIC_PATHS = ['images', 'code']
+
+## IPython notebooks
+
+To insert an [IPython][] notebook into your post, enable the
+``liquid_tags.notebook`` plugin and add to your document:
+
+    {{% notebook filename.ipynb %}}
+
+The file should be specified relative to the ``notebooks`` subdirectory of the
+content directory.  Optionally, this subdirectory can be specified in the
+config file:
+
+    NOTEBOOK_DIR = 'notebooks'
+
+Because the conversion and rendering of notebooks is rather involved, there
+are a few extra steps required for this plugin:
+
+- First, you will need to install IPython:
+
+      pip install ipython==2.4.1
+
+- After typing "make html" when using the notebook tag, a file called
+  ``_nb_header.html`` will be produced in the main directory.  The content
+  of the file should be included in the header of the theme.  An easy way
+  to accomplish this is to add the following lines within the header template
+  of the theme you use:
+
+      {{% if EXTRA_HEADER %}}
+      {{ EXTRA_HEADER }}
+      {{% endif %}}
+
+  and in your configuration file, include the line:
+
+      EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+
+  this will insert the proper css formatting into your document.
+
+### Optional Arguments for Notebook Tags
+
+The notebook tag also has two optional arguments: ``cells`` and ``language``.
+
+- You can specify a slice of cells to include:
+
+  ``{{% notebook filename.ipynb cells[2:8] %}}``
+
+- You can also specify the name of a language which Pygments should use for
+  highlighting code cells. A list of the short names for languages that Pygments
+  will highlight can be found [here](http://www.pygments.org/docs/lexers/).
+
+  ``{{% notebook filename.ipynb language[julia] %}}``
+
+  This may be helpful for those using [IJulia](https://github.com/JuliaLang/IJulia.jl)
+  or notebooks in any other language, especially as the IPython project [broadens its
+  scope](https://github.com/ipython/ipython/wiki/Roadmap:-IPython) of [language
+  compatibility](http://jupyter.org/). By default, the language for highlighting
+  will be ``ipython``.
+
+- These options can be used separately, together, or not at all. However,
+  if both tags are used then ``cells`` must come before ``language``:
+
+  ``{{% notebook filename.ipynb cells[2:8] language[julia] %}}``
+
+### Collapsible Code in IPython Notebooks
+
+The plugin also enables collapsible code input boxes. For this to work
+you first need to copy the file ``pelicanhtml_3.tpl`` (for IPython
+3.x, ``pelicanhtml_2.tpl`` (for IPython 2.x)...) to the top level of your
+Pelican blog. Notebook input cells containing the comment line ``#
+<!-- collapse=True -->`` will be collapsed when the html page is
+loaded and can be expanded by clicking on them. Cells containing the
+comment line ``# <!-- collapse=False -->`` will be open on load but
+can be collapsed by clicking on their header. Cells without collapse
+comments are rendered as standard code input cells.
+
+## Testing
+
+To test the plugin in multiple environments we use [tox](http://tox.readthedocs.org/en/latest/), to run the entire test suite, just type:
+
+
+ wzxhzdk:0 
+
+
+[IPython]: http://ipython.org/</pre>
+
+<h3>心得</h3>
+<p><p>1.透過多次練習越來越熟悉v-rep的模擬操作</p>
+<p>2.清楚多連桿與單連桿機構</p>
+<p>3.了解連桿運動方式 </p>
+<p>4.熟悉解決Git Hub改版方法</p></p>
             </div>
             <!-- /.entry-content -->
         </article>

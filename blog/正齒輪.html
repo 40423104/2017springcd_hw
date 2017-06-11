@@ -1,36 +1,185 @@
-Title:W11-2D 正齒輪傳動
-Date: 2017-05-11 14:00
-Category: About
-Tags:  正齒輪-W11
-Slug: 正齒輪
-Author: 40423104-YanSyuan
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>W11-2D 正齒輪傳動 - 2017Spring 協同產品設計實習 (40423104)</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
-####正齒輪傳動
+<link rel="canonical" href="./正齒輪.html">
+
+        <meta name="author" content="40423104-YanSyuan" />
+        <meta name="keywords" content="正齒輪-W11" />
+        <meta name="description" content="正齒輪傳動 從單一 2D 正齒輪繪圖到齒輪組嚙合" />
+
+        <meta property="og:site_name" content="2017Spring 協同產品設計實習 (40423104)" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="W11-2D 正齒輪傳動"/>
+        <meta property="og:url" content="./正齒輪.html"/>
+        <meta property="og:description" content="正齒輪傳動 從單一 2D 正齒輪繪圖到齒輪組嚙合"/>
+        <meta property="article:published_time" content="2017-05-11" />
+            <meta property="article:section" content="About" />
+            <meta property="article:tag" content="正齒輪-W11" />
+            <meta property="article:author" content="40423104-YanSyuan" />
 
 
-從單一 2D 正齒輪繪圖到齒輪組嚙合
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.united.min.css" type="text/css"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
 
-<!-- PELICAN_END_SUMMARY -->
+    <link href="./theme/css/pygments/monokai.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
 
-利用漸開線原理, 以 Brython 繪製單一正齒輪廓:
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="2017Spring 協同產品設計實習 (40423104) ATOM Feed"/>
 
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="https://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushBash.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "https://chiamingyen.github.io/kmolab_data/files/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+2017Spring 協同產品設計實習 (40423104)            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="./pages/40423104/">
+                             40423104
+                          </a></li>
+                        <li class="active">
+                            <a href="./category/about.html">About</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="./search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+              <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./正齒輪.html"
+                       rel="bookmark"
+                       title="Permalink to W11-2D 正齒輪傳動">
+                        W11-2D 正齒輪傳動
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-05-11T18:00:00+08:00"> Thu 11 May 2017</time>
+    </span>
+            <span class="label label-default">By</span>
+            <a href="./author/40423104-yansyuan.html"><i class="fa fa-user"></i> 40423104-YanSyuan</a>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/zheng-chi-lun-w11.html">正齒輪-W11</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h4>正齒輪傳動</h4>
+<p>從單一 2D 正齒輪繪圖到齒輪組嚙合</p>
+
+
+<p>利用漸開線原理, 以 Brython 繪製單一正齒輪廓:</p>
 <!-- 導入 Brython 標準程式庫 -->
- 
+
 <script src="../data/Brython-3.3.1/brython.js"></script>
+
 <script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
- 
+
 <!-- 啟動 Brython -->
+
 <script>
 window.onload=function(){
 // 設定 data/py 為共用程式路徑
 brython({debug:1, pythonpath:['./../data/py']});
 }
 </script>
- 
+
 <!-- 以下實際利用  Brython 繪圖-->
+
 <canvas id="gearW11" width="800" height="600"></canvas>
+
 <div id="gearW11_div" width="800" height="20"></div>
 
 <script type="text/python3">
@@ -42,7 +191,7 @@ deg = math.pi/180.
 class Spur(object):
     def __init__(self, ctx):
         self.ctx = ctx
- 
+
     def create_line(self, x1, y1, x2, y2, width=3, fill="red"):
         self.ctx.beginPath()
         self.ctx.lineWidth = width
@@ -218,9 +367,11 @@ gear15 = Spur(ctx).Gear(x15, y15, r15, n15, pa,"green")
 ctx.restore()
 
 </script>
+
 <!-- 導入 Brython 標準程式庫 -->
- 
+
 <script src="../data/Brython-3.3.1/brython.js"></script>
+
 <script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
 
 <!-- 啟動 Brython -->
@@ -413,9 +564,123 @@ div = doc["gear11_div"]
 div <=  str(canvas.width) + "|" + str(canvas.height)
 </script>
 
-(1)	on shape:
+<p>(1) on shape:
   看完文章後了解on shape功能在產品設計中的應用外，可發現on shape在協同上的重視，如:追隨模式，方便讓合作夥伴與作者同步討論外，也能對產品特徵做及時修改，以及使用導入DXF檔的功能，能讓2D草圖匯入後，方便對照進行3D建模，建好的產品儲存後，可以去看時間軸了解產品變化。
-(2)	an Introduction to:
+(2) an Introduction to:
   在強調速度與創新的現代社會中，越快抓住市場趨勢改變的人就越有優勢，因此敏捷的產品設計在這時代是不可或缺的能力，由此可見設計使用的軟體越偏向快速、成本低、功能完備、方便討論的趨勢，若能縮短產品設計與發佈的時間，越能搶佔市場優勢，成為新潮產品，並獨佔專利權，團隊合作方面也不如以往，一人一台電腦CAD畫圖階段性接著畫，現在為節省時間，強調同步處理也就說到了，前面所提到的on shape，此軟體在現在要求敏捷產品設計的社會中，可發現在協同上的便利，一方面讓團隊能隨時注意組員畫圖進度若要組裝可以馬上應用外，一方面因為是網頁式開啟，比起以往需要帶著軟體到處跑，現在只需要有網路皆可開啟討論。
-總心得:看完文章後了解了on shpae的便利性並對他的再產品設計中的地位有不同的認識，並也了解到了現代產品設計的趨勢與合作團隊模式的改變，或許現在的on shape還不能完全取代許多繪圖軟體，但相信在未來一步步改善後，非常有機會成為未來產品設計的主流。
+總心得:看完文章後了解了on shpae的便利性並對他的再產品設計中的地位有不同的認識，並也了解到了現代產品設計的趨勢與合作團隊模式的改變，或許現在的on shape還不能完全取代許多繪圖軟體，但相信在未來一步步改善後，非常有機會成為未來產品設計的主流。</p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
 
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="./正齒輪協同練習.html">
+                            W15 正齒輪協同練習
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./正齒輪齒數囓合繪圖.html">
+                            W13-正齒輪齒數囓合繪圖
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./2D與3D傳動正齒輪.html">
+                            W12-2D與3D傳動正齒輪
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./正齒輪.html">
+                            W11-2D 正齒輪傳動
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="./加減乘除查驗.html">
+                            W10-加減乘除查驗
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./categories.html"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                <ul class="list-group" id="categories">
+                    <li class="list-group-item">
+                        <a href="./category/about.html">
+                            <i class="fa fa-folder-open fa-lg"></i> About
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="list-group-item"><a href="./tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group list-inline tagcloud" id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/DandyDev/pelican-bootstrap3/" target="_blank">
+                pelican-bootstrap3
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/getpelican/pelican-plugins" target="_blank">
+                pelican-plugins
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/Tipue/Tipue-Search" target="_blank">
+                Tipue search
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 KMOL
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
+
+<!-- for https://github.com/jsor/lity lightbox video popup -->
+
+<link href="./theme/css/lity.css" rel="stylesheet">
+
+<script src="./theme/js/lity.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
+
+
+</body>
+</html>
