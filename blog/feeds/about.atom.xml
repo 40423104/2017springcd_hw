@@ -1114,12 +1114,6 @@ Spur(ctx).Gear(x, y, r, n, pa, "black")
 &lt;/script&gt;
 
 &lt;h3&gt;如何模擬 2D 正齒輪組囓合？&lt;/h3&gt;
-&lt;!-- 導入 Brython 標準程式庫 --&gt;
-
-&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
-
-&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
-
 &lt;!-- 啟動 Brython --&gt;
 
 &lt;script&gt;
@@ -1160,7 +1154,7 @@ class Spur(object):
     # pa 為壓力角 (deg)
     # rot 為旋轉角 (deg)
     # 已經針對 n 大於等於 52 齒時的繪圖錯誤修正, 因為 base circle 與齒根圓大小必須進行判斷
-    def Gear(self, midx, midy, rp, n=17, pa=20, color="black"):
+    def Gear(self, midx, midy, rp, n=17, pa=20, color="black", rot):
         # 齒輪漸開線分成 15 線段繪製
         imax = 15
         # 在輸入的畫布上繪製直線, 由圓心到節圓 y 軸頂點畫一直線
@@ -1259,15 +1253,16 @@ class Spur(object):
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
 
 canvas = doc['gear12']
+# 齒數
+n17 = 17
+n11 = 11
+n13 = 13
 ctx = canvas.getContext("2d")
 x = (canvas.width)/2
 y = (canvas.height)/2
 r = 0.8*(canvas.height/2)
 m = (0.8*canvas.width)/(n17+n11+n13)
-# 齒數
-n17 = 17
-n11 = 11
-n13 = 13
+
 canvas_size = canvas.height*0.4
 r17 = m* n17/2
 r11 = m* n11/2
@@ -1285,21 +1280,21 @@ ctx.save()
 ctx.translate(x17, y17)
 ctx.rotate(math.pi/2)
 ctx.translate(-x17, -y17)
-Spur(ctx).Gear(x17, y17, r17, n17, pa, "blue")
+Spur(ctx).Gear(x17, y17, r17, n17, pa, "blue", 0)
 ctx.restore()
 
 ctx.save()
 ctx.translate(x11, y11)
 ctx.rotate(-math.pi/2-math.pi/n11)
 ctx.translate(-x11, -y11)
-Spur(ctx).Gear(x11, y11, r11, n11, pa, "red")
+Spur(ctx).Gear(x11, y11, r11, n11, pa, "red", 0)
 ctx.restore()
 
 ctx.save()
 ctx.translate(x13, y13)
 ctx.rotate(-math.pi/2-math.pi/n13+(math.pi+math.pi/n11)*n11/n13)
 ctx.translate(-x13, -y13)
-Spur(ctx).Gear(x13, y13, r13, n13, pa, "black")
+Spur(ctx).Gear(x13, y13, r13, n13, pa, "black", 0)
 ctx.restore()
 
 div = doc["gear12_div"]
@@ -1767,15 +1762,15 @@ ctx = canvas.getContext("2d")
 m = (0.8*canvas.width)/(n17+n11+n13)
 # 壓力角
 pa = 20
-canvas_size = canvas.height*0.4
-x = (canvas.width)/(2*(n17+n11+n13+n15))
-y = (canvas.height)/2
-y1=(canvas.height)/1.435
 # 齒數
 n17 = 17
 n11 = 11
 n13 = 13
 n15 = 15
+canvas_size = canvas.height*0.4
+x = (canvas.width)/(2*(n17+n11+n13+n15))
+y = (canvas.height)/2
+y1=(canvas.height)/1.435
 canvas_size = canvas.height*0.4
 r17 = canvas_size*n17/(n17+n11+n13)
 r11 = canvas_size*n11/(n17+n11+n13)
@@ -1795,7 +1790,7 @@ ctx.save()
 ctx.translate(x17, y17)
 ctx.rotate(math.pi/2)
 ctx.translate(-x17, -y17)
-gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa,"purple")
+gear17 = Spur(ctx).Gear(x17, y17, r17, n17, pa,"purple",rot)
 ctx.restore()
 
 #gear11
@@ -1803,7 +1798,7 @@ ctx.save()
 ctx.translate(x11, y11)
 ctx.rotate(-math.pi/2-math.pi/n11)
 ctx.translate(-x11, -y11)
-gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa,"blue")
+gear11 = Spur(ctx).Gear(x11, y11, r11, n11, pa,"blue",rot)
 ctx.restore()
 
 #gear13
@@ -1829,6 +1824,21 @@ brython({debug:1, pythonpath:['./../data/py']});
 }
 &lt;/script&gt;
 
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+
+&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
 
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
