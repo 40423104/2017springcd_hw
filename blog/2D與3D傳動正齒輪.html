@@ -516,7 +516,22 @@ div = doc["gear12_div"]
 <p><a href="https://vimeo.com/220593953">虎尾科技大學 機械設計工程系-40423104-W12-3D gear組合模擬</a> from <a href="https://vimeo.com/user44900188">40423104-Yan syuan</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
 <p>如何將齒輪減速機構納入四足行走機構?</p>
 <p>如何以 2D 動畫模擬齒輪囓合傳動?
-<!-- 以下處理 Cango Spur Gear --></p>
+<!-- 導入 Brython 標準程式庫 --></p>
+<script src="../data/Brython-3.3.1/brython.js"></script>
+
+<script src="../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下處理 Cango Spur Gear -->
+
 <!-- Cango 程式庫 -->
 
 <script type="text/javascript" src="./../data/w11/cango
