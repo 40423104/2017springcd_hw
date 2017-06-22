@@ -363,7 +363,7 @@
 <v t="leo.20170427052734.31"><vh>影片</vh></v>
 </v>
 </v>
-<v t="leo.20170608093444.1" a="E"><vh>W16</vh>
+<v t="leo.20170608093444.1"><vh>W16</vh>
 <v t="leo.20170608093444.2" a="E"><vh>標題</vh>
 <v t="leo.20170608093444.3"><vh>第16週</vh></v>
 </v>
@@ -378,6 +378,32 @@
 </v>
 <v t="leo.20170608094117.1" a="E"><vh>評分依據</vh>
 <v t="leo.20170608094117.2"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170622083536.1" a="E"><vh>期末</vh>
+<v t="leo.20170622083536.2"><vh>標題</vh>
+<v t="leo.20170622083536.3"><vh>第16週</vh></v>
+</v>
+<v t="leo.20170622083536.4"><vh>標題</vh>
+<v t="leo.20170622083536.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170622083536.6"><vh>評分依據</vh>
+<v t="leo.20170622083536.7"><vh>影片</vh></v>
+</v>
+<v t="leo.20170622083536.8"><vh>評分依據</vh>
+<v t="leo.20170622083536.9"><vh>影片</vh></v>
+</v>
+<v t="leo.20170622083536.10"><vh>評分依據</vh>
+<v t="leo.20170622083536.11"><vh>影片</vh></v>
+</v>
+<v t="leo.20170622083641.1"><vh>評分依據</vh>
+<v t="leo.20170622083641.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170622083811.1"><vh>評分依據</vh>
+<v t="leo.20170622083811.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170622083927.1" a="E"><vh>評分依據</vh>
+<v t="leo.20170622083927.2"><vh>影片</vh></v>
 </v>
 </v>
 </v>
@@ -1974,6 +2000,120 @@ L型桿件:6mmx40mm
 <t tx="leo.20170608094117.2">####齒輪組裝模擬
 &lt;iframe src="https://player.vimeo.com/video/220593953" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
+
+
+</t>
+<t tx="leo.20170622083536.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170622083536.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170622083536.11">####齒輪組裝模擬
+&lt;iframe src="https://player.vimeo.com/video/220593953" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
+<t tx="leo.20170622083536.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170622083536.3"># 期末3分鐘報告</t>
+<t tx="leo.20170622083536.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170622083536.5">##自我評分與評分依據</t>
+<t tx="leo.20170622083536.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170622083536.7">###3D 動畫模擬齒輪囓合傳動?
+&lt;iframe src="https://player.vimeo.com/video/220595383" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170622083536.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170622083536.9">####齒輪繪製
+&lt;iframe src="https://player.vimeo.com/video/220592224" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20170622083641.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170622083641.2">####四足機構
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rzuJ6d3NtZI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+</t>
+<t tx="leo.20170622083811.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170622083811.2">####四足機構零件設計
+&lt;iframe src="https://player.vimeo.com/video/221394890" width="640" height="329" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/221394890"&gt;虎尾科技大學-機械設計系-第二組-四足機構零件設計&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;40423104-Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+
+</t>
+<t tx="leo.20170622083927.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170622083927.2">####雙足機構零件組合
+&lt;iframe src="https://player.vimeo.com/video/221685880" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 
 </t>
