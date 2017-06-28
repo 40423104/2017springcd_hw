@@ -363,27 +363,7 @@
 <v t="leo.20170427052734.31"><vh>影片</vh></v>
 </v>
 </v>
-<v t="leo.20170628222429.1"><vh>W10</vh>
-<v t="leo.20170628222429.2" a="E"><vh>標題</vh>
-<v t="leo.20170628222429.3"><vh>第十週</vh></v>
-</v>
-<v t="leo.20170628222429.4" a="E"><vh>標題</vh>
-<v t="leo.20170628222429.5"><vh>內容</vh></v>
-</v>
-<v t="leo.20170628222429.6" a="E"><vh>加運算</vh>
-<v t="leo.20170628222429.7"><vh>影片</vh></v>
-</v>
-<v t="leo.20170628222429.8" a="E"><vh>減運算</vh>
-<v t="leo.20170628222429.9"><vh>影片</vh></v>
-</v>
-<v t="leo.20170628222429.10" a="E"><vh>乘運算</vh>
-<v t="leo.20170628222429.11"><vh>影片</vh></v>
-</v>
-<v t="leo.20170628222429.12" a="E"><vh>除運算</vh>
-<v t="leo.20170628222429.13"><vh>影片</vh></v>
-</v>
-</v>
-<v t="leo.20170628225100.1" a="E"><vh>W11</vh>
+<v t="leo.20170628225100.1"><vh>W10</vh>
 <v t="leo.20170628225100.2" a="E"><vh>標題</vh>
 <v t="leo.20170628225100.3"><vh>第十一週</vh></v>
 </v>
@@ -401,6 +381,20 @@
 </v>
 <v t="leo.20170628225100.12" a="E"><vh>除運算</vh>
 <v t="leo.20170628225100.13"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170628222429.1"><vh>W11</vh>
+<v t="leo.20170628222429.2"><vh>標題</vh>
+<v t="leo.20170628222429.3"><vh>第十一週</vh></v>
+</v>
+<v t="leo.20170628222429.4"><vh>標題</vh>
+<v t="leo.20170628222429.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170628222429.6"><vh>心得</vh>
+<v t="leo.20170628222429.7"><vh>心得</vh></v>
+</v>
+<v t="leo.20170629035516.1"><vh>心得</vh>
+<v t="leo.20170629035516.2"><vh>心得</vh></v>
 </v>
 </v>
 <v t="leo.20170628225053.1"><vh>W12</vh>
@@ -448,24 +442,7 @@
 <v t="leo.20170628225121.7"><vh>影片</vh></v>
 </v>
 </v>
-<v t="leo.20170608093444.1"><vh>W16</vh>
-<v t="leo.20170608093444.2" a="E"><vh>標題</vh>
-<v t="leo.20170608093444.3"><vh>第16週</vh></v>
-</v>
-<v t="leo.20170608093444.4" a="E"><vh>標題</vh>
-<v t="leo.20170608093444.5"><vh>內容</vh></v>
-</v>
-<v t="leo.20170608093444.6" a="E"><vh>評分依據</vh>
-<v t="leo.20170608093444.7"><vh>影片</vh></v>
-</v>
-<v t="leo.20170608093444.8" a="E"><vh>評分依據</vh>
-<v t="leo.20170608093444.9"><vh>影片</vh></v>
-</v>
-<v t="leo.20170608094117.1" a="E"><vh>評分依據</vh>
-<v t="leo.20170608094117.2"><vh>影片</vh></v>
-</v>
-</v>
-<v t="leo.20170622083536.1" a="E"><vh>期末</vh>
+<v t="leo.20170622083536.1"><vh>期末</vh>
 <v t="leo.20170622083536.2" a="E"><vh>標題</vh>
 <v t="leo.20170622083536.3"><vh>第十七週</vh></v>
 </v>
@@ -474,21 +451,6 @@
 </v>
 <v t="leo.20170622083536.6" a="E"><vh>評分依據</vh>
 <v t="leo.20170622083536.7"><vh>影片</vh></v>
-</v>
-<v t="leo.20170622083536.8"><vh>評分依據</vh>
-<v t="leo.20170622083536.9"><vh>影片</vh></v>
-</v>
-<v t="leo.20170622083536.10"><vh>評分依據</vh>
-<v t="leo.20170622083536.11"><vh>影片</vh></v>
-</v>
-<v t="leo.20170622083641.1"><vh>評分依據</vh>
-<v t="leo.20170622083641.2"><vh>影片</vh></v>
-</v>
-<v t="leo.20170622083811.1"><vh>評分依據</vh>
-<v t="leo.20170622083811.2"><vh>影片</vh></v>
-</v>
-<v t="leo.20170622083927.1" a="E"><vh>評分依據</vh>
-<v t="leo.20170622083927.2"><vh>影片</vh></v>
 </v>
 </v>
 </v>
@@ -2021,92 +1983,9 @@ L型桿件:6mmx40mm
 &lt;p&gt;其中一個是Flux連接。&lt;/p&gt;
 &lt;p&gt;Flux is an electromagnetics code that we just acquired for low frequency electromagnetics, so we can all take a Flux database and put it into Hyperstudy into the study with that.&lt;/p&gt;
 &lt;p&gt;Flux是我們剛剛為低頻電磁學採集的電磁學代碼，所以我們可以採用一個Flux數據庫，並把它放入Hyperstudy進行研究。&lt;/p&gt;</t>
-<t tx="leo.20170608093444.1">&lt;section&gt;
-@others
-&lt;/section&gt;</t>
-<t tx="leo.20170608093444.2">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170608093444.3"># 期末自我評分</t>
-<t tx="leo.20170608093444.4">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170608093444.5">##第十六週</t>
-<t tx="leo.20170608093444.6">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170608093444.7">###3D 動畫模擬齒輪囓合傳動?
-&lt;iframe src="https://player.vimeo.com/video/220595383" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20170608093444.8">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170608093444.9">####齒輪繪製
-&lt;iframe src="https://player.vimeo.com/video/220592224" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-</t>
-<t tx="leo.20170608094117.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170608094117.2">####齒輪組裝模擬
-&lt;iframe src="https://player.vimeo.com/video/220593953" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-
-
-</t>
 <t tx="leo.20170622083536.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="leo.20170622083536.10">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170622083536.11">####齒輪組裝模擬
-&lt;iframe src="https://player.vimeo.com/video/220593953" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-
-
-</t>
 <t tx="leo.20170622083536.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -2139,97 +2018,15 @@ L型桿件:6mmx40mm
 
 						
 </t>
-<t tx="leo.20170622083536.7">###3D 動畫模擬齒輪囓合傳動?
-&lt;iframe src="https://player.vimeo.com/video/220595383" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20170622083536.8">&lt;section data-markdown&gt;
+<t tx="leo.20170622083536.7">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170622083536.9">####齒輪繪製
-&lt;iframe src="https://player.vimeo.com/video/220592224" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-</t>
-<t tx="leo.20170622083641.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170622083641.2">####四足機構
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rzuJ6d3NtZI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
-
-
-</t>
-<t tx="leo.20170622083811.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170622083811.2">####四足機構零件設計
-&lt;iframe src="https://player.vimeo.com/video/221394890" width="640" height="329" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/221394890"&gt;虎尾科技大學-機械設計系-第二組-四足機構零件設計&lt;/a&gt; from &lt;a href="https://vimeo.com/user44900188"&gt;40423104-Yan syuan&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
-
-</t>
-<t tx="leo.20170622083927.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170622083927.2">####雙足機構零件組合
-&lt;iframe src="https://player.vimeo.com/video/221685880" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-
-</t>
+##W17網址
+&lt;/p&gt;&lt;a href="https://40423104.github.io/2017springcd_hw/blog/協同查驗與自評.html"&gt;第十七週作業&lt;/a&gt;
+  &lt;/script&gt;
+&lt;/section&gt;</t>
 <t tx="leo.20170628222429.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="leo.20170628222429.10">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170628222429.11">###乘運算
-&lt;iframe src="https://player.vimeo.com/video/215937328" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
-<t tx="leo.20170628222429.12">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170628222429.13">###除運算
-&lt;iframe src="https://player.vimeo.com/video/215938127" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20170628222429.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -2240,7 +2037,7 @@ L型桿件:6mmx40mm
 
 						
 </t>
-<t tx="leo.20170628222429.3">#第十週</t>
+<t tx="leo.20170628222429.3">#第十一週</t>
 <t tx="leo.20170628222429.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -2251,10 +2048,7 @@ L型桿件:6mmx40mm
 
 						
 </t>
-<t tx="leo.20170628222429.5">##加運算
-##減運算
-##乘運算
-##除運算</t>
+<t tx="leo.20170628222429.5">##正齒輪傳動</t>
 <t tx="leo.20170628222429.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -2265,20 +2059,7 @@ L型桿件:6mmx40mm
 
 						
 </t>
-<t tx="leo.20170628222429.7">###加運算
-&lt;iframe src="https://player.vimeo.com/video/215938725" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20170628222429.8">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20170628222429.9">###減運算
-&lt;iframe src="https://player.vimeo.com/video/215939173" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170628222429.7">(1) On shape: 看完文章後了解on shape功能在產品設計中的應用外，可發現on shape在協同上的重視，如:追隨模式，方便讓合作夥伴與作者同步討論外，也能對產品特徵做及時修改，以及使用導入DXF檔的功能，能讓2D草圖匯入後，方便對照進行3D建模，建好的產品儲存後，可以去看時間軸了解產品變化。</t>
 <t tx="leo.20170628225053.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
@@ -2535,6 +2316,17 @@ L型桿件:6mmx40mm
 </t>
 <t tx="leo.20170628225929.2">###如何以 3D 動畫模擬齒輪囓合傳動?
 &lt;iframe src="https://player.vimeo.com/video/220595383" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170629035516.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170629035516.2">(2) An Introduction to: 在強調速度與創新的現代社會中，越快抓住市場趨勢改變的人就越有優勢，因此敏捷的產品設計在這時代是不可或缺的能力，由此可見設計使用的軟體越偏向快速、成本低、功能完備、方便討論的趨勢，若能縮短產品設計與發佈的時間，越能搶佔市場優勢，成為新潮產品，並獨佔專利權，團隊合作方面也不如以往，一人一台電腦CAD畫圖階段性接著畫，現在為節省時間，強調同步處理也就說到了，前面所提到的on shape，此軟體在現在要求敏捷產品設計的社會中，可發現在協同上的便利，一方面讓團隊能隨時注意組員畫圖進度若要組裝可以馬上應用外，一方面因為是網頁式開啟，比起以往需要帶著軟體到處跑，現在只需要有網路皆可開啟討論。 總心得:看完文章後了解了on shpae的便利性並對他的再產品設計中的地位有不同的認識，並也了解到了現代產品設計的趨勢與合作團隊模式的改變，或許現在的on shape還不能完全取代許多繪圖軟體，但相信在未來一步步改善後，非常有機會成為未來產品設計的主流。</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
