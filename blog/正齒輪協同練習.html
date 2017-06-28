@@ -345,9 +345,9 @@ ctx.stroke()
 
 <!-- 以下實際利用  Brython 繪圖-->
 
-<canvas id="gearone" width="800" height="600"></canvas>
+<canvas id="gearone11" width="800" height="600"></canvas>
 
-<div id="gearone_div" width="800" height="20"></div>
+<div id="gearone11_div" width="800" height="20"></div>
 
 <script type="text/python3">
 from browser import document as doc
@@ -470,7 +470,7 @@ class Spur(object):
             # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
-canvas = doc['gearone']
+canvas = doc['gearone11']
 ctx = canvas.getContext("2d")
 x = (canvas.width)/2
 y = (canvas.height)/2+2400
@@ -828,7 +828,7 @@ ctx.restore()
 ctx.beginPath()
 ctx.fillStyle = "#0000FF"
 ctx.font = "20px ScriptS"
-ctx.fillText("40423126 ",x7-20, y7)
+ctx.fillText("40423136 ",x7-20, y7)
 ctx.stroke()
 
 # 將第8齒輪逆時鐘轉 90 度之後, 再往回轉第3齒輪定位帶動轉角, 然後再逆時鐘多轉一齒, 以便與第2齒輪進行囓合
