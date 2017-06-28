@@ -54,7 +54,81 @@ window.onload = function(){
 &lt;/script&gt;
 
 &lt;h3&gt;四足機構&lt;/h3&gt;
-&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rzuJ6d3NtZI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="協同查驗與自評-W17"></category></entry><entry><title>W15 正齒輪協同練習</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA%E5%8D%94%E5%90%8C%E7%B7%B4%E7%BF%92.html" rel="alternate"></link><published>2017-06-01T17:00:00+08:00</published><updated>2017-06-01T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-06-01:./正齒輪協同練習.html</id><summary type="html">&lt;p&gt;W15齒輪任務
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rzuJ6d3NtZI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;!-- 導入 brython.js --&gt;
+
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 brython() --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
+
+&lt;canvas id="syuan2" width="600" height="600"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+# 導入 doc
+from browser import document as doc
+from browser import console
+import math
+
+# 準備繪圖畫布
+canvas2 = doc["syuan2"]
+ctx2 = canvas2.getContext("2d")
+
+grd = ctx2.createLinearGradient(100, 200,500, 300);
+grd.addColorStop(0,"#B94FFF");
+grd.addColorStop(1,"#66FFFF");
+
+
+ctx2.strokeStyle = grd;
+ctx2.lineWidth = 20;
+ctx2.strokeRect(0, 0, 600, 600);
+
+grd = ctx2.createLinearGradient(20,0,30,500);
+grd.addColorStop(0,"#BBFFEE");
+grd.addColorStop(1,"#E8CCFF");
+
+ctx2.fillStyle="#FF8888";
+ctx2.fillRect(380, 508, 80, 60);
+
+ctx2.beginPath();
+ctx2.lineCap="round";
+ctx2.lineWidth = 10;
+ctx2.strokeStyle="#FF0000"
+ctx2.moveTo(420, 508);
+ctx2.lineTo(420, 568);
+ctx2.moveTo(380, 538);
+ctx2.lineTo(460, 538);
+ctx2.moveTo(430, 487);
+ctx2.lineTo(440, 490);
+ctx2.lineTo(440, 500);
+ctx2.lineTo(420, 508);
+ctx2.lineTo(400, 500);
+ctx2.lineTo(400, 490);
+ctx2.lineTo(410, 487);
+ctx2.lineTo(420, 508);
+ctx2.lineTo(430, 487);
+ctx2.stroke();
+
+ctx2.beginPath();
+ctx2.arc(360,488,6.5,0,math.pi*2, True);
+ctx2.fillStyle="#FF00FF"
+ctx2.fill();
+
+ctx2.beginPath();
+ctx2.fillStyle="#FF00FF"
+ctx2.fillRect=(380,508,80,60)
+ctx2.fill();
+
+&lt;/script&gt;
+
+&lt;/div&gt;</summary><category term="協同查驗與自評-W17"></category></entry><entry><title>W15 正齒輪協同練習</title><link href="./%E6%AD%A3%E9%BD%92%E8%BC%AA%E5%8D%94%E5%90%8C%E7%B7%B4%E7%BF%92.html" rel="alternate"></link><published>2017-06-01T17:00:00+08:00</published><updated>2017-06-01T17:00:00+08:00</updated><author><name>40423104-YanSyuan</name></author><id>tag:,2017-06-01:./正齒輪協同練習.html</id><summary type="html">&lt;p&gt;W15齒輪任務
 &lt;/p&gt;
 &lt;h4&gt;1. 請以 W15 練習為網誌標題, 800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 畫素, 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓.&lt;/h4&gt;
 &lt;h4&gt;2. 完成後, 請在正齒輪中央寫上自己的學號, 並建立第二個 800x600 的畫布, 請畫出只有一齒輪廓, 且充滿畫布 80% 範圍的正齒輪, 且該齒輪廓下方水平線, 連接兩端齒根圓點交的直線以紅色繪製, 且在齒輪下方以藍色字元寫上自己的學號.&lt;/h4&gt;

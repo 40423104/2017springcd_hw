@@ -212,6 +212,80 @@ window.onload = function(){
 
 <h3>四足機構</h3>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/rzuJ6d3NtZI" frameborder="0" allowfullscreen></iframe></p>
+<!-- 導入 brython.js -->
+
+<script type="text/javascript" src="http://brython.info/src/brython_dist.js"></script>
+
+<!-- 啟動 brython() -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下利用 Brython 程式執行繪圖 -->
+
+<canvas id="syuan2" width="600" height="600"></canvas>
+
+<script type="text/python3">
+# 導入 doc
+from browser import document as doc
+from browser import console
+import math
+
+# 準備繪圖畫布
+canvas2 = doc["syuan2"]
+ctx2 = canvas2.getContext("2d")
+
+grd = ctx2.createLinearGradient(100, 200,500, 300);
+grd.addColorStop(0,"#B94FFF");
+grd.addColorStop(1,"#66FFFF");
+
+
+ctx2.strokeStyle = grd;
+ctx2.lineWidth = 20;
+ctx2.strokeRect(0, 0, 600, 600);
+
+grd = ctx2.createLinearGradient(20,0,30,500);
+grd.addColorStop(0,"#BBFFEE");
+grd.addColorStop(1,"#E8CCFF");
+
+ctx2.fillStyle="#FF8888";
+ctx2.fillRect(380, 508, 80, 60);
+
+ctx2.beginPath();
+ctx2.lineCap="round";
+ctx2.lineWidth = 10;
+ctx2.strokeStyle="#FF0000"
+ctx2.moveTo(420, 508);
+ctx2.lineTo(420, 568);
+ctx2.moveTo(380, 538);
+ctx2.lineTo(460, 538);
+ctx2.moveTo(430, 487);
+ctx2.lineTo(440, 490);
+ctx2.lineTo(440, 500);
+ctx2.lineTo(420, 508);
+ctx2.lineTo(400, 500);
+ctx2.lineTo(400, 490);
+ctx2.lineTo(410, 487);
+ctx2.lineTo(420, 508);
+ctx2.lineTo(430, 487);
+ctx2.stroke();
+
+ctx2.beginPath();
+ctx2.arc(360,488,6.5,0,math.pi*2, True);
+ctx2.fillStyle="#FF00FF"
+ctx2.fill();
+
+ctx2.beginPath();
+ctx2.fillStyle="#FF00FF"
+ctx2.fillRect=(380,508,80,60)
+ctx2.fill();
+
+</script>
+
+</div>
             </div>
             <!-- /.entry-content -->
         </article>
