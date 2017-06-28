@@ -363,6 +363,91 @@
 <v t="leo.20170427052734.31"><vh>影片</vh></v>
 </v>
 </v>
+<v t="leo.20170628222429.1"><vh>W10</vh>
+<v t="leo.20170628222429.2" a="E"><vh>標題</vh>
+<v t="leo.20170628222429.3"><vh>第十週</vh></v>
+</v>
+<v t="leo.20170628222429.4" a="E"><vh>標題</vh>
+<v t="leo.20170628222429.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170628222429.6" a="E"><vh>加運算</vh>
+<v t="leo.20170628222429.7"><vh>影片</vh></v>
+</v>
+<v t="leo.20170628222429.8" a="E"><vh>減運算</vh>
+<v t="leo.20170628222429.9"><vh>影片</vh></v>
+</v>
+<v t="leo.20170628222429.10" a="E"><vh>乘運算</vh>
+<v t="leo.20170628222429.11"><vh>影片</vh></v>
+</v>
+<v t="leo.20170628222429.12" a="E"><vh>除運算</vh>
+<v t="leo.20170628222429.13"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170628225100.1" a="E"><vh>W11</vh>
+<v t="leo.20170628225100.2" a="E"><vh>標題</vh>
+<v t="leo.20170628225100.3"><vh>第十一週</vh></v>
+</v>
+<v t="leo.20170628225100.4" a="E"><vh>標題</vh>
+<v t="leo.20170628225100.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170628225100.6" a="E"><vh>加運算</vh>
+<v t="leo.20170628225100.7"><vh>影片</vh></v>
+</v>
+<v t="leo.20170628225100.8" a="E"><vh>減運算</vh>
+<v t="leo.20170628225100.9"><vh>影片</vh></v>
+</v>
+<v t="leo.20170628225100.10" a="E"><vh>乘運算</vh>
+<v t="leo.20170628225100.11"><vh>影片</vh></v>
+</v>
+<v t="leo.20170628225100.12" a="E"><vh>除運算</vh>
+<v t="leo.20170628225100.13"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170628225053.1"><vh>W12</vh>
+<v t="leo.20170628225053.2" a="E"><vh>標題</vh>
+<v t="leo.20170628225053.3"><vh>第十二週</vh></v>
+</v>
+<v t="leo.20170628225053.4" a="E"><vh>標題</vh>
+<v t="leo.20170628225053.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170628225053.6" a="E"><vh>為何需要減速機?</vh>
+<v t="leo.20170628225053.7"><vh>內容</vh></v>
+</v>
+<v t="leo.20170628225053.8" a="E"><vh>何謂漸開線?</vh>
+<v t="leo.20170628225053.9"><vh>內容</vh></v>
+</v>
+<v t="leo.20170628225053.10" a="E"><vh>如何模擬 3D 正齒輪組囓合？</vh>
+<v t="leo.20170628225053.11"><vh>影片</vh></v>
+</v>
+<v t="leo.20170628225053.12" a="E"><vh>如何模擬 3D 正齒輪組囓合？</vh>
+<v t="leo.20170628225053.13"><vh>影片</vh></v>
+</v>
+<v t="leo.20170628225929.1" a="E"><vh>如何以 3D 動畫模擬齒輪囓合傳動?</vh>
+<v t="leo.20170628225929.2"><vh>影片</vh></v>
+</v>
+</v>
+<v t="leo.20170628225113.1"><vh>W13</vh>
+<v t="leo.20170628225113.2" a="E"><vh>標題</vh>
+<v t="leo.20170628225113.3"><vh>第十三週</vh></v>
+</v>
+<v t="leo.20170628225113.4" a="E"><vh>標題</vh>
+<v t="leo.20170628225113.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170628225113.6" a="E"><vh>網址</vh>
+<v t="leo.20170628225113.7"><vh>網址</vh></v>
+</v>
+</v>
+<v t="leo.20170628225121.1"><vh>W15</vh>
+<v t="leo.20170628225121.2" a="E"><vh>標題</vh>
+<v t="leo.20170628225121.3"><vh>第十五週</vh></v>
+</v>
+<v t="leo.20170628225121.4" a="E"><vh>標題</vh>
+<v t="leo.20170628225121.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20170628225121.6" a="E"><vh>正齒輪協同練習</vh>
+<v t="leo.20170628225121.7"><vh>影片</vh></v>
+</v>
+</v>
 <v t="leo.20170608093444.1"><vh>W16</vh>
 <v t="leo.20170608093444.2" a="E"><vh>標題</vh>
 <v t="leo.20170608093444.3"><vh>第16週</vh></v>
@@ -373,7 +458,7 @@
 <v t="leo.20170608093444.6" a="E"><vh>評分依據</vh>
 <v t="leo.20170608093444.7"><vh>影片</vh></v>
 </v>
-<v t="leo.20170608093444.8"><vh>評分依據</vh>
+<v t="leo.20170608093444.8" a="E"><vh>評分依據</vh>
 <v t="leo.20170608093444.9"><vh>影片</vh></v>
 </v>
 <v t="leo.20170608094117.1" a="E"><vh>評分依據</vh>
@@ -381,13 +466,13 @@
 </v>
 </v>
 <v t="leo.20170622083536.1" a="E"><vh>期末</vh>
-<v t="leo.20170622083536.2"><vh>標題</vh>
-<v t="leo.20170622083536.3"><vh>第16週</vh></v>
+<v t="leo.20170622083536.2" a="E"><vh>標題</vh>
+<v t="leo.20170622083536.3"><vh>第十七週</vh></v>
 </v>
-<v t="leo.20170622083536.4"><vh>標題</vh>
+<v t="leo.20170622083536.4" a="E"><vh>標題</vh>
 <v t="leo.20170622083536.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20170622083536.6"><vh>評分依據</vh>
+<v t="leo.20170622083536.6" a="E"><vh>評分依據</vh>
 <v t="leo.20170622083536.7"><vh>影片</vh></v>
 </v>
 <v t="leo.20170622083536.8"><vh>評分依據</vh>
@@ -1960,7 +2045,7 @@ L型桿件:6mmx40mm
 
 						
 </t>
-<t tx="leo.20170608093444.5">##自我評分與評分依據</t>
+<t tx="leo.20170608093444.5">##第十六週</t>
 <t tx="leo.20170608093444.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -2117,6 +2202,339 @@ L型桿件:6mmx40mm
 
 
 </t>
+<t tx="leo.20170628222429.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170628222429.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628222429.11">###乘運算
+&lt;iframe src="https://player.vimeo.com/video/215937328" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170628222429.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628222429.13">###除運算
+&lt;iframe src="https://player.vimeo.com/video/215938127" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170628222429.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628222429.3">#第十週</t>
+<t tx="leo.20170628222429.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628222429.5">##加運算
+##減運算
+##乘運算
+##除運算</t>
+<t tx="leo.20170628222429.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628222429.7">###加運算
+&lt;iframe src="https://player.vimeo.com/video/215938725" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170628222429.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628222429.9">###減運算
+&lt;iframe src="https://player.vimeo.com/video/215939173" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170628225053.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170628225053.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225053.11">###如何模擬 3D 正齒輪組囓合？
+&lt;iframe src="https://player.vimeo.com/video/220592224" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170628225053.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225053.13">###除運算
+&lt;iframe src="https://player.vimeo.com/video/220593953" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170628225053.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225053.3">#第十二週</t>
+<t tx="leo.20170628225053.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225053.5">####為何需要減速機?何謂漸開線?如何畫漸開線正齒輪輪廓?如何模擬 2D 正齒輪組囓合？
+####如何模擬 3D 正齒輪組囓合？
+####如何將齒輪減速機構納入四足行走機構?
+####如何以 2D 動畫模擬齒輪囓合傳動?如何以 3D 動畫模擬齒輪囓合傳動?
+####如何模擬四足機構行走?如何列印齒輪組零件?
+####如何列印連桿機構?如何組立齒輪組與行走機構?如何控制馬達?
+####3個正齒輪固定齒數囓合繪圖
+####寫成 Fossil SCM 網頁互動式</t>
+<t tx="leo.20170628225053.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225053.7">###為何需要減速機?
+1. 降速同時提高輸出扭矩，扭矩輸出比例按電機輸出乘減速比，但要注意不能超出減速機額定扭矩。
+2. 速同時降低了負載的慣量，慣量的減少為減速比的平方。 
+3. 減速機是一種相對精密的機械，使用它的目的是降低轉速，增加轉矩。
+4. 利用各級齒輪傳動來達到降速的目的.減速器就是由各級齒輪副組成的.比如用小齒輪帶動大齒輪就能達到一定的減速的目的
+5. 減速機是一種動力傳達機構，利用齒輪的速度轉換器，將馬達的回轉數減速到所要的回轉數，並得到較大轉矩的機構。</t>
+<t tx="leo.20170628225053.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225053.9">###何謂漸開線?
+假如將一條線繞著一個多邊形， 一頭固定，一頭向外拉開，則拉開的這個線頭所走的軌跡，就是漸開線。 亦可為繞於一多邊形或圓形之緊索上之一點，該點向外伸開時所形成之軌跡。</t>
+<t tx="leo.20170628225100.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170628225100.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225100.11">###乘運算
+&lt;iframe src="https://player.vimeo.com/video/215937328" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20170628225100.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225100.13">###除運算
+&lt;iframe src="https://player.vimeo.com/video/215938127" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170628225100.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225100.3">#第十一週</t>
+<t tx="leo.20170628225100.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225100.5">##加運算
+##減運算
+##乘運算
+##除運算</t>
+<t tx="leo.20170628225100.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225100.7">###加運算
+&lt;iframe src="https://player.vimeo.com/video/215938725" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170628225100.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225100.9">###減運算
+&lt;iframe src="https://player.vimeo.com/video/215939173" width="640" height="344" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20170628225113.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170628225113.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225113.3">#第十三週</t>
+<t tx="leo.20170628225113.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225113.5">##三個正齒輪囓合</t>
+<t tx="leo.20170628225113.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225113.7">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+##W13網址
+&lt;/p&gt;&lt;a href="https://40423104.github.io/2017springcd_hw/blog/正齒輪齒數囓合繪圖.html"&gt;第十三週作業&lt;/a&gt;
+  &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170628225121.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="leo.20170628225121.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225121.3">#第十五週</t>
+<t tx="leo.20170628225121.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225121.5">##正齒輪協同練習</t>
+<t tx="leo.20170628225121.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225121.7">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+##W15網址
+&lt;/p&gt;&lt;a href="https://40423104.github.io/2017springcd_hw/blog/正齒輪協同練習.html"&gt;第十五週作業&lt;/a&gt;
+  &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170628225929.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20170628225929.2">###如何以 3D 動畫模擬齒輪囓合傳動?
+&lt;iframe src="https://player.vimeo.com/video/220595383" width="640" height="342" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
