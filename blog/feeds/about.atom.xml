@@ -55,10 +55,6 @@ window.onload = function(){
 
 &lt;h3&gt;四足機構&lt;/h3&gt;
 &lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/rzuJ6d3NtZI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;!-- 導入 brython.js --&gt;
-
-&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
-
 &lt;!-- 啟動 brython() --&gt;
 
 &lt;script&gt;
